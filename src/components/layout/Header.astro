@@ -1,0 +1,17 @@
+---
+import MainNavigation from "../navigation/MainNavigation.astro";
+
+interface Props {
+    siteName: string;
+}
+
+const { siteName } = Astro.props;
+---
+
+<header>
+
+<h1>{siteName}</h1>
+
+<MainNavigation />
+
+</header>
