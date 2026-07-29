@@ -10,11 +10,21 @@ interface Props {
 const { title, description, url } = Astro.props;
 ---
 
-<article class="sermon-card">
-  <h2>{title}</h2>
+<a href={url} class="sermon-card">
 
-  <p>{description}</p>
+  <div class="sermon-card__image"></div>
 
-  <a href={url}>Leer sermón →</a>
-</article>
+  <div class="sermon-card__content">
+
+    <h3>{title}</h3>
+
+    <p>{description}</p>
+
+    <span class="sermon-card__link">
+      Leer más →
+    </span>
+
+  </div>
+
+</a>
 

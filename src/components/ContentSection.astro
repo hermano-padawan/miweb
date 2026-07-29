@@ -1,0 +1,27 @@
+---
+
+import "../styles/components/content-section.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<section class="content-section">
+
+  <header class="content-section__header">
+
+    <h2>{title}</h2>
+
+    {description && <p>{description}</p>}
+
+  </header>
+
+  <div class="content-section__content">
+    <slot />
+  </div>
+
+</section>

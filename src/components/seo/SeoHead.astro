@@ -1,12 +1,20 @@
 ---
+import { site } from "../../config/site";
+
 interface Props {
   title: string;
   description: string;
 }
 
 const { title, description } = Astro.props;
+
+const pageTitle = `${title} | ${site.name}`;
 ---
 
-<title>{title}</title>
+<title>{pageTitle}</title>
 
 <meta name="description" content={description} />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="UTF-8" />
+<meta name="author" content={site.name} />
+<meta name="robots" content="index, follow" />

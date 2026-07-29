@@ -1,0 +1,23 @@
+.content-section {
+  margin-block: var(--space-xl);
+}
+
+.content-section__header {
+  margin-bottom: var(--space-lg);
+}
+
+.content-section__header h2 {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+
+.content-section__header p {
+  margin-top: var(--space-xs);
+  color: var(--color-text-light);
+  font-size: var(--font-size-base);
+}
+
+.content-section__content {
+  display: grid;
+  gap: var(--space-md);
+}
