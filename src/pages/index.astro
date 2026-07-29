@@ -1,18 +1,34 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-
-const seo = {
-    title: "Portal Cristiano",
-    description:
-        "Sermones, versículos, devocionales y recursos bíblicos para fortalecer tu fe.",
-};
+import { getCollection } from "astro:content";
+import SermonCard from "../components/SermonCard.astro";
+const sermones = await getCollection("sermones");
 ---
 
-<MainLayout seo={seo}>
+<MainLayout
+  seo={{
+    title: "Portal Cristiano",
+    description: "Sermones, reflexiones y estudios bíblicos."
+  }}
+>
 
-    <h2>Bienvenido</h2>
-    <h1>YOOO BOR</h1>
-    <h1>ESTPY EN EL SEGUNDO ORDENADOR</h1>
-    <h1>PROVA A LOCAL</h1>
+  <section>
+  <h1>Sermones</h1>
+  <p>
+    Reflexiones, estudios y mensajes para fortalecer tu fe cada día.
+  </p>
+
+  <div>
+    {sermones.map((sermon) => (
+      <SermonCard
+        title={sermon.data.title}
+        description={sermon.data.description}
+        url={`/sermones/${sermon.id.replace(".md", "")}`}
+      />
+    ))}
+  </div>
+</section>
+
+  
 
 </MainLayout>

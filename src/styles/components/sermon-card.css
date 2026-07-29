@@ -1,0 +1,27 @@
+.sermon-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  background: #fff;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.sermon-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+}
+
+.sermon-card h2 {
+  margin: 0 0 1rem;
+}
+
+.sermon-card p {
+  margin: 0 0 1rem;
+  color: #555;
+}
+
+.sermon-card a {
+  text-decoration: none;
+  font-weight: 600;
+}
