@@ -1,23 +1,23 @@
 ---
 import "../styles/components/hero.css";
+import Button from "./ui/Button.astro";
+import Container from "./ui/Container.astro";
 ---
 
 <section class="hero">
-
   <div class="hero__content">
+    <div class="hero__content">
+      
+      <h1>La Voz de Dios</h1>
 
-    <h1>La Voz de Dios</h1>
+      <p>
+        Sermones, estudios bíblicos y recursos para crecer en la fe cada día.
+      </p>
 
-    <p>
-      Sermones, estudios bíblicos y recursos para crecer en la fe cada día.
-    </p>
-
-    <a href="/sermones" class="hero__button">
-      Ver sermones
-    </a>
-
+      <Button href="/sermones">
+        Ver sermones
+      </Button>
+      
+    </div>
   </div>
-
-  <div class="hero__image"></div>
-
 </section>

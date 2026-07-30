@@ -7,9 +7,11 @@ const sermones = defineCollection({
     base: "./src/content/sermones",
   }),
   schema: z.object({
-    title: z.string(),
-    description: z.string(),
-  }),
+  title: z.string(),
+  description: z.string(),
+  image: z.string(),
+  pubDate: z.coerce.date(),
+}),
 });
 
 export const collections = {

@@ -4,19 +4,33 @@ import "../styles/components/sermon-card.css";
 interface Props {
   title: string;
   description: string;
+  image: string;
+  pubDate: Date;
   url: string;
 }
 
-const { title, description, url } = Astro.props;
+const { title, description, image, pubDate, url } = Astro.props;
 ---
 
 <a href={url} class="sermon-card">
 
-  <div class="sermon-card__image"></div>
+  <img
+  src={image}
+  alt={title}
+  class="sermon-card__image"
+/>
 
   <div class="sermon-card__content">
 
     <h3>{title}</h3>
+
+    <p class="sermon-card__date">
+  {pubDate.toLocaleDateString("es-ES", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  })}
+</p>
 
     <p>{description}</p>
 

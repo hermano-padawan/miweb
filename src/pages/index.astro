@@ -2,9 +2,15 @@
 import MainLayout from "../layouts/MainLayout.astro";
 import { getCollection } from "astro:content";
 import SermonCard from "../components/SermonCard.astro";
-const sermones = await getCollection("sermones");
 import ContentSection from "../components/ContentSection.astro";
 import Hero from "../components/Hero.astro";
+import "../styles/components/cards-grid.css";
+import Button from "../components/ui/Button.astro";
+
+const sermones = (await getCollection("sermones")).sort(
+  (a, b) =>
+    b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
 ---
 
 <MainLayout
@@ -17,18 +23,25 @@ import Hero from "../components/Hero.astro";
 <Hero />
 
 <ContentSection
-  title="Sermones"
-  description="Reflexiones, estudios y mensajes para fortalecer tu fe cada día."
+  title="Últimos sermones"
+  description="Los tres sermones más recientes publicados."
 >
-
   <div class="cards-grid">
-  {sermones.map((sermon) => (
+  {sermones.slice(0, 3).map((sermon) => (
     <SermonCard
-      title={sermon.data.title}
-      description={sermon.data.description}
-      url={`/sermones/${sermon.id.replace(".md", "")}`}
-    />
+  title={sermon.data.title}
+  description={sermon.data.description}
+  image={sermon.data.image}
+  pubDate={sermon.data.pubDate}
+  url={`/sermones/${sermon.id.replace(".md", "")}`}
+/>
   ))}
+</div>
+
+<div class="section-actions">
+  <Button href="/sermones">
+    Ver todos los sermones
+  </Button>
 </div>
 
 </ContentSection>

@@ -15,12 +15,38 @@ export async function getStaticPaths() {
 }
 const { sermon } = Astro.props;
 const { Content } = await render(sermon);
+
+import MainLayout from "../../layouts/MainLayout.astro";
 ---
 
-<h1>{sermon.data.title}</h1>
+<MainLayout
+  seo={{
+    title: sermon.data.title,
+    description: sermon.data.description,
+  }}
+>
+  <section class="container">
 
-<p>{sermon.data.description}</p>
+    <h1>{sermon.data.title}</h1>
 
-<hr />
+    <p class="sermon-date">
+    {sermon.data.pubDate.toLocaleDateString("es-ES", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+       })}
+    </p>
 
-<Content />
+<img
+  src={sermon.data.image}
+  alt={sermon.data.title}
+  class="sermon-image"
+/>
+
+    <p>{sermon.data.description}</p>
+
+    <hr />
+
+    <Content />
+  </section>
+</MainLayout>

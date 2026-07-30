@@ -1,6 +1,7 @@
 ---
 
 import "../styles/components/content-section.css";
+import Container from "./ui/Container.astro";
 
 interface Props {
   title: string;
@@ -11,6 +12,8 @@ const { title, description } = Astro.props;
 ---
 
 <section class="content-section">
+
+  <Container>
 
   <header class="content-section__header">
 
@@ -23,5 +26,7 @@ const { title, description } = Astro.props;
   <div class="content-section__content">
     <slot />
   </div>
+
+  </Container>
 
 </section>

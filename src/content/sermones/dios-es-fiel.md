@@ -1,6 +1,8 @@
 ---
 title: "Dios es fiel"
 description: "Una reflexión sobre la fidelidad de Dios."
+image: "/images/sermones/dios-es-fiel.jpg"
+pubDate: 2026-07-30
 ---
 
 # Dios es fiel

@@ -1,0 +1,34 @@
+---
+import { getCollection } from "astro:content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import SermonCard from "../../components/SermonCard.astro";
+
+const sermones = await getCollection("sermones");
+
+import CardGrid from "../../components/CardGrid.astro";
+---
+
+<MainLayout
+  seo={{
+    title: "Todos los sermones",
+    description: "Listado de todos los sermones del Portal Cristiano.",
+  }}
+>
+  <section class="container">
+    <h1>Todos los sermones</h1>
+
+    <CardGrid>
+      {
+        sermones.map((sermon) => (
+          <SermonCard
+            title={sermon.data.title}
+            description={sermon.data.description}
+            image={sermon.data.image}
+            pubDate={sermon.data.pubDate}
+            url={`/sermones/${sermon.id.replace(".md", "")}`}
+          />
+        ))
+      }
+    </CardGrid>
+  </section>
+</MainLayout>
