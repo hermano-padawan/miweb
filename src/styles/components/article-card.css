@@ -1,4 +1,4 @@
-.sermon-card {
+.article-card {
 
   max-width: 420px;
   margin: 0 auto;
@@ -20,23 +20,23 @@
   height: 100%;
 }
 
-.sermon-card:hover {
+.article-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
 }
 
-.sermon-card h3 {
+.article-card h3 {
   margin: 0 0 var(--space-sm);
   color: var(--color-text);
   font-size: var(--font-size-lg);
 }
 
-.sermon-card p {
+.article-card p {
   margin: 0;
   color: var(--color-text-light);
 }
 
-.sermon-card__image {
+.article-card__image {
   width: 100%;
   aspect-ratio: 16 / 9;
 
@@ -44,7 +44,7 @@
   display: block;
 }
 
-.sermon-card__content {
+.article-card__content {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -52,7 +52,7 @@
   padding: 1.5rem;
 }
 
-.sermon-card__link {
+.article-card__link {
   margin-top: auto;
 
   font-weight: 600;
@@ -61,16 +61,22 @@
   transition: transform .2s ease;
 }
 
-.sermon-card:hover .sermon-card__link {
+.article-card:hover .article-card__link {
   transform: translateX(6px);
 }
 
-.sermon-card__content {
+.article-card__content {
   padding: 1.5rem;
 }
 
-.sermon-card__date{
+.article-card__date{
   margin:.25rem 0 1rem;
   font-size:.875rem;
   color:#6b7280;
+}
+
+.article-card__date {
+  font-size: .85rem;
+  color: #6b7280;
+  margin: -.25rem 0 .75rem;
 }

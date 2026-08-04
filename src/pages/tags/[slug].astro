@@ -1,0 +1,65 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import CardGrid from "../../components/CardGrid.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+
+import {
+  getAllArticles,
+  getTags,
+  getTagSlug,
+} from "../../utils/content";
+
+export async function getStaticPaths() {
+  const tags = await getTags();
+
+  return tags.map((tag) => ({
+    params: {
+      slug: getTagSlug(tag),
+    },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const articulos = (await getAllArticles())
+  .filter((a) =>
+    a.data.tags.some((tag) => getTagSlug(tag) === slug)
+  )
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+const tituloTag =
+  articulos.length > 0
+    ? articulos.find((a) =>
+        a.data.tags.some((tag) => getTagSlug(tag) === slug)
+      )?.data.tags.find((tag) => getTagSlug(tag) === slug) ?? slug
+    : slug;
+---
+
+<MainLayout
+  seo={{
+    title: `Etiqueta: ${tituloTag}`,
+    description: `Artículos etiquetados con "${tituloTag}".`,
+  }}
+>
+  <section class="container">
+
+    <h1>Etiqueta: {tituloTag}</h1>
+
+    {articulos.length === 0 ? (
+      <p>No hay artículos con esta etiqueta.</p>
+    ) : (
+      <CardGrid>
+        {articulos.map((articulo) => (
+          <ArticleCard
+            title={articulo.data.title}
+            description={articulo.data.description}
+            image={articulo.data.image}
+            pubDate={articulo.data.pubDate}
+            url={`/${articulo.tipo}/${articulo.id}`}
+          />
+        ))}
+      </CardGrid>
+    )}
+
+  </section>
+</MainLayout>

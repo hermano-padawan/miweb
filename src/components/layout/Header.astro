@@ -1,25 +1,8 @@
 ---
 import "../../styles/components/header.css";
-
 import MainNavigation from "../navigation/MainNavigation.astro";
-
-interface Props {
-  siteName: string;
-}
-
-const { siteName } = Astro.props;
 ---
 
 <header class="header">
-
-  <div class="header__container">
-
-    <a href="/" class="header__logo">
-      {siteName}
-    </a>
-
-    <MainNavigation />
-
-  </div>
-
+  <MainNavigation />
 </header>

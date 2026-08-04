@@ -1,0 +1,59 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import CardGrid from "../../components/CardGrid.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+
+import {
+  getAllArticles,
+  getCategories,
+  getCategorySlug,
+} from "../../utils/content";
+
+export async function getStaticPaths() {
+  const categorias = await getCategories();
+
+  return categorias.map((categoria) => ({
+    params: {
+      slug: getCategorySlug(categoria),
+    },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const articulos = (await getAllArticles())
+  .filter((a) => getCategorySlug(a.data.category) === slug)
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+
+const tituloCategoria =
+  articulos.length > 0
+    ? articulos[0].data.category
+    : slug;
+---
+
+<MainLayout
+  seo={{
+    title: `Categoría: ${tituloCategoria}`,
+    description: `Artículos de la categoría ${tituloCategoria}.`,
+  }}
+>
+  <section class="container">
+    <h1>Categoría: {tituloCategoria}</h1>
+
+    {articulos.length === 0 ? (
+      <p>No hay artículos en esta categoría.</p>
+    ) : (
+      <CardGrid>
+        {articulos.map((articulo) => (
+          <ArticleCard
+            title={articulo.data.title}
+            description={articulo.data.description}
+            image={articulo.data.image}
+            pubDate={articulo.data.pubDate}
+            url={`/${articulo.tipo}/${articulo.id}`}
+          />
+        ))}
+      </CardGrid>
+    )}
+  </section>
+</MainLayout>

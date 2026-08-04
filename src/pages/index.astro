@@ -1,51 +1,65 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
-import { getCollection } from "astro:content";
-import SermonCard from "../components/SermonCard.astro";
-import ContentSection from "../components/ContentSection.astro";
 import Hero from "../components/Hero.astro";
-import "../styles/components/cards-grid.css";
-import Button from "../components/ui/Button.astro";
 
-const sermones = (await getCollection("sermones")).sort(
-  (a, b) =>
-    b.data.pubDate.getTime() - a.data.pubDate.getTime()
-);
+import FeaturedArticle from "../components/home/FeaturedArticle.astro";
+import LatestArticles from "../components/home/LatestArticles.astro";
+import CategoryGrid from "../components/home/CategoryGrid.astro";
+import TagCloud from "../components/home/TagCloud.astro";
+
+import {
+  getSermones,
+  getDevocionales,
+  getCategories,
+  getTags,
+} from "../utils/content";
+
+const sermones = await getSermones();
+const devocionales = await getDevocionales();
+
+const categorias = await getCategories();
+const tags = await getTags();
+
+const destacado = sermones[0];
 ---
 
 <MainLayout
   seo={{
     title: "Portal Cristiano",
-    description: "Sermones, reflexiones y estudios bíblicos."
+    description: "Sermones, devocionales y recursos para crecer en la fe.",
   }}
 >
 
-<Hero />
+  <Hero />
 
-<ContentSection
-  title="Últimos sermones"
-  description="Los tres sermones más recientes publicados."
->
-  <div class="cards-grid">
-  {sermones.slice(0, 3).map((sermon) => (
-    <SermonCard
-  title={sermon.data.title}
-  description={sermon.data.description}
-  image={sermon.data.image}
-  pubDate={sermon.data.pubDate}
-  url={`/sermones/${sermon.id.replace(".md", "")}`}
-/>
-  ))}
-</div>
+  <div class="container">
 
-<div class="section-actions">
-  <Button href="/sermones">
-    Ver todos los sermones
-  </Button>
-</div>
+    <FeaturedArticle
+      article={destacado}
+    />
 
-</ContentSection>
+    <LatestArticles
+      title="Últimos sermones"
+      articles={sermones}
+      baseUrl="/sermones"
+      buttonText="Ver todos los sermones"
+    />
 
-  
+    <LatestArticles
+      title="Últimos devocionales"
+      articles={devocionales}
+      baseUrl="/devocionales"
+      buttonText="Ver todos los devocionales"
+    />
+
+    <CategoryGrid
+      categories={categorias}
+    />
+
+    <TagCloud
+      tags={tags}
+    />
+
+  </div>
 
 </MainLayout>

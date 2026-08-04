@@ -1,0 +1,34 @@
+---
+import "../../styles/home.css";
+
+import { getTagSlug } from "../../utils/content";
+
+interface Props {
+  tags: string[];
+}
+
+const { tags } = Astro.props;
+---
+
+<section class="home-section">
+
+  <h2 class="home-title">
+    Etiquetas populares
+  </h2>
+
+  <div class="tag-cloud">
+
+    {tags.map((tag) => (
+
+      <a
+        href={`/tags/${getTagSlug(tag)}`}
+        class="article-tag"
+      >
+        {tag}
+      </a>
+
+    ))}
+
+  </div>
+
+</section>

@@ -1,0 +1,113 @@
+.sermon-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sermon-image {
+  width: 100%;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
+
+.sermon-date {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.sermon-page h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sermon-page h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.sermon-page h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.sermon-page p {
+  line-height: 1.8;
+  font-size: 1.15rem;
+  margin: 1.2rem 0;
+}
+
+.sermon-page ul,
+.sermon-page ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+.sermon-page li {
+  margin-bottom: 0.6rem;
+}
+
+.sermon-page blockquote {
+  border-left: 4px solid #d4af37;
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: #555;
+}
+
+.sermon-category {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  margin-bottom: 1rem;
+  background-color: #f3f4f6;
+  color: #374151;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+}
+
+.sermon-category:hover {
+  background-color: #e5e7eb;
+}
+
+.sermon-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 3rem;
+}
+
+.sermon-tag {
+  padding: 0.35rem 0.8rem;
+  background: #eef2f7;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.back-link {
+  margin-top: 3rem;
+}
+
+.back-link a {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1f2937;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.back-link a:hover {
+  background-color: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.sermon-author {
+  font-weight: 600;
+}

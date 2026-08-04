@@ -1,34 +1,52 @@
 ---
-import { getCollection } from "astro:content";
+import { getSermones } from "../../utils/content";
+
 import MainLayout from "../../layouts/MainLayout.astro";
-import SermonCard from "../../components/SermonCard.astro";
-
-const sermones = await getCollection("sermones");
-
+import ArticleCard from "../../components/ArticleCard.astro";
 import CardGrid from "../../components/CardGrid.astro";
+import Section from "../../components/ui/Section.astro";
+
+const sermones = await getSermones();
 ---
 
 <MainLayout
   seo={{
-    title: "Todos los sermones",
-    description: "Listado de todos los sermones del Portal Cristiano.",
+    title: "Sermones cristianos | Nexo Bíblico",
+    description:
+      "Descubre sermones cristianos basados en la Biblia para fortalecer tu fe y crecer espiritualmente.",
   }}
 >
-  <section class="container">
-    <h1>Todos los sermones</h1>
 
-    <CardGrid>
-      {
-        sermones.map((sermon) => (
-          <SermonCard
-            title={sermon.data.title}
-            description={sermon.data.description}
-            image={sermon.data.image}
-            pubDate={sermon.data.pubDate}
-            url={`/sermones/${sermon.id.replace(".md", "")}`}
-          />
-        ))
-      }
-    </CardGrid>
-  </section>
+<Section>
+
+<h1>Sermones cristianos</h1>
+
+<p>
+En esta sección encontrarás sermones cristianos basados en la Palabra de Dios para ayudarte a comprender mejor las Escrituras y aplicarlas a tu vida diaria. Nuestro objetivo es ofrecer enseñanzas bíblicas claras, edificantes y centradas en Cristo que fortalezcan tu fe y te animen a caminar cada día más cerca del Señor.
+</p>
+
+<p>
+Explora mensajes sobre la esperanza, la oración, la gracia, el amor de Dios, la salvación, el perdón y muchos otros temas fundamentales de la vida cristiana. Publicamos nuevos sermones de forma periódica para seguir ampliando este recurso gratuito.
+</p>
+
+<CardGrid>
+
+{
+sermones.map((sermon)=>(
+
+<ArticleCard
+title={sermon.data.title}
+description={sermon.data.description}
+image={sermon.data.image}
+pubDate={sermon.data.pubDate}
+url={`/sermones/${sermon.id.replace(".md","")}`}
+/>
+
+))
+}
+
+</CardGrid>
+
+</Section>
+
 </MainLayout>

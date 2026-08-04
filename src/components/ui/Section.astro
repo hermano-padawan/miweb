@@ -1,0 +1,20 @@
+---
+import "../../styles/components/section.css";
+import Container from "./Container.astro";
+
+interface Props {
+  class?: string;
+}
+
+const { class: className = "" } = Astro.props;
+---
+
+<section class={`section ${className}`}>
+
+  <Container>
+
+    <slot />
+
+  </Container>
+
+</section>

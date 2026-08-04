@@ -1,0 +1,105 @@
+---
+import "../../styles/home.css";
+
+import Section from "../ui/Section.astro";
+import SectionTitle from "../ui/SectionTitle.astro";
+
+import {
+  BookOpen,
+  Heart,
+  ScrollText,
+  Users,
+  LibraryBig,
+  CircleHelp,
+  BookText,
+  HandHeart
+} from "lucide-astro";
+
+const categories = [
+  {
+    title: "Sermones",
+    icon: BookOpen,
+    description: "Mensajes para fortalecer tu fe.",
+    url: "/sermones"
+  },
+  {
+    title: "Devocionales",
+    icon: Heart,
+    description: "Reflexiones para cada día.",
+    url: "/devocionales"
+  },
+  {
+    title: "Versículos",
+    icon: ScrollText,
+    description: "Encuentra textos bíblicos.",
+    url: "/versiculos"
+  },
+  {
+    title: "Personajes",
+    icon: Users,
+    description: "Conoce a los protagonistas de la Biblia.",
+    url: "/personajes"
+  },
+  {
+    title: "Estudios",
+    icon: LibraryBig,
+    description: "Profundiza en la Palabra.",
+    url: "/estudios-biblicos"
+  },
+  {
+    title: "Preguntas",
+    icon: CircleHelp,
+    description: "Respuestas bíblicas.",
+    url: "/preguntas-biblicas"
+  },
+  {
+    title: "Diccionario",
+    icon: BookText,
+    description: "Descubre el significado de términos bíblicos.",
+    url: "/diccionario-biblico"
+  },
+  {
+    title: "Oraciones",
+    icon: HandHeart,
+    description: "Aprende a orar con confianza.",
+    url: "/oraciones"
+  }
+];
+---
+
+<Section>
+
+  <SectionTitle
+    title="Explora Nexo Bíblico"
+    subtitle="Encuentra rápidamente el contenido que necesitas."
+    center
+  />
+
+  <div class="category-grid">
+
+    {categories.map((category) => {
+
+      const Icon = category.icon;
+
+      return (
+
+        <a
+          href={category.url}
+          class="category-card"
+        >
+
+          <Icon size={42} class="category-icon" />
+
+          <h3>{category.title}</h3>
+
+          <p>{category.description}</p>
+
+        </a>
+
+      );
+
+    })}
+
+  </div>
+
+</Section>

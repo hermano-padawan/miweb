@@ -1,0 +1,63 @@
+---
+import "../../styles/home.css";
+
+import Section from "../ui/Section.astro";
+import SectionTitle from "../ui/SectionTitle.astro";
+import Button from "../ui/Button.astro";
+
+interface Props {
+  article: any;
+}
+
+const { article } = Astro.props;
+---
+
+<section class="home-section">
+
+  <h2 class="home-title">
+    Sermón destacado
+  </h2>
+
+  <article class="featured-article">
+
+    <div class="featured-image">
+
+      <img
+        src={article.data.image}
+        alt={article.data.title}
+      />
+
+    </div>
+
+    <div class="featured-content">
+
+      <span class="featured-category">
+        {article.data.category}
+      </span>
+
+        <SectionTitle
+          title="Sermón destacado"
+          subtitle="Una reflexión seleccionada para fortalecer tu fe hoy."
+          />
+
+      <p class="featured-date">
+        {article.data.pubDate.toLocaleDateString("es-ES", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+        })}
+      </p>
+
+      <p class="featured-description">
+        {article.data.description}
+      </p>
+
+      <Button href={`/sermones/${article.id}`}>
+        Leer sermón
+      </Button>
+
+    </div>
+
+  </article>
+
+</section>

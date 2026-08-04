@@ -6,37 +6,37 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import CardGrid from "../../components/CardGrid.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 
-import "../../styles/components/sermon-page.css";
+import "../../styles/components/article-page.css";
 
 export async function getStaticPaths() {
-  const sermones = await getCollection("sermones");
+  const devocionales = await getCollection("devocionales");
 
-  return sermones.map((sermon) => ({
+  return devocionales.map((devocional) => ({
     params: {
-      slug: sermon.id,
+      slug: devocional.id,
     },
     props: {
-      sermon,
+      devocional,
     },
   }));
 }
 
-const { sermon } = Astro.props;
+const { devocional } = Astro.props;
 
-const sermones = await getCollection("sermones");
+const devocionales = await getCollection("devocionales");
 
-const relacionados = sermones
-  .filter((s) => s.id !== sermon.id)
-  .filter((s) => s.data.category === sermon.data.category)
+const relacionados = devocionales
+  .filter((s) => s.id !== devocional.id)
+  .filter((s) => s.data.category === devocional.data.category)
   .slice(0, 3);
 
-const { Content } = await render(sermon);
+const { Content } = await render(devocional);
 
 import ArticlePage from "../../components/article/ArticlePage.astro";
 ---
 
 <ArticlePage
-  article={sermon}
+  article={devocional}
   Content={Content}
   related={relacionados}
   backUrl="/sermones"

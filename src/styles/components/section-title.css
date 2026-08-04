@@ -1,0 +1,41 @@
+.section-title{
+    margin-bottom:3rem;
+}
+
+.section-title h2{
+
+    margin:0;
+
+    font-size:2.4rem;
+    font-weight:700;
+
+    color:#14213d;
+
+}
+
+.section-title p{
+
+    margin-top:.8rem;
+
+    color:#666;
+
+    max-width:700px;
+
+    font-size:1.05rem;
+
+    line-height:1.7;
+
+}
+
+.section-title--center{
+
+    text-align:center;
+
+}
+
+.section-title--center p{
+
+    margin-left:auto;
+    margin-right:auto;
+
+}

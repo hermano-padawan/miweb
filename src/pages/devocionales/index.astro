@@ -1,0 +1,33 @@
+---
+import { getDevocionales } from "../../utils/content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import CardGrid from "../../components/CardGrid.astro";
+
+const devocionales = await getDevocionales();
+---
+
+<MainLayout
+  seo={{
+    title: "Todos los devocionales",
+    description: "Listado de todos los devocionales del Portal Cristiano.",
+  }}
+>
+  <section class="container">
+    <h1>Todos los devocionales</h1>
+
+    <CardGrid>
+      {
+        devocionales.map((devocional) => (
+          <ArticleCard
+            title={devocional.data.title}
+            description={devocional.data.description}
+            image={devocional.data.image}
+            pubDate={devocional.data.pubDate}
+            url={`/devocionales/${devocional.id.replace(".md", "")}`}
+          />
+        ))
+      }
+    </CardGrid>
+  </section>
+</MainLayout>

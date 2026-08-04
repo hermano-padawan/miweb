@@ -1,0 +1,111 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import CardGrid from "../CardGrid.astro";
+import ArticleCard from "../ArticleCard.astro";
+
+import {
+  getCategorySlug,
+  getTagSlug,
+} from "../../utils/content";
+
+import "../../styles/components/article-page.css";
+
+interface Props {
+  article: any;
+  Content: any;
+  related: any[];
+  backUrl: string;
+  backText: string;
+  relatedTitle: string;
+}
+
+const {
+  article,
+  Content,
+  related,
+  backUrl,
+  backText,
+  relatedTitle,
+} = Astro.props;
+---
+
+<MainLayout
+  seo={{
+    title: article.data.title,
+    description: article.data.description,
+  }}
+>
+  <section class="container article-page">
+
+    <a
+      href={`/categorias/${getCategorySlug(article.data.category)}`}
+      class="article-category"
+    >
+      {article.data.category}
+    </a>
+
+    <h1>{article.data.title}</h1>
+
+    <p class="article-date">
+      {article.data.pubDate.toLocaleDateString("es-ES", {
+        day: "numeric",
+        month: "long",
+        year: "numeric",
+      })}
+      &nbsp;·&nbsp;
+      <span class="article-author">
+        Por {article.data.author}
+      </span>
+    </p>
+
+    <img
+      src={article.data.image}
+      alt={article.data.title}
+      class="article-image"
+    />
+
+    <p>{article.data.description}</p>
+
+    <hr />
+
+    <Content />
+
+    {related.length > 0 && (
+      <>
+        <hr />
+
+        <h2>{relatedTitle}</h2>
+
+        <CardGrid>
+          {related.map((item) => (
+            <ArticleCard
+              title={item.data.title}
+              description={item.data.description}
+              image={item.data.image}
+              pubDate={item.data.pubDate}
+              url={`${backUrl}/${item.id}`}
+            />
+          ))}
+        </CardGrid>
+      </>
+    )}
+
+    <div class="back-link">
+      <a href={backUrl}>← {backText}</a>
+    </div>
+
+    <div class="article-tags">
+      <strong>Etiquetas:</strong>
+
+      {article.data.tags.map((tag: string) => (
+        <a
+          href={`/tags/${getTagSlug(tag)}`}
+          class="article-tag"
+        >
+          {tag}
+        </a>
+      ))}
+    </div>
+
+  </section>
+</MainLayout>

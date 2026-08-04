@@ -1,0 +1,43 @@
+---
+import "../styles/components/article-card.css";
+
+interface Props {
+  title: string;
+  description: string;
+  image: string;
+  pubDate: Date;
+  url: string;
+}
+
+const { title, description, image, pubDate, url } = Astro.props;
+---
+
+<a href={url} class="article-card">
+
+  <img
+  src={image}
+  alt={title}
+  class="article-card__image"
+/>
+
+  <div class="article-card__content">
+
+    <h3>{title}</h3>
+
+    <p class="article-card__date">
+      {pubDate.toLocaleDateString("es-ES", {
+        day: "numeric",
+        month: "short",
+        year: "numeric",
+      })}
+    </p>
+
+    <p>{description}</p>
+
+    <span class="article-card__link">
+      Leer más →
+    </span>
+
+  </div>
+
+</a>

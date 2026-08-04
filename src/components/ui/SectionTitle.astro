@@ -1,0 +1,25 @@
+---
+import "../../styles/components/section-title.css";
+
+interface Props {
+  title: string;
+  subtitle?: string;
+  center?: boolean;
+}
+
+const {
+  title,
+  subtitle,
+  center = false
+} = Astro.props;
+---
+
+<header class={`section-title ${center ? "section-title--center" : ""}`}>
+
+  <h2>{title}</h2>
+
+  {subtitle && (
+    <p>{subtitle}</p>
+  )}
+
+</header>
