@@ -1,0 +1,58 @@
+---
+import { getOraciones } from "../../utils/content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import CardGrid from "../../components/CardGrid.astro";
+
+import Section from "../../components/ui/Section.astro";
+import SectionTitle from "../../components/ui/SectionTitle.astro";
+
+const oraciones = await getOraciones();
+---
+
+<MainLayout
+  seo={{
+    title: "Oraciones cristianas | Nexo Bíblico",
+    description:
+      "Encuentra oraciones cristianas para fortalecer tu fe, agradecer a Dios y presentar tus necesidades delante del Señor.",
+  }}
+>
+
+  <Section>
+
+    <SectionTitle
+      title="Oraciones cristianas"
+      subtitle="Oraciones inspiradas en la Biblia para acompañarte en cada momento de tu vida."
+    />
+
+    <p>
+      Descubre oraciones para dar gracias, pedir fortaleza, encontrar paz, buscar dirección, interceder por otras personas y acercarte cada día más a Dios.
+    </p>
+
+    <p>
+      <strong>{oraciones.length}</strong> oraciones disponibles.
+    </p>
+
+    <CardGrid>
+
+      {
+        oraciones.map((oracion) => (
+
+          <ArticleCard
+            title={oracion.data.title}
+            description={oracion.data.description}
+            image={oracion.data.image}
+            pubDate={oracion.data.pubDate}
+            url={`/oraciones/${oracion.id.replace(".md", "")}`}
+          />
+
+        ))
+      }
+
+    </CardGrid>
+
+    <!-- Paginación -->
+
+  </Section>
+
+</MainLayout>

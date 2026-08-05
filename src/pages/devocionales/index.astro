@@ -4,17 +4,33 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import CardGrid from "../../components/CardGrid.astro";
 
+import Section from "../../components/ui/Section.astro";
+import SectionTitle from "../../components/ui/SectionTitle.astro";
+
 const devocionales = await getDevocionales();
 ---
 
 <MainLayout
   seo={{
-    title: "Todos los devocionales",
-    description: "Listado de todos los devocionales del Portal Cristiano.",
+    title: "Devocionales cristianos | Nexo Bíblico",
+    description:
+      "Descubre devocionales cristianos basados en la Biblia para fortalecer tu fe y caminar cada día con Dios.",
   }}
 >
-  <section class="container">
-    <h1>Todos los devocionales</h1>
+  <Section>
+
+    <SectionTitle
+      title="Devocionales cristianos"
+      subtitle="Reflexiones bíblicas para fortalecer tu relación con Dios y crecer espiritualmente cada día."
+    />
+
+    <p>
+      Encuentra devocionales cristianos sobre la fe, la esperanza, el amor de Dios, la oración, el perdón y muchos otros temas para acompañarte en tu caminar diario con Cristo.
+    </p>
+
+    <p>
+      <strong>{devocionales.length}</strong> devocionales disponibles.
+    </p>
 
     <CardGrid>
       {
@@ -29,5 +45,9 @@ const devocionales = await getDevocionales();
         ))
       }
     </CardGrid>
-  </section>
-</MainLayout>
+
+    <!-- Paginación -->
+   
+    </Section>
+
+  </MainLayout>

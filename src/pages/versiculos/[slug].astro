@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from "astro:content";
+
+import "../../styles/components/sermon-page.css";
+
+import ArticlePage from "../../components/article/ArticlePage.astro";
+
+export async function getStaticPaths() {
+
+  const versiculos = await getCollection("versiculos");
+
+  return versiculos.map((versiculo) => ({
+    params: {
+      slug: versiculo.id,
+    },
+    props: {
+      versiculo,
+    },
+  }));
+
+}
+
+const { versiculo } = Astro.props;
+
+const versiculos = await getCollection("versiculos");
+
+const relacionados = versiculos
+  .filter((v) => v.id !== versiculo.id)
+  .filter((v) => v.data.category === versiculo.data.category)
+  .slice(0, 3);
+
+const { Content } = await render(versiculo);
+---
+
+<ArticlePage
+  article={versiculo}
+  Content={Content}
+  related={relacionados}
+  backUrl="/versiculos"
+  backText="Volver a todos los versículos"
+  relatedTitle="Versículos relacionados"
+/>

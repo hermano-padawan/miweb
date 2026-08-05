@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from "astro:content";
+
+import "../../styles/components/sermon-page.css";
+
+import ArticlePage from "../../components/article/ArticlePage.astro";
+
+export async function getStaticPaths() {
+
+  const oraciones = await getCollection("oraciones");
+
+  return oraciones.map((oracion) => ({
+    params: {
+      slug: oracion.id,
+    },
+    props: {
+      oracion,
+    },
+  }));
+
+}
+
+const { oracion } = Astro.props;
+
+const oraciones = await getCollection("oraciones");
+
+const relacionados = oraciones
+  .filter((o) => o.id !== oracion.id)
+  .filter((o) => o.data.category === oracion.data.category)
+  .slice(0, 3);
+
+const { Content } = await render(oracion);
+---
+
+<ArticlePage
+  article={oracion}
+  Content={Content}
+  related={relacionados}
+  backUrl="/oraciones"
+  backText="Volver a todas las oraciones"
+  relatedTitle="Oraciones relacionadas"
+/>

@@ -5,6 +5,7 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import CardGrid from "../../components/CardGrid.astro";
 import Section from "../../components/ui/Section.astro";
+import SectionTitle from "../../components/ui/SectionTitle.astro";
 
 const sermones = await getSermones();
 ---
@@ -19,7 +20,14 @@ const sermones = await getSermones();
 
 <Section>
 
-<h1>Sermones cristianos</h1>
+<SectionTitle
+  title="Sermones cristianos"
+  subtitle="Descubre sermones basados en la Biblia para fortalecer tu fe, comprender mejor las Escrituras y crecer espiritualmente."
+/>
+
+<p>
+Explora mensajes sobre la esperanza, la oración, la gracia, el amor de Dios, la salvación y muchos otros temas fundamentales de la vida cristiana.
+</p>
 
 <p>
 En esta sección encontrarás sermones cristianos basados en la Palabra de Dios para ayudarte a comprender mejor las Escrituras y aplicarlas a tu vida diaria. Nuestro objetivo es ofrecer enseñanzas bíblicas claras, edificantes y centradas en Cristo que fortalezcan tu fe y te animen a caminar cada día más cerca del Señor.

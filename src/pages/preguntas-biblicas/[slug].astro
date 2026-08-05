@@ -1,0 +1,42 @@
+---
+import { getCollection, render } from "astro:content";
+
+import "../../styles/components/sermon-page.css";
+
+import ArticlePage from "../../components/article/ArticlePage.astro";
+
+export async function getStaticPaths() {
+
+  const preguntas = await getCollection("preguntasBiblicas");
+
+  return preguntas.map((pregunta) => ({
+    params: {
+      slug: pregunta.id,
+    },
+    props: {
+      pregunta,
+    },
+  }));
+
+}
+
+const { pregunta } = Astro.props;
+
+const preguntas = await getCollection("preguntasBiblicas");
+
+const relacionados = preguntas
+  .filter((p) => p.id !== pregunta.id)
+  .filter((p) => p.data.category === pregunta.data.category)
+  .slice(0, 3);
+
+const { Content } = await render(pregunta);
+---
+
+<ArticlePage
+  article={pregunta}
+  Content={Content}
+  related={relacionados}
+  backUrl="/preguntas-biblicas"
+  backText="Volver a todas las preguntas bíblicas"
+  relatedTitle="Preguntas relacionadas"
+/>

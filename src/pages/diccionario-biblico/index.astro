@@ -1,0 +1,58 @@
+---
+import { getDiccionarioBiblico } from "../../utils/content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import CardGrid from "../../components/CardGrid.astro";
+
+import Section from "../../components/ui/Section.astro";
+import SectionTitle from "../../components/ui/SectionTitle.astro";
+
+const diccionario = await getDiccionarioBiblico();
+---
+
+<MainLayout
+  seo={{
+    title: "Diccionario bíblico | Nexo Bíblico",
+    description:
+      "Consulta el significado de los principales términos, lugares, personajes y conceptos de la Biblia.",
+  }}
+>
+
+  <Section>
+
+    <SectionTitle
+      title="Diccionario bíblico"
+      subtitle="Descubre el significado de palabras, lugares, costumbres y conceptos fundamentales de las Escrituras."
+    />
+
+    <p>
+      Explora definiciones claras y sencillas de términos bíblicos para comprender mejor el contexto histórico y espiritual de la Palabra de Dios.
+    </p>
+
+    <p>
+      <strong>{diccionario.length}</strong> términos disponibles.
+    </p>
+
+    <CardGrid>
+
+      {
+        diccionario.map((termino) => (
+
+          <ArticleCard
+            title={termino.data.title}
+            description={termino.data.description}
+            image={termino.data.image}
+            pubDate={termino.data.pubDate}
+            url={`/diccionario-biblico/${termino.id.replace(".md", "")}`}
+          />
+
+        ))
+      }
+
+    </CardGrid>
+
+    <!-- Paginación -->
+
+  </Section>
+
+</MainLayout>
