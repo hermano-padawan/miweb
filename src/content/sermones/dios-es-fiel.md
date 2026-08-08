@@ -1,7 +1,7 @@
 ---
 title: "Dios es fiel"
 description: "Una reflexión sobre la fidelidad de Dios."
-image: "/images/sermones/dios-es-fiel.jpg"
+image: "/images/sermones/articles/dios-es-fiel.svg"
 pubDate: 2026-07-30
 author: Portal Cristiano
 category: Fe
@@ -12,7 +12,6 @@ tags:
 featured: true
 readingTime: 6
 ---
-
 # Dios es fiel
 
 Dios permanece fiel incluso cuando nosotros dudamos.

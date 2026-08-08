@@ -69,6 +69,14 @@ const oraciones = defineCollection({
   schema,
 });
 
+const estudiosBiblicos = defineCollection({
+  loader: glob({
+    pattern: "**/*.md",
+    base: "./src/content/estudios-biblicos",
+  }),
+  schema,
+});
+
 export const collections = {
   sermones,
   devocionales,
@@ -77,4 +85,5 @@ export const collections = {
   preguntasBiblicas,
   diccionarioBiblico,
   oraciones,
+  estudiosBiblicos,
 };

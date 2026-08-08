@@ -43,6 +43,12 @@ export async function getOraciones() {
   );
 }
 
+export async function getEstudiosBiblicos() {
+  return (await getCollection("estudiosBiblicos")).sort(
+    (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+  );
+}
+
 export async function getAllArticles() {
   const sermones = (await getCollection("sermones")).map((a) => ({
     ...a,
@@ -85,6 +91,11 @@ export async function getAllArticles() {
     tipo: "oraciones",
   }));
 
+  const estudiosBiblicos = (await getCollection("estudiosBiblicos")).map((a) => ({
+    ...a,
+    tipo: "estudios-biblicos",
+  }));
+
   return [
     ...sermones,
     ...devocionales,
@@ -93,6 +104,7 @@ export async function getAllArticles() {
     ...preguntasBiblicas,
     ...diccionarioBiblico,
     ...oraciones,
+    ...estudiosBiblicos,
   ].sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 }
 

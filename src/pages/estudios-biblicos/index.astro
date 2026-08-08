@@ -1,0 +1,53 @@
+---
+import { getEstudiosBiblicos } from "../../utils/content";
+import MainLayout from "../../layouts/MainLayout.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import CardGrid from "../../components/CardGrid.astro";
+import Section from "../../components/ui/Section.astro";
+import SectionTitle from "../../components/ui/SectionTitle.astro";
+
+const estudios = await getEstudiosBiblicos();
+---
+
+<MainLayout
+  seo={{
+    title: "Estudios bíblicos | Nexo Bíblico",
+    description:
+      "Descubre estudios bíblicos gratuitos para profundizar en la Palabra de Dios y crecer espiritualmente.",
+  }}
+>
+
+  <Section>
+
+    <SectionTitle
+      title="Estudios bíblicos"
+      subtitle="Profundiza en la Biblia con estudios organizados y fáciles de seguir."
+    />
+
+    <p>
+      Encuentra estudios bíblicos sobre pasajes importantes, personajes, enseñanzas de Jesús y temas clave de la vida cristiana.
+    </p>
+
+    <p>
+      <strong>{estudios.length}</strong> estudios bíblicos disponibles.
+    </p>
+
+    {estudios.length === 0 ? (
+      <p>No hay estudios bíblicos disponibles todavía.</p>
+    ) : (
+      <CardGrid>
+        {estudios.map((estudio) => (
+          <ArticleCard
+            title={estudio.data.title}
+            description={estudio.data.description}
+            image={estudio.data.image}
+            pubDate={estudio.data.pubDate}
+            url={`/estudios-biblicos/${estudio.id.replace(".md", "")}`}
+          />
+        ))}
+      </CardGrid>
+    )}
+
+  </Section>
+
+</MainLayout>

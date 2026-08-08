@@ -1,0 +1,38 @@
+---
+import { getCollection, render } from "astro:content";
+import "../../styles/components/sermon-page.css";
+import ArticlePage from "../../components/article/ArticlePage.astro";
+
+export async function getStaticPaths() {
+  const estudios = await getCollection("estudiosBiblicos");
+
+  return estudios.map((estudio) => ({
+    params: {
+      slug: estudio.id,
+    },
+    props: {
+      estudio,
+    },
+  }));
+}
+
+const { estudio } = Astro.props;
+
+const estudios = await getCollection("estudiosBiblicos");
+
+const relacionados = estudios
+  .filter((e) => e.id !== estudio.id)
+  .filter((e) => e.data.category === estudio.data.category)
+  .slice(0, 3);
+
+const { Content } = await render(estudio);
+---
+
+<ArticlePage
+  article={estudio}
+  Content={Content}
+  related={relacionados}
+  backUrl="/estudios-biblicos"
+  backText="Volver a todos los estudios bíblicos"
+  relatedTitle="Estudios relacionados"
+/>
