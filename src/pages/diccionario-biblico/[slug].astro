@@ -1,0 +1,38 @@
+---
+import { getCollection, render } from "astro:content";
+
+import ArticlePage from "../../components/article/ArticlePage.astro";
+
+export async function getStaticPaths() {
+  const diccionario = await getCollection("diccionarioBiblico");
+
+  return diccionario.map((termino) => ({
+    params: {
+      slug: termino.id,
+    },
+    props: {
+      termino,
+    },
+  }));
+}
+
+const { termino } = Astro.props;
+
+const diccionario = await getCollection("diccionarioBiblico");
+
+const relacionados = diccionario
+  .filter((item) => item.id !== termino.id)
+  .filter((item) => item.data.category === termino.data.category)
+  .slice(0, 3);
+
+const { Content } = await render(termino);
+---
+
+<ArticlePage
+  article={termino}
+  Content={Content}
+  related={relacionados}
+  backUrl="/diccionario-biblico"
+  backText="Volver a todas las entradas del diccionario"
+  relatedTitle="Términos relacionados"
+/>
