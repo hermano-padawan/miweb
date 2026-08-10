@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo saber si Dios escucha mi oración?"
 description: "Qué enseñan los salmos y Jesús sobre oración, silencio y respuestas diferentes a lo esperado."
-image: "/images/preguntas-biblicas/articles/discernir-voluntad-dios.webp"
+image: "/images/preguntas-biblicas/articles/dios-escucha-oracion.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Preguntas bíblicas"

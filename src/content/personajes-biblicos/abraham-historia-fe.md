@@ -1,7 +1,7 @@
 ---
 title: "Abraham: historia, promesa y fe"
 description: "Un recorrido por la confianza, los errores y la promesa en la vida de Abraham."
-image: "/images/personajes-biblicos/articles/david-goliat.webp"
+image: "/images/personajes-biblicos/articles/abraham.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Personajes bíblicos"

@@ -1,7 +1,7 @@
 ---
 title: "Esperanza: significado bíblico"
 description: "Qué significa esperanza en la Biblia y por qué es más profunda que una expectativa optimista."
-image: "/images/diccionario-biblico/articles/fe-significado-biblico.webp"
+image: "/images/diccionario-biblico/articles/esperanza.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Diccionario bíblico"

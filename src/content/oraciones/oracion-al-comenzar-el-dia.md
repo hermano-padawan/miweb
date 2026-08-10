@@ -1,7 +1,7 @@
 ---
 title: "Oración para comenzar el día"
 description: "Una oración breve de gratitud, entrega y sabiduría para la jornada que comienza."
-image: "/images/oraciones/articles/oracion-ansiedad.webp"
+image: "/images/oraciones/articles/oracion-comenzar-dia.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Oración"
