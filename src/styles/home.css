@@ -428,6 +428,7 @@ border-top:1px solid #ececec;
 .home-sections .article-card__content { padding: 1rem; }
 .home-sections .section-title h2 { font-size: clamp(1.9rem, 3.2vw, 2.35rem); letter-spacing: 0; }
 .home-start { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; margin-block: 1.4rem; padding: 1.5rem; background: #102a43; border-radius: 20px; color: white; }
+.home-start .home-start__eyebrow { color: #f0c76e; }
 .home-start h2 { color: white; }
 .home-start > div > p:not(.home-start__eyebrow) { color: #d9e2ec; }
 .home-start a { color: #f0c76e; font-weight: 800; }

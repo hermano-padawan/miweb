@@ -27,11 +27,12 @@
 }
 
 .button--primary {
-  background: var(--color-primary);
+  background: var(--color-primary-dark);
   color: white;
 }
 
 .button--primary:hover {
+  background: #744a0e;
   box-shadow: var(--shadow-md);
 }
 
