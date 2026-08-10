@@ -18,7 +18,12 @@ export default defineConfig({
   output: "static",
   integrations: [
     sitemap({
-      filter: (page) => !noindexPaths.has(routePath(page)),
+      filter: (page) => {
+        const path = routePath(page);
+        return !noindexPaths.has(path)
+          && !path.startsWith("/tags/")
+          && !path.startsWith("/categorias/");
+      },
     }),
   ],
 });
