@@ -21,6 +21,13 @@ const {
   baseUrl,
   buttonText,
 } = Astro.props;
+
+const visibleArticles = articles
+  .filter(
+    (article, index, collection) =>
+      collection.findIndex((candidate) => candidate.data.image === article.data.image) === index,
+  )
+  .slice(0, 3);
 ---
 
 <Section class="home-latest-section">
@@ -31,7 +38,7 @@ const {
 
   <CardGrid>
 
-    {articles.slice(0,3).map((article) => (
+    {visibleArticles.map((article) => (
 
       <ArticleCard
         title={article.data.title}

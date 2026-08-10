@@ -1,7 +1,7 @@
 ---
 title: "El fruto del Espíritu en Gálatas 5"
 description: "Estudio sobre las nueve cualidades del fruto del Espíritu y su desarrollo en comunidad."
-image: "/images/estudios-biblicos/articles/estudiar-biblia-contexto.webp"
+image: "/images/estudios-biblicos/articles/fruto-del-espiritu.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Estudios bíblicos"
