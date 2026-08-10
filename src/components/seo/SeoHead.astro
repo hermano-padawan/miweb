@@ -6,9 +6,10 @@ interface Props {
   description: string;
   image?: string;
   type?: "website" | "article";
+  noindex?: boolean;
 }
 
-const { title, description, image, type = "website" } = Astro.props;
+const { title, description, image, type = "website", noindex = false } = Astro.props;
 
 const pageTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 const canonicalUrl = new URL(Astro.url.pathname, site.url).href;
@@ -21,7 +22,7 @@ const socialImage = new URL(image || "/images/hero-home-new.webp", site.url).hre
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta charset="UTF-8" />
 <meta name="author" content={site.name} />
-<meta name="robots" content="index, follow" />
+<meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
 <meta name="theme-color" content="#102a43" />
 <link rel="canonical" href={canonicalUrl} />
 

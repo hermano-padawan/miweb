@@ -12,6 +12,7 @@ interface Props {
     description: string;
     image?: string;
     type?: "website" | "article";
+    noindex?: boolean;
   };
 }
 
@@ -34,6 +35,7 @@ const { seo } = Astro.props;
       description={seo.description}
       image={seo.image}
       type={seo.type}
+      noindex={seo.noindex}
     />
 
 </head>

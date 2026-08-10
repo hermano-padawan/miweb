@@ -33,6 +33,8 @@ jobs:
 
       - name: Build Astro
         run: npm run build
+        env:
+          DEPLOY_BASE_PATH: /miweb
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
