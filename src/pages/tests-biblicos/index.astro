@@ -1,0 +1,86 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import QuizGame, { type QuizQuestion } from "../../components/games/QuizGame.astro";
+import { withBase } from "../../utils/paths";
+
+const questions: QuizQuestion[] = [
+  { question: "¿Quién construyó el arca antes del diluvio?", answers: ["Abraham", "Noé", "Moisés"], correct: 1, explanation: "Según Génesis 6, Dios pidió a Noé que construyera el arca.", relatedHref: "/personajes-biblicos", relatedLabel: "Conoce a los personajes bíblicos" },
+  { question: "¿Qué joven venció al gigante Goliat?", answers: ["David", "Samuel", "Salomón"], correct: 0, explanation: "David se enfrentó a Goliat confiando en Dios, como relata 1 Samuel 17.", relatedHref: "/personajes-biblicos/david-y-goliat-historia-lecciones", relatedLabel: "Lee la historia de David y Goliat" },
+  { question: "¿En qué ciudad nació Jesús?", answers: ["Nazaret", "Jerusalén", "Belén"], correct: 2, explanation: "Los evangelios sitúan el nacimiento de Jesús en Belén de Judea.", relatedHref: "/preguntas-biblicas/quien-es-jesus-segun-biblia", relatedLabel: "Descubre quién es Jesús según la Biblia" },
+  { question: "¿Cuál es el primer libro de la Biblia?", answers: ["Éxodo", "Génesis", "Salmos"], correct: 1, explanation: "Génesis abre la Biblia con los relatos de la creación y los patriarcas.", relatedHref: "/estudios-biblicos", relatedLabel: "Explora los estudios bíblicos" },
+  { question: "¿Quién recibió los Diez Mandamientos?", answers: ["Moisés", "Josué", "Aarón"], correct: 0, explanation: "Moisés recibió las tablas de la ley en el monte Sinaí.", relatedHref: "/personajes-biblicos/moises-historia-lecciones", relatedLabel: "Repasa la historia de Moisés" },
+  { question: "¿Qué salmo comienza con «El Señor es mi pastor»?", answers: ["Salmo 1", "Salmo 23", "Salmo 91"], correct: 1, explanation: "El Salmo 23 presenta a Dios como pastor que guía, cuida y acompaña.", relatedHref: "/versiculos/salmo-23-significado", relatedLabel: "Comprende el significado del Salmo 23" },
+  { question: "¿Quién fue tragado por un gran pez?", answers: ["Jonás", "Elías", "Isaías"], correct: 0, explanation: "El libro de Jonás relata que un gran pez lo sostuvo durante tres días y tres noches.", relatedHref: "/personajes-biblicos", relatedLabel: "Explora más historias bíblicas" },
+  { question: "¿Cuál de estos es fruto del Espíritu?", answers: ["Orgullo", "Paciencia", "Riqueza"], correct: 1, explanation: "Gálatas 5 incluye la paciencia entre las cualidades del fruto del Espíritu.", relatedHref: "/estudios-biblicos/fruto-del-espiritu-galatas-5", relatedLabel: "Estudia el fruto del Espíritu" },
+  { question: "¿Qué discípulo negó tres veces conocer a Jesús?", answers: ["Juan", "Tomás", "Pedro"], correct: 2, explanation: "Pedro negó conocer a Jesús, pero más tarde fue restaurado y reafirmado en su misión.", relatedHref: "/personajes-biblicos/pedro-historia-restauracion", relatedLabel: "Lee sobre la restauración de Pedro" },
+  { question: "¿Con qué oración enseñó Jesús a orar?", answers: ["El Padrenuestro", "El Magníficat", "El cántico de Simeón"], correct: 0, explanation: "Jesús presentó el Padrenuestro como modelo de una oración centrada en Dios y su voluntad.", relatedHref: "/estudios-biblicos/padrenuestro-estudio-mateo-6", relatedLabel: "Estudia el Padrenuestro" },
+];
+
+const title = "Test bíblico: ¿cuánto sabes de la Biblia?";
+const description = "Responde 10 preguntas bíblicas con tres opciones, explicaciones inmediatas y una puntuación final sobre 10.";
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Quiz",
+  name: title,
+  description,
+  about: { "@type": "Thing", name: "Biblia" },
+  educationalLevel: "General",
+  numberOfQuestions: questions.length,
+  url: "https://nexobiblico.site/tests-biblicos/",
+};
+---
+
+<MainLayout seo={{ title, description }}>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <header class="test-hero">
+    <div class="test-shell">
+      <p>Preguntas bíblicas con respuestas</p>
+      <h1>Test bíblico: ¿cuánto sabes de la Biblia?</h1>
+      <span>Diez preguntas, tres respuestas posibles y una explicación clara después de cada elección.</span>
+    </div>
+  </header>
+
+  <main class="test-main">
+    <QuizGame questions={questions} storageKey="nexo-test-biblico-general" />
+
+    <article class="test-editorial">
+      <h2>Un quiz bíblico para aprender mientras juegas</h2>
+      <p>Este test bíblico recorre historias, personajes, libros y enseñanzas conocidas de las Escrituras. No busca medir la fe ni sustituir el estudio personal: es una forma breve de recordar lo aprendido, detectar temas que puedes repasar y descubrir nuevas rutas de lectura.</p>
+      <p>Cada pregunta ofrece tres alternativas. Después de responder verás la opción correcta, una explicación breve y un enlace relacionado. El resultado se calcula sobre 10 y se guarda únicamente en tu navegador para que puedas intentar superar tu propio récord.</p>
+
+      <h2>Qué encontrarás en estas preguntas de la Biblia</h2>
+      <p>La selección combina el Antiguo y el Nuevo Testamento: Noé y el arca, David y Goliat, el nacimiento de Jesús, Moisés, los Salmos, los profetas, el fruto del Espíritu y los discípulos. Las preguntas parten de episodios ampliamente reconocibles para ofrecer una dificultad accesible sin reducir el juego a una lista de datos sin contexto.</p>
+
+      <h2>Sigue aprendiendo</h2>
+      <div class="test-links">
+        <a href={withBase("/personajes-biblicos")}>Personajes bíblicos <span>→</span></a>
+        <a href={withBase("/estudios-biblicos")}>Estudios bíblicos <span>→</span></a>
+        <a href={withBase("/versiculos")}>Versículos explicados <span>→</span></a>
+      </div>
+      <p class="test-note">Las preguntas se han redactado como una experiencia educativa y lúdica. La puntuación no representa una evaluación doctrinal.</p>
+    </article>
+  </main>
+</MainLayout>
+
+<style>
+  .test-hero { padding: clamp(2.8rem, 6vw, 4.8rem) 1rem clamp(3.5rem, 6vw, 4.8rem); color: #fff; background: #102a43; }
+  .test-shell { width: min(100%, 900px); margin: 0 auto; text-align: center; }
+  .test-hero p { margin: 0 0 .65rem; color: #f0bd62; font-size: .78rem; font-weight: 850; letter-spacing: .14em; text-transform: uppercase; }
+  .test-hero h1 { max-width: 850px; margin: 0 auto; font-size: clamp(2.2rem, 7vw, 4.2rem); line-height: 1.05; }
+  .test-hero span { display: block; max-width: 670px; margin: 1rem auto 0; color: #dbe7ef; font-size: clamp(1rem, 2vw, 1.15rem); }
+  .test-main { width: min(calc(100% - 2rem), 1040px); margin: 2.75rem auto 0; padding-bottom: 5rem; }
+  .test-main :global(.quiz__topline) { color: var(--color-text); }
+  .test-editorial { max-width: 780px; margin: 4rem auto 0; color: var(--color-text-light); font-size: 1.05rem; }
+  .test-editorial h2 { margin: 2.2rem 0 .65rem; color: var(--color-text); font-size: clamp(1.45rem, 4vw, 2rem); line-height: 1.2; }
+  .test-editorial p { margin: 0 0 1rem; }
+  .test-links { display: grid; grid-template-columns: repeat(3, 1fr); gap: .7rem; margin: 1rem 0 2rem; }
+  .test-links a { display: flex; align-items: center; justify-content: space-between; min-height: 58px; padding: .75rem .9rem; color: var(--color-text); background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 8px; font-weight: 750; }
+  .test-links a:hover { color: var(--color-primary-dark); border-color: var(--color-primary); }
+  .test-note { padding: 1rem; background: #f4f7f9; border-left: 3px solid var(--color-primary); font-size: .9rem; }
+  @media (max-width: 680px) {
+    .test-hero { padding-top: 2.3rem; padding-bottom: 3rem; }
+    .test-main { width: min(calc(100% - 1.25rem), 1040px); }
+    .test-links { grid-template-columns: 1fr; }
+    .test-editorial { margin-top: 2.5rem; }
+  }
+</style>

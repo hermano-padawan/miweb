@@ -1,0 +1,291 @@
+---
+import { Check, ChevronRight, RotateCcw, Share2, X } from "lucide-astro";
+import { withBase } from "../../utils/paths";
+
+export interface QuizQuestion {
+  question: string;
+  answers: [string, string, string];
+  correct: number;
+  explanation: string;
+  relatedHref: string;
+  relatedLabel: string;
+}
+
+interface Props {
+  questions: QuizQuestion[];
+  storageKey: string;
+}
+
+const { questions, storageKey } = Astro.props;
+const clientQuestions = questions.map((question) => ({
+  ...question,
+  relatedHref: withBase(question.relatedHref),
+}));
+---
+
+<section class="quiz" data-quiz data-storage-key={storageKey} aria-labelledby="quiz-heading">
+  <div class="quiz__topline">
+    <div>
+      <span class="quiz__eyebrow">Quiz bíblico</span>
+      <h2 id="quiz-heading">¿Cuánto sabes de la Biblia?</h2>
+    </div>
+    <span class="quiz__best" data-best hidden>Récord: <strong data-best-score>0</strong>/10</span>
+  </div>
+
+  <div class="quiz__progress" aria-label="Progreso del test">
+    <span data-progress-text>Pregunta 1 de {questions.length}</span>
+    <span data-score-text>0 aciertos</span>
+    <div class="quiz__progress-track" aria-hidden="true">
+      <span data-progress-bar></span>
+    </div>
+  </div>
+
+  <div class="quiz__stage" data-stage aria-live="polite">
+    <article class="quiz__card" data-card>
+      <p class="quiz__number" data-question-number>Pregunta 1</p>
+      <h3 data-question>{questions[0].question}</h3>
+      <div class="quiz__answers" data-answers>
+        {questions[0].answers.map((answer, index) => (
+          <button type="button" class="quiz__answer" data-answer={index}>
+            <span>{String.fromCharCode(65 + index)}</span>
+            <strong>{answer}</strong>
+          </button>
+        ))}
+      </div>
+      <div class="quiz__feedback" data-feedback hidden>
+        <div class="quiz__feedback-title" data-feedback-title></div>
+        <p data-feedback-copy></p>
+        <a data-related-link href={withBase(questions[0].relatedHref)}>
+          <span data-related-label>{questions[0].relatedLabel}</span>
+          <ChevronRight size={17} aria-hidden="true" />
+        </a>
+        <button type="button" class="quiz__next" data-next>
+          Siguiente pregunta <ChevronRight size={18} aria-hidden="true" />
+        </button>
+      </div>
+    </article>
+
+    <article class="quiz__result" data-result hidden tabindex="-1">
+      <span class="quiz__eyebrow">Resultado final</span>
+      <div class="quiz__score"><strong data-final-score>0</strong><span>/10</span></div>
+      <h3 data-result-title></h3>
+      <p data-result-copy></p>
+      <div class="quiz__result-actions">
+        <button type="button" class="quiz__share" data-share>
+          <Share2 size={19} aria-hidden="true" /> Compartir resultado
+        </button>
+        <button type="button" class="quiz__retry" data-retry>
+          <RotateCcw size={18} aria-hidden="true" /> Repetir
+        </button>
+      </div>
+      <p class="quiz__share-status" data-share-status role="status"></p>
+    </article>
+  </div>
+</section>
+
+<script type="application/json" data-quiz-questions set:html={JSON.stringify(clientQuestions)}></script>
+
+<script>
+  import { createIcons, Check, ChevronRight, RotateCcw, Share2, X } from "lucide";
+
+  const quiz = document.querySelector<HTMLElement>("[data-quiz]");
+  const source = document.querySelector<HTMLScriptElement>("[data-quiz-questions]");
+
+  if (quiz && source) {
+    const questions = JSON.parse(source.textContent || "[]");
+    const card = quiz.querySelector<HTMLElement>("[data-card]")!;
+    const result = quiz.querySelector<HTMLElement>("[data-result]")!;
+    const answers = [...quiz.querySelectorAll<HTMLButtonElement>("[data-answer]")];
+    const feedback = quiz.querySelector<HTMLElement>("[data-feedback]")!;
+    const nextButton = quiz.querySelector<HTMLButtonElement>("[data-next]")!;
+    let current = 0;
+    let score = 0;
+    let locked = false;
+
+    const text = (selector: string, value: string) => {
+      const element = quiz.querySelector<HTMLElement>(selector);
+      if (element) element.textContent = value;
+    };
+
+    const animateSwap = (callback: () => void) => {
+      card.classList.add("is-leaving");
+      window.setTimeout(() => {
+        callback();
+        quiz.scrollIntoView({ block: "start" });
+        card.classList.remove("is-leaving");
+        card.classList.add("is-entering");
+        requestAnimationFrame(() => card.classList.remove("is-entering"));
+      }, window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 220);
+    };
+
+    const renderQuestion = () => {
+      const item = questions[current];
+      text("[data-question-number]", `Pregunta ${current + 1}`);
+      text("[data-question]", item.question);
+      text("[data-progress-text]", `Pregunta ${current + 1} de ${questions.length}`);
+      text("[data-score-text]", `${score} ${score === 1 ? "acierto" : "aciertos"}`);
+      const progress = quiz.querySelector<HTMLElement>("[data-progress-bar]");
+      if (progress) progress.style.width = `${(current / questions.length) * 100}%`;
+      answers.forEach((button, index) => {
+        button.disabled = false;
+        button.className = "quiz__answer";
+        button.querySelector("strong")!.textContent = item.answers[index];
+      });
+      feedback.hidden = true;
+      locked = false;
+      answers[0]?.focus();
+    };
+
+    const finish = () => {
+      const normalizedScore = Math.round((score / questions.length) * 10);
+      const level = normalizedScore >= 9
+        ? ["Gran conocedor de las Escrituras", "Dominas historias, personajes y enseñanzas clave de la Biblia."]
+        : normalizedScore >= 7
+          ? ["Buen conocedor de la Biblia", "Tienes una base sólida. Un nuevo intento puede llevarte al sobresaliente."]
+          : normalizedScore >= 5
+            ? ["Vas por buen camino", "Has reconocido buena parte del recorrido. Revisa las explicaciones y vuelve a intentarlo."]
+            : ["Buen comienzo", "Cada pregunta es una oportunidad para descubrir algo nuevo y seguir aprendiendo."];
+      const key = quiz.dataset.storageKey || "nexo-quiz-best";
+      const previous = Number(localStorage.getItem(key) || 0);
+      const best = Math.max(previous, normalizedScore);
+      localStorage.setItem(key, String(best));
+      text("[data-final-score]", String(normalizedScore));
+      text("[data-result-title]", level[0]);
+      text("[data-result-copy]", `${level[1]} Has acertado ${score} de ${questions.length}.`);
+      text("[data-best-score]", String(best));
+      quiz.querySelector<HTMLElement>("[data-best]")!.hidden = false;
+      quiz.querySelector<HTMLElement>("[data-progress-bar]")!.style.width = "100%";
+      text("[data-progress-text]", "Test completado");
+      card.hidden = true;
+      result.hidden = false;
+      result.focus();
+    };
+
+    const goNext = () => {
+      if (!locked) return;
+      if (current >= questions.length - 1) {
+        animateSwap(finish);
+        return;
+      }
+      current += 1;
+      animateSwap(renderQuestion);
+    };
+
+    answers.forEach((button, selected) => {
+      button.addEventListener("click", () => {
+        if (locked) return;
+        locked = true;
+        const item = questions[current];
+        const isCorrect = selected === item.correct;
+        if (isCorrect) score += 1;
+        answers.forEach((answer, index) => {
+          answer.disabled = true;
+          if (index === item.correct) answer.classList.add("is-correct");
+          if (index === selected && !isCorrect) answer.classList.add("is-wrong");
+        });
+        feedback.hidden = false;
+        const title = quiz.querySelector<HTMLElement>("[data-feedback-title]")!;
+        title.className = `quiz__feedback-title ${isCorrect ? "is-correct" : "is-wrong"}`;
+        title.innerHTML = `<i data-lucide="${isCorrect ? "check" : "x"}"></i>${isCorrect ? "Correcto" : "No era esa"}`;
+        text("[data-feedback-copy]", item.explanation);
+        text("[data-related-label]", item.relatedLabel);
+        quiz.querySelector<HTMLAnchorElement>("[data-related-link]")!.href = item.relatedHref;
+        text("[data-score-text]", `${score} ${score === 1 ? "acierto" : "aciertos"}`);
+        createIcons({ icons: { Check, ChevronRight, RotateCcw, Share2, X } });
+        nextButton.focus();
+      });
+    });
+
+    nextButton.addEventListener("click", goNext);
+
+    quiz.querySelector("[data-retry]")?.addEventListener("click", () => {
+      current = 0;
+      score = 0;
+      result.hidden = true;
+      card.hidden = false;
+      text("[data-share-status]", "");
+      renderQuestion();
+    });
+
+    quiz.querySelector("[data-share]")?.addEventListener("click", async () => {
+      const normalizedScore = Math.round((score / questions.length) * 10);
+      const shareData = {
+        title: "Mi resultado en Nexo Bíblico",
+        text: `He conseguido ${normalizedScore}/10 en el test bíblico de Nexo Bíblico. ¿Puedes superarlo?`,
+        url: window.location.href,
+      };
+      try {
+        if (navigator.share) await navigator.share(shareData);
+        else {
+          await navigator.clipboard.writeText(`${shareData.text} ${shareData.url}`);
+          text("[data-share-status]", "Resultado y enlace copiados.");
+        }
+      } catch (error) {
+        if ((error as Error).name !== "AbortError") text("[data-share-status]", "No se pudo compartir. Inténtalo de nuevo.");
+      }
+    });
+
+    const storedBest = Number(localStorage.getItem(quiz.dataset.storageKey || "") || 0);
+    if (storedBest) {
+      text("[data-best-score]", String(storedBest));
+      quiz.querySelector<HTMLElement>("[data-best]")!.hidden = false;
+    }
+  }
+</script>
+
+<style>
+  .quiz { width: min(100%, 760px); margin: 0 auto; scroll-margin-top: 78px; }
+  .quiz__topline { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+  .quiz__topline h2 { margin: .2rem 0 0; font-size: clamp(1.55rem, 4vw, 2.15rem); line-height: 1.15; }
+  .quiz__eyebrow { color: var(--color-primary-dark); font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+  .quiz__best { flex: 0 0 auto; padding: .35rem .65rem; color: var(--color-primary-dark); background: #fff7e8; border: 1px solid #ecd4a8; border-radius: 999px; font-size: .82rem; }
+  .quiz__progress { display: grid; grid-template-columns: 1fr auto; gap: .45rem 1rem; margin-bottom: .85rem; color: var(--color-text-light); font-size: .86rem; font-weight: 650; }
+  .quiz__progress-track { grid-column: 1 / -1; height: 6px; overflow: hidden; background: #dce5eb; border-radius: 999px; }
+  .quiz__progress-track span { display: block; width: 0; height: 100%; background: var(--color-primary); transition: width .3s ease; }
+  .quiz__stage { min-height: 510px; }
+  .quiz__card, .quiz__result { padding: clamp(1.15rem, 4vw, 2.25rem); background: #fff; border: 1px solid var(--color-border); border-radius: 8px; box-shadow: var(--shadow-md); transition: opacity .22s ease, transform .22s ease; }
+  .quiz__card.is-leaving { opacity: 0; transform: translateY(8px); }
+  .quiz__card.is-entering { opacity: 0; transform: translateY(-8px); }
+  .quiz__number { margin: 0 0 .35rem; color: var(--color-primary-dark); font-size: .78rem; font-weight: 800; text-transform: uppercase; }
+  .quiz__card h3, .quiz__result h3 { margin: 0; font-size: clamp(1.3rem, 4.5vw, 1.75rem); line-height: 1.25; }
+  .quiz__answers { display: grid; gap: .7rem; margin-top: 1.5rem; }
+  .quiz__answer { display: grid; grid-template-columns: 2.3rem 1fr; align-items: center; gap: .8rem; width: 100%; min-height: 58px; padding: .6rem .85rem; color: var(--color-text); text-align: left; background: #fff; border: 1px solid #ccd7df; border-radius: 8px; cursor: pointer; transition: border-color .16s, background .16s, transform .16s; }
+  .quiz__answer:hover:not(:disabled) { border-color: var(--color-primary); background: #fffbf3; transform: translateY(-1px); }
+  .quiz__answer > span { display: grid; width: 2.25rem; height: 2.25rem; place-items: center; color: var(--color-primary-dark); background: #fff5df; border-radius: 50%; font-weight: 800; }
+  .quiz__answer strong { font-size: 1rem; line-height: 1.3; }
+  .quiz__answer.is-correct { background: #edf8f1; border-color: #3d9160; }
+  .quiz__answer.is-wrong { background: #fff1ef; border-color: #c95c4b; }
+  .quiz__answer:disabled { color: inherit; cursor: default; opacity: 1; }
+  .quiz__feedback { margin-top: 1.15rem; padding-top: 1rem; border-top: 1px solid var(--color-border); }
+  .quiz__feedback-title { display: flex; align-items: center; gap: .4rem; font-weight: 850; }
+  .quiz__feedback-title :global(svg) { width: 19px; height: 19px; }
+  .quiz__feedback-title.is-correct { color: #287548; }
+  .quiz__feedback-title.is-wrong { color: #a83c30; }
+  .quiz__feedback p { margin: .35rem 0 .55rem; color: var(--color-text-light); }
+  .quiz__feedback a { display: inline-flex; align-items: center; color: var(--color-primary-dark); font-size: .9rem; font-weight: 750; }
+  .quiz__next { display: flex; align-items: center; justify-content: center; gap: .3rem; width: 100%; min-height: 48px; margin-top: 1rem; color: #fff; background: var(--color-primary); border: 0; border-radius: 8px; font: inherit; font-weight: 800; cursor: pointer; }
+  .quiz__next:hover, .quiz__share:hover { background: var(--color-primary-dark); }
+  .quiz__result { display: grid; min-height: 450px; place-items: center; align-content: center; text-align: center; }
+  .quiz__result[hidden], .quiz__card[hidden] { display: none; }
+  .quiz__score { display: flex; align-items: baseline; margin: .7rem 0 .2rem; color: var(--color-primary-dark); line-height: 1; }
+  .quiz__score strong { font-size: clamp(4.5rem, 18vw, 7rem); }
+  .quiz__score span { font-size: 1.7rem; font-weight: 750; }
+  .quiz__result p { max-width: 520px; margin: .7rem auto 1.3rem; color: var(--color-text-light); }
+  .quiz__result-actions { display: flex; justify-content: center; gap: .65rem; flex-wrap: wrap; }
+  .quiz__share, .quiz__retry { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; padding: .7rem 1rem; border-radius: 8px; font: inherit; font-weight: 800; cursor: pointer; }
+  .quiz__share { color: #fff; background: var(--color-primary); border: 1px solid var(--color-primary); }
+  .quiz__retry { color: var(--color-text); background: #fff; border: 1px solid #bccbd5; }
+  .quiz__retry:hover { background: var(--color-surface); }
+  .quiz__share-status { min-height: 1.5rem; margin-bottom: 0 !important; font-size: .88rem; }
+  @media (max-width: 560px) {
+    .quiz__topline { align-items: start; }
+    .quiz__best { margin-top: .2rem; }
+    .quiz__stage { min-height: 540px; }
+    .quiz__card { padding: 1.1rem; }
+    .quiz__answer { min-height: 62px; }
+    .quiz__result-actions, .quiz__share, .quiz__retry { width: 100%; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .quiz__card, .quiz__answer, .quiz__progress-track span { transition: none; }
+  }
+</style>
