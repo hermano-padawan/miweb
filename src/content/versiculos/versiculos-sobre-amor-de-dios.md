@@ -1,7 +1,7 @@
 ---
 title: "Versículos sobre el amor de Dios"
 description: "Textos fundamentales para comprender iniciativa, fidelidad y transformación en el amor divino."
-image: "/images/versiculos/articles/versiculos-ansiedad.webp"
+image: "/images/versiculos/articles/amor-de-dios.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Versículos"

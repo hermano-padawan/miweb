@@ -11,6 +11,7 @@ const schema = z.object({
   category: z.string(),
   tags: z.array(z.string()),
   featured: z.boolean().default(false),
+  draft: z.boolean().default(false),
   readingTime: z.number().optional(),
 });
 

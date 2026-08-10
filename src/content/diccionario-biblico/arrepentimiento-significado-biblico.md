@@ -1,7 +1,7 @@
 ---
 title: "Arrepentimiento: significado bíblico"
 description: "Qué significa arrepentirse y por qué implica más que sentir culpa o remordimiento."
-image: "/images/diccionario-biblico/articles/gracia.webp"
+image: "/images/diccionario-biblico/articles/arrepentimiento.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Diccionario bíblico"

@@ -4,7 +4,7 @@ import "../../styles/components/sermon-page.css";
 import ArticlePage from "../../components/article/ArticlePage.astro";
 
 export async function getStaticPaths() {
-  const estudios = await getCollection("estudiosBiblicos");
+  const estudios = (await getCollection("estudiosBiblicos")).filter((entry) => !entry.data.draft);
 
   return estudios.map((estudio) => ({
     params: {
@@ -18,7 +18,7 @@ export async function getStaticPaths() {
 
 const { estudio } = Astro.props;
 
-const estudios = await getCollection("estudiosBiblicos");
+const estudios = (await getCollection("estudiosBiblicos")).filter((entry) => !entry.data.draft);
 
 const relacionados = estudios
   .filter((e) => e.id !== estudio.id)

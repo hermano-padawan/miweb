@@ -9,7 +9,7 @@ import ArticleCard from "../../components/ArticleCard.astro";
 import "../../styles/components/article-page.css";
 
 export async function getStaticPaths() {
-  const devocionales = await getCollection("devocionales");
+  const devocionales = (await getCollection("devocionales")).filter((entry) => !entry.data.draft);
 
   return devocionales.map((devocional) => ({
     params: {
@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 const { devocional } = Astro.props;
 
-const devocionales = await getCollection("devocionales");
+const devocionales = (await getCollection("devocionales")).filter((entry) => !entry.data.draft);
 
 const relacionados = devocionales
   .filter((s) => s.id !== devocional.id)

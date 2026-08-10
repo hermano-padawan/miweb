@@ -9,7 +9,7 @@ import ArticleCard from "../../components/ArticleCard.astro";
 import "../../styles/components/sermon-page.css";
 
 export async function getStaticPaths() {
-  const sermones = await getCollection("sermones");
+  const sermones = (await getCollection("sermones")).filter((entry) => !entry.data.draft);
 
   return sermones.map((sermon) => ({
     params: {
@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 const { sermon } = Astro.props;
 
-const sermones = await getCollection("sermones");
+const sermones = (await getCollection("sermones")).filter((entry) => !entry.data.draft);
 
 const relacionados = sermones
   .filter((s) => s.id !== sermon.id)

@@ -1,7 +1,7 @@
 ---
 title: "Cómo vencer el miedo con fe"
 description: "Un mensaje bíblico para afrontar el temor, recordar la presencia de Dios y avanzar con sabiduría incluso cuando no tienes todas las respuestas."
-image: "/images/sermones/articles/confiar-dios-incertidumbre.webp"
+image: "/images/sermones/articles/vencer-miedo-fe.webp"
 pubDate: 2026-08-08
 author: "Equipo Nexo Bíblico"
 category: "Fe"

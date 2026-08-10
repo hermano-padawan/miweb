@@ -7,7 +7,7 @@ import ArticlePage from "../../components/article/ArticlePage.astro";
 
 export async function getStaticPaths() {
 
-  const oraciones = await getCollection("oraciones");
+  const oraciones = (await getCollection("oraciones")).filter((entry) => !entry.data.draft);
 
   return oraciones.map((oracion) => ({
     params: {
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 
 const { oracion } = Astro.props;
 
-const oraciones = await getCollection("oraciones");
+const oraciones = (await getCollection("oraciones")).filter((entry) => !entry.data.draft);
 
 const relacionados = oraciones
   .filter((o) => o.id !== oracion.id)

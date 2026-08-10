@@ -1,7 +1,7 @@
 ---
 title: "Ester: historia, valentía y propósito"
 description: "Cómo Ester enfrentó una amenaza colectiva con prudencia, ayuno y valentía."
-image: "/images/personajes-biblicos/articles/elias-desierto.webp"
+image: "/images/personajes-biblicos/articles/ester.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Personajes bíblicos"

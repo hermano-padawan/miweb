@@ -7,7 +7,7 @@ import ArticlePage from "../../components/article/ArticlePage.astro";
 
 export async function getStaticPaths() {
 
-  const personajes = await getCollection("personajesBiblicos");
+  const personajes = (await getCollection("personajesBiblicos")).filter((entry) => !entry.data.draft);
 
   return personajes.map((personaje) => ({
     params: {
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 
 const { personaje } = Astro.props;
 
-const personajes = await getCollection("personajesBiblicos");
+const personajes = (await getCollection("personajesBiblicos")).filter((entry) => !entry.data.draft);
 
 const relacionados = personajes
   .filter((p) => p.id !== personaje.id)

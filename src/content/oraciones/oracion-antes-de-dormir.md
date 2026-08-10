@@ -1,7 +1,7 @@
 ---
 title: "Oración antes de dormir"
 description: "Una oración para revisar el día, agradecer, pedir perdón y entregar las preocupaciones de la noche."
-image: "/images/oraciones/articles/oracion-decision.webp"
+image: "/images/oraciones/articles/oracion-antes-dormir.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Oración"

@@ -1,7 +1,7 @@
 ---
 title: "¿Cómo empezar a leer la Biblia?"
 description: "Una ruta sencilla para escoger una traducción, comenzar por un libro y comprender el contexto."
-image: "/images/preguntas-biblicas/articles/pregunta-ansiedad.webp"
+image: "/images/preguntas-biblicas/articles/empezar-leer-biblia.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Preguntas bíblicas"

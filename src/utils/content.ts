@@ -1,97 +1,100 @@
 import { getCollection } from "astro:content";
 import { slugify } from "./slug";
 
+const published = <T extends { data: { draft?: boolean } }>(entries: T[]) =>
+  entries.filter((entry) => !entry.data.draft);
+
 export async function getSermones() {
-  return (await getCollection("sermones")).sort(
+  return published(await getCollection("sermones")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getDevocionales() {
-  return (await getCollection("devocionales")).sort(
+  return published(await getCollection("devocionales")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getVersiculos() {
-  return (await getCollection("versiculos")).sort(
+  return published(await getCollection("versiculos")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getPersonajesBiblicos() {
-  return (await getCollection("personajesBiblicos")).sort(
+  return published(await getCollection("personajesBiblicos")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getPreguntasBiblicas() {
-  return (await getCollection("preguntasBiblicas")).sort(
+  return published(await getCollection("preguntasBiblicas")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getDiccionarioBiblico() {
-  return (await getCollection("diccionarioBiblico")).sort(
+  return published(await getCollection("diccionarioBiblico")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getOraciones() {
-  return (await getCollection("oraciones")).sort(
+  return published(await getCollection("oraciones")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getEstudiosBiblicos() {
-  return (await getCollection("estudiosBiblicos")).sort(
+  return published(await getCollection("estudiosBiblicos")).sort(
     (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
   );
 }
 
 export async function getAllArticles() {
-  const sermones = (await getCollection("sermones")).map((a) => ({
+  const sermones = published(await getCollection("sermones")).map((a) => ({
     ...a,
     tipo: "sermones",
   }));
 
-  const devocionales = (await getCollection("devocionales")).map((a) => ({
+  const devocionales = published(await getCollection("devocionales")).map((a) => ({
     ...a,
     tipo: "devocionales",
   }));
 
-  const versiculos = (await getCollection("versiculos")).map((a) => ({
+  const versiculos = published(await getCollection("versiculos")).map((a) => ({
     ...a,
     tipo: "versiculos",
   }));
 
   const personajesBiblicos = (
-    await getCollection("personajesBiblicos")
+    published(await getCollection("personajesBiblicos"))
   ).map((a) => ({
     ...a,
     tipo: "personajes-biblicos",
   }));
 
   const preguntasBiblicas = (
-    await getCollection("preguntasBiblicas")
+    published(await getCollection("preguntasBiblicas"))
   ).map((a) => ({
     ...a,
     tipo: "preguntas-biblicas",
   }));
 
   const diccionarioBiblico = (
-    await getCollection("diccionarioBiblico")
+    published(await getCollection("diccionarioBiblico"))
   ).map((a) => ({
     ...a,
     tipo: "diccionario-biblico",
   }));
 
-  const oraciones = (await getCollection("oraciones")).map((a) => ({
+  const oraciones = published(await getCollection("oraciones")).map((a) => ({
     ...a,
     tipo: "oraciones",
   }));
 
-  const estudiosBiblicos = (await getCollection("estudiosBiblicos")).map((a) => ({
+  const estudiosBiblicos = published(await getCollection("estudiosBiblicos")).map((a) => ({
     ...a,
     tipo: "estudios-biblicos",
   }));

@@ -1,7 +1,7 @@
 ---
 title: "Efesios 2: gracia, fe y buenas obras"
 description: "Estudio sobre la relación entre salvación por gracia y una vida preparada para hacer el bien."
-image: "/images/estudios-biblicos/articles/sermon-del-monte.webp"
+image: "/images/estudios-biblicos/articles/efesios-2.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Estudios bíblicos"

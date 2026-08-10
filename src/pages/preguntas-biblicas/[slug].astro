@@ -7,7 +7,7 @@ import ArticlePage from "../../components/article/ArticlePage.astro";
 
 export async function getStaticPaths() {
 
-  const preguntas = await getCollection("preguntasBiblicas");
+  const preguntas = (await getCollection("preguntasBiblicas")).filter((entry) => !entry.data.draft);
 
   return preguntas.map((pregunta) => ({
     params: {
@@ -22,7 +22,7 @@ export async function getStaticPaths() {
 
 const { pregunta } = Astro.props;
 
-const preguntas = await getCollection("preguntasBiblicas");
+const preguntas = (await getCollection("preguntasBiblicas")).filter((entry) => !entry.data.draft);
 
 const relacionados = preguntas
   .filter((p) => p.id !== pregunta.id)

@@ -1,7 +1,7 @@
 ---
 title: "Versículos para tomar decisiones con sabiduría"
 description: "Pasajes explicados sobre consejo, prudencia, motivaciones y dirección."
-image: "/images/versiculos/articles/salmo-46.webp"
+image: "/images/versiculos/articles/tomar-decisiones.webp"
 pubDate: 2026-08-09
 author: "Equipo Nexo Bíblico"
 category: "Versículos"
