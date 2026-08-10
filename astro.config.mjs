@@ -13,7 +13,7 @@ function routePath(page) {
 }
 
 export default defineConfig({
-  site: "https://nexobiblico.com",
+  site: "https://nexobiblico.site",
   base,
   output: "static",
   integrations: [

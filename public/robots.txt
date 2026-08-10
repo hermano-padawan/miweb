@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://nexobiblico.com/sitemap-index.xml
+Sitemap: https://nexobiblico.site/sitemap-index.xml
