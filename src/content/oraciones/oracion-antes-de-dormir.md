@@ -1,8 +1,9 @@
 ---
 title: "Oración antes de dormir"
-description: "Una oración para revisar el día, agradecer, pedir perdón y entregar las preocupaciones de la noche."
+description: "Palabras para cerrar el día, soltar lo que pesa y descansar bajo el cuidado de Dios."
 image: "/images/oraciones/articles/oracion-antes-dormir.webp"
 pubDate: 2026-08-09
+updatedDate: 2026-08-10
 author: "Equipo Nexo Bíblico"
 category: "Oración"
 tags:
@@ -13,40 +14,30 @@ featured: false
 readingTime: 6
 ---
 
-Dormir implica aceptar que el mundo continúa sin nuestro control. Podemos cerrar el día delante de Dios con verdad y descanso.
+Palabras para cerrar el día, soltar lo que pesa y descansar bajo el cuidado de Dios.
+Señor, el día termina y vengo a ti tal como estoy. Gracias por lo bueno que recibí, incluso por aquello
+pequeño que quizá pasó desapercibido.
 
-## Oración
+También pongo delante de ti mis errores. Perdóname donde no amé bien, donde hablé sin cuidado o
+donde dejé que el miedo dirigiera mis pasos. Enséñame y regálame un nuevo comienzo mañana.
+Ahora te entrego lo que no pude resolver. Las conversaciones pendientes, las preocupaciones, las
+personas que amo y todo aquello que mi mente quiere seguir vigilando. Yo necesito dormir; tú no.
+Cubre esta noche con tu paz. Guarda mi casa, mi familia y mi corazón. Que mi descanso sea también un
+acto de confianza.
 
-Padre, gracias por la gracia recibida hoy. Perdona mis palabras y acciones equivocadas; muéstrame qué debo reparar mañana.
-
-## Cómo llevarlo a la práctica
-
-Te entrego lo que quedó incompleto. Guarda a quienes amo y concede descanso a mi mente y mi cuerpo.
-
-La aplicación bíblica no consiste en repetir una idea de manera abstracta. Requiere observar el contexto, examinar nuestras motivaciones y escoger una respuesta proporcionada. Algunas situaciones también necesitan consejo pastoral, profesional o médico; pedir esa ayuda no contradice la fe.
-
-## Una pregunta para reflexionar
-
-¿Qué parte de esta enseñanza necesitas convertir hoy en una conversación, una decisión o una práctica concreta?
-
-## Para seguir profundizando
-
-Continúa con esta [lectura relacionada](/devocionales/cuando-la-ansiedad-no-te-deja-descansar) y compara ambos recursos. Anota una idea que se repite, una pregunta que permanece abierta y un paso que puedes dar durante esta semana.
-
-## Lectura bíblica online
-
-Para comprobar el contexto, puedes leer [Salmo 4 completo en Bible.com](https://www.bible.com/es/bible/149/PSA.4.RVR1960). El acceso es externo, gratuito y sin anuncios.
+Gracias porque no tengo que terminar el día siendo perfecto; puedo terminarlo sostenido por tu gracia. En
+el nombre de Jesús. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Cuál es el pasaje recomendado para profundizar en este tema?
+### ¿Puedo orarla cada noche?
 
-Una buena puerta de entrada es Salmo 4. Conviene leer el capítulo completo y no solamente los versículos más conocidos.
+Sí, adaptándola a lo vivido durante el día.
 
-### ¿Cómo puedo aplicar hoy «Oración antes de dormir»?
+### ¿Qué puedo añadir?
 
-Lee la oración despacio, adapta sus palabras a tu situación y deja un momento de silencio para responder con honestidad.
+Motivos concretos de gratitud, perdón y personas por las que quieras orar.
 
-### ¿Qué debo evitar al interpretar este tema?
+### ¿Cuál es su centro?
 
-Evita usar una frase aislada como respuesta automática para todas las situaciones. Considera el contexto bíblico, las circunstancias personales y, cuando corresponda, busca ayuda pastoral, médica o profesional.
+Cerrar el día entregando a Dios lo que ya no puedes controlar.

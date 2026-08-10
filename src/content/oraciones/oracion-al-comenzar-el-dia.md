@@ -1,8 +1,9 @@
 ---
 title: "Oración para comenzar el día"
-description: "Una oración breve de gratitud, entrega y sabiduría para la jornada que comienza."
+description: "Una oración para entregar a Dios la jornada antes de saber todo lo que traerá."
 image: "/images/oraciones/articles/oracion-comenzar-dia.webp"
 pubDate: 2026-08-09
+updatedDate: 2026-08-10
 author: "Equipo Nexo Bíblico"
 category: "Oración"
 tags:
@@ -13,40 +14,33 @@ featured: false
 readingTime: 6
 ---
 
-El inicio del día ofrece una oportunidad para ordenar la atención antes de que las urgencias hablen más fuerte.
+Una oración para entregar a Dios la jornada antes de saber todo lo que traerá.
 
-## Oración
+Padre bueno, gracias por este nuevo día. Gracias por la vida, por el aire que respiro y por la oportunidad
+de comenzar otra vez.
 
-Señor, gracias por este nuevo día. Guía mis palabras, mis decisiones y el trabajo que tengo delante.
+Antes de entrar en mis tareas, quiero poner mi corazón delante de ti. Guía mis palabras, mis decisiones y
+mis encuentros. Dame paciencia donde haya tensión, sabiduría donde haya dudas y humildad para
+reconocer cuando necesito ayuda.
 
-## Cómo llevarlo a la práctica
+Cuida a las personas que amo. Acompaña también a quienes hoy se sienten solos, cansados o
+preocupados. Hazme sensible para no pasar de largo ante quien necesite una palabra amable.
+No sé todo lo que ocurrirá, pero tú ya estás en este día. Por eso no quiero vivirlo desde el miedo. Quiero
+caminar contigo, recibir tu gracia y compartirla.
 
-Dame atención para las personas, serenidad ante lo inesperado y valentía para hacer lo correcto.
-
-La aplicación bíblica no consiste en repetir una idea de manera abstracta. Requiere observar el contexto, examinar nuestras motivaciones y escoger una respuesta proporcionada. Algunas situaciones también necesitan consejo pastoral, profesional o médico; pedir esa ayuda no contradice la fe.
-
-## Una pregunta para reflexionar
-
-¿Qué parte de esta enseñanza necesitas convertir hoy en una conversación, una decisión o una práctica concreta?
-
-## Para seguir profundizando
-
-Continúa con esta [lectura relacionada](/devocionales/comenzar-el-dia-con-dios) y compara ambos recursos. Anota una idea que se repite, una pregunta que permanece abierta y un paso que puedes dar durante esta semana.
-
-## Lectura bíblica online
-
-Para comprobar el contexto, puedes leer [Salmo 5 completo en Bible.com](https://www.bible.com/es/bible/149/PSA.5.RVR1960). El acceso es externo, gratuito y sin anuncios.
+Que al terminar la jornada pueda mirar atrás y reconocer pequeñas huellas de tu presencia. En el nombre
+de Jesús. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Cuál es el pasaje recomendado para profundizar en este tema?
+### ¿Cuándo puedo hacer esta oración?
 
-Una buena puerta de entrada es Salmo 5. Conviene leer el capítulo completo y no solamente los versículos más conocidos.
+Al despertar o antes de comenzar las actividades del día.
 
-### ¿Cómo puedo aplicar hoy «Oración para comenzar el día»?
+### ¿Tengo que repetirla literalmente?
 
-Lee la oración despacio, adapta sus palabras a tu situación y deja un momento de silencio para responder con honestidad.
+No. Puedes usarla como punto de partida y añadir tus propias palabras.
 
-### ¿Qué debo evitar al interpretar este tema?
+### ¿Qué idea resume la oración?
 
-Evita usar una frase aislada como respuesta automática para todas las situaciones. Considera el contexto bíblico, las circunstancias personales y, cuando corresponda, busca ayuda pastoral, médica o profesional.
+Entregar a Dios el día y pedir su presencia, sabiduría y amor.
