@@ -1,5 +1,6 @@
 ---
 import "../../styles/components/footer.css";
+import { withBase } from "../../utils/paths";
 ---
 
 <footer class="footer">
@@ -20,10 +21,10 @@ import "../../styles/components/footer.css";
 
       <h4>Explorar</h4>
 
-      <a href="/sermones">Sermones</a>
-      <a href="/devocionales">Devocionales</a>
-      <a href="/versiculos">Versículos</a>
-      <a href="/personajes">Personajes</a>
+      <a href={withBase("/sermones")}>Sermones</a>
+      <a href={withBase("/devocionales")}>Devocionales</a>
+      <a href={withBase("/versiculos")}>Versículos</a>
+      <a href={withBase("/personajes-biblicos")}>Personajes</a>
 
     </div>
 
@@ -31,10 +32,10 @@ import "../../styles/components/footer.css";
 
       <h4>Recursos</h4>
 
-      <a href="/estudios-biblicos">Estudios</a>
-      <a href="/preguntas-biblicas">Preguntas</a>
-      <a href="/diccionario-biblico">Diccionario</a>
-      <a href="/oraciones">Oraciones</a>
+      <a href={withBase("/estudios-biblicos")}>Estudios</a>
+      <a href={withBase("/preguntas-biblicas")}>Preguntas</a>
+      <a href={withBase("/diccionario-biblico")}>Diccionario</a>
+      <a href={withBase("/oraciones")}>Oraciones</a>
 
     </div>
 
@@ -42,9 +43,11 @@ import "../../styles/components/footer.css";
 
       <h4>Legal</h4>
 
-      <a href="/contacto">Contacto</a>
-      <a href="/privacidad">Privacidad</a>
-      <a href="/cookies">Cookies</a>
+      <a href={withBase("/contacto")}>Contacto</a>
+      <a href={withBase("/equipo")}>Equipo editorial</a>
+      <a href={withBase("/aviso-legal")}>Aviso legal</a>
+      <a href={withBase("/privacidad")}>Privacidad</a>
+      <a href={withBase("/cookies")}>Cookies</a>
 
     </div>
 

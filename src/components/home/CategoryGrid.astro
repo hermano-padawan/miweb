@@ -3,6 +3,7 @@ import "../../styles/home.css";
 
 import Section from "../ui/Section.astro";
 import SectionTitle from "../ui/SectionTitle.astro";
+import { withBase } from "../../utils/paths";
 
 import {
   BookOpen,
@@ -84,7 +85,7 @@ const categories = [
       return (
 
         <a
-          href={category.url}
+          href={withBase(category.url)}
           class="category-card"
         >
 

@@ -1,0 +1,80 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import ArticleCard from "../ArticleCard.astro";
+import CardGrid from "../CardGrid.astro";
+import Section from "../ui/Section.astro";
+import SectionTitle from "../ui/SectionTitle.astro";
+import { site } from "../../config/site";
+import "../../styles/components/sermons-index.css";
+
+interface Props {
+  entries: any[];
+  baseUrl: string;
+  title: string;
+  subtitle: string;
+  seoTitle: string;
+  seoDescription: string;
+  eyebrow: string;
+  libraryTitle: string;
+  countLabel: string;
+  topics: string[];
+}
+
+const {
+  entries, baseUrl, title, subtitle, seoTitle, seoDescription,
+  eyebrow, libraryTitle, countLabel, topics,
+} = Astro.props;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: title,
+  description: seoDescription,
+  url: `${site.url}${baseUrl}`,
+  mainEntity: {
+    "@type": "ItemList",
+    itemListElement: entries.map((entry, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${site.url}${baseUrl}/${entry.id}`,
+      name: entry.data.title,
+    })),
+  },
+};
+---
+
+<MainLayout seo={{ title: seoTitle, description: seoDescription }}>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <Section class="sermons-hero">
+    <div class="sermons-hero__eyebrow">{eyebrow}</div>
+    <SectionTitle level="h1" title={title} subtitle={subtitle} />
+    <div class="sermons-topics" aria-label={`Temas de ${title.toLowerCase()}`}>
+      {topics.map((topic) => <span>{topic}</span>)}
+    </div>
+  </Section>
+
+  <Section class="sermons-library">
+    <div class="sermons-library__heading">
+      <div>
+        <p class="sermons-kicker">Biblioteca de recursos</p>
+        <h2>{libraryTitle}</h2>
+      </div>
+      <p>{entries.length} {countLabel} disponibles gratuitamente.</p>
+    </div>
+
+    <CardGrid>
+      {entries.map((entry) => (
+        <ArticleCard
+          title={entry.data.title}
+          description={entry.data.description}
+          image={entry.data.image}
+          pubDate={entry.data.pubDate}
+          url={`${baseUrl}/${entry.id}`}
+          category={entry.data.category}
+          readingTime={entry.data.readingTime}
+        />
+      ))}
+    </CardGrid>
+  </Section>
+</MainLayout>

@@ -29,12 +29,13 @@ const relacionados = personajes
   .filter((p) => p.data.category === personaje.data.category)
   .slice(0, 3);
 
-const { Content } = await render(personaje);
+const { Content, headings } = await render(personaje);
 ---
 
 <ArticlePage
   article={personaje}
   Content={Content}
+  headings={headings}
   related={relacionados}
   backUrl="/personajes-biblicos"
   backText="Volver a todos los personajes bíblicos"

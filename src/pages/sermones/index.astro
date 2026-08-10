@@ -1,60 +1,87 @@
 ---
 import { getSermones } from "../../utils/content";
-
 import MainLayout from "../../layouts/MainLayout.astro";
 import ArticleCard from "../../components/ArticleCard.astro";
 import CardGrid from "../../components/CardGrid.astro";
 import Section from "../../components/ui/Section.astro";
 import SectionTitle from "../../components/ui/SectionTitle.astro";
+import { site } from "../../config/site";
+import { withBase } from "../../utils/paths";
+import "../../styles/components/sermons-index.css";
 
 const sermones = await getSermones();
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: "Sermones cristianos",
+  description: "Sermones bíblicos para fortalecer la fe y aplicar la Palabra de Dios a la vida diaria.",
+  url: `${site.url}/sermones`,
+  mainEntity: {
+    "@type": "ItemList",
+    itemListElement: sermones.map((sermon, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${site.url}/sermones/${sermon.id}`,
+      name: sermon.data.title,
+    })),
+  },
+};
+
+const temas = ["Fe", "Esperanza", "Oración", "Gracia", "Perdón", "Vida cristiana"];
 ---
 
-<MainLayout
-  seo={{
-    title: "Sermones cristianos | Nexo Bíblico",
-    description:
-      "Descubre sermones cristianos basados en la Biblia para fortalecer tu fe y crecer espiritualmente.",
-  }}
->
+<MainLayout seo={{
+  title: "Sermones cristianos basados en la Biblia",
+  description: "Lee sermones cristianos claros y prácticos sobre fe, oración, esperanza y vida diaria, fundamentados en la Palabra de Dios.",
+}}>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 
-<Section>
+  <Section class="sermons-hero">
+    <div class="sermons-hero__eyebrow">Mensajes para crecer en la fe</div>
+    <SectionTitle
+      level="h1"
+      title="Sermones cristianos para la vida diaria"
+      subtitle="Enseñanzas bíblicas claras, centradas en Cristo y pensadas para ayudarte a comprender las Escrituras, tomar decisiones sabias y caminar con Dios."
+    />
+    <div class="sermons-topics" aria-label="Temas de los sermones">
+      {temas.map((tema) => <span>{tema}</span>)}
+    </div>
+  </Section>
 
-<SectionTitle
-  title="Sermones cristianos"
-  subtitle="Descubre sermones basados en la Biblia para fortalecer tu fe, comprender mejor las Escrituras y crecer espiritualmente."
-/>
+  <Section class="sermons-library">
+    <div class="sermons-library__heading">
+      <div>
+        <p class="sermons-kicker">Biblioteca de mensajes</p>
+        <h2>Encuentra una palabra para este momento</h2>
+      </div>
+      <p>{sermones.length} sermones y reflexiones disponibles gratuitamente.</p>
+    </div>
 
-<p>
-Explora mensajes sobre la esperanza, la oración, la gracia, el amor de Dios, la salvación y muchos otros temas fundamentales de la vida cristiana.
-</p>
+    <CardGrid>
+      {sermones.map((sermon) => (
+        <ArticleCard
+          title={sermon.data.title}
+          description={sermon.data.description}
+          image={sermon.data.image}
+          pubDate={sermon.data.pubDate}
+          url={`/sermones/${sermon.id}`}
+          category={sermon.data.category}
+          readingTime={sermon.data.readingTime}
+        />
+      ))}
+    </CardGrid>
 
-<p>
-En esta sección encontrarás sermones cristianos basados en la Palabra de Dios para ayudarte a comprender mejor las Escrituras y aplicarlas a tu vida diaria. Nuestro objetivo es ofrecer enseñanzas bíblicas claras, edificantes y centradas en Cristo que fortalezcan tu fe y te animen a caminar cada día más cerca del Señor.
-</p>
-
-<p>
-Explora mensajes sobre la esperanza, la oración, la gracia, el amor de Dios, la salvación, el perdón y muchos otros temas fundamentales de la vida cristiana. Publicamos nuevos sermones de forma periódica para seguir ampliando este recurso gratuito.
-</p>
-
-<CardGrid>
-
-{
-sermones.map((sermon)=>(
-
-<ArticleCard
-title={sermon.data.title}
-description={sermon.data.description}
-image={sermon.data.image}
-pubDate={sermon.data.pubDate}
-url={`/sermones/${sermon.id.replace(".md","")}`}
-/>
-
-))
-}
-
-</CardGrid>
-
-</Section>
-
+    <aside class="sermons-guide">
+      <div>
+        <p class="sermons-kicker">¿Por dónde empezar?</p>
+        <h2>Convierte la lectura en un tiempo con Dios</h2>
+      </div>
+      <ol>
+        <li><strong>Lee despacio:</strong> identifica la idea principal y el texto bíblico.</li>
+        <li><strong>Reflexiona:</strong> pregunta qué revela el mensaje sobre Dios y sobre tu vida.</li>
+        <li><strong>Responde:</strong> elige una acción concreta y termina con una oración.</li>
+      </ol>
+      <a href={withBase("/estudios-biblicos")} class="sermons-guide__link">Explorar estudios bíblicos <span aria-hidden="true">→</span></a>
+    </aside>
+  </Section>
 </MainLayout>

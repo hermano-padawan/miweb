@@ -1,38 +1,76 @@
-<nav class="main-nav">
+---
+import { withBase } from "../../utils/paths";
 
-  <ul class="main-nav__list">
+const links = [
+  ["/sermones", "Sermones"],
+  ["/devocionales", "Devocionales"],
+  ["/estudios-biblicos", "Estudios"],
+  ["/versiculos", "Versículos"],
+  ["/oraciones", "Oraciones"],
+  ["/personajes-biblicos", "Personajes"],
+  ["/preguntas-biblicas", "Preguntas"],
+  ["/diccionario-biblico", "Diccionario"],
+  ["/contacto", "Contacto"],
+] as const;
 
-    <li class="main-nav__logo">
-      <a href="/">
-        <img
-          src="/images/logo-horizontal.png"
-          alt="Nexo Bíblico"
-          class="header__logo-image"
-        />
-      </a>
-    </li>
+const pathname = Astro.url.pathname.replace(import.meta.env.BASE_URL, "/");
+const isActive = (href: string) => href === "/" ? pathname === "/" : pathname.startsWith(href);
+---
 
-    <li><a href="/">Inicio</a></li>
+<nav class="main-nav" aria-label="Navegación principal" data-main-nav>
+  <a class="main-nav__brand" href={withBase("/")} aria-label="Nexo Bíblico, inicio">
+    <img src={withBase("/images/logo-mark.png")} alt="" class="header__logo-image" width="48" height="48" />
+    <span class="header__brand-text"><strong>Nexo</strong> Bíblico</span>
+  </a>
 
-    <li><a href="/sermones">Sermones</a></li>
+  <button
+    class="main-nav__toggle"
+    type="button"
+    aria-expanded="false"
+    aria-controls="main-menu"
+    aria-label="Abrir menú"
+    data-menu-toggle
+  >
+    <span></span><span></span><span></span>
+  </button>
 
-    <li><a href="/devocionales">Devocionales</a></li>
-
-    <li><a href="/estudios-biblicos">Estudios</a></li>
-
-    <li><a href="/versiculos">Versículos</a></li>
-
-    <li><a href="/oraciones">Oraciones</a></li>
-
-    <li><a href="/personajes-biblicos">Personajes</a></li>
-
-    <li><a href="/preguntas-biblicas">Preguntas</a></li>
-
-    <li><a href="/diccionario-biblico">Diccionario</a></li>
-
-    <li><a href="/contacto">Contacto</a></li>
-
-
-  </ul>
-
+  <div class="main-nav__panel" id="main-menu" data-menu-panel>
+    <ul class="main-nav__list">
+      {links.map(([href, label]) => (
+        <li>
+          <a href={withBase(href)} aria-current={isActive(href) ? "page" : undefined}>{label}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <button class="main-nav__backdrop" type="button" aria-label="Cerrar menú" tabindex="-1" data-menu-backdrop></button>
 </nav>
+
+<script>
+  const nav = document.querySelector<HTMLElement>("[data-main-nav]");
+  const toggle = nav?.querySelector<HTMLButtonElement>("[data-menu-toggle]");
+  const panel = nav?.querySelector<HTMLElement>("[data-menu-panel]");
+  const backdrop = nav?.querySelector<HTMLButtonElement>("[data-menu-backdrop]");
+
+  const setOpen = (open: boolean) => {
+    if (!nav || !toggle || !panel) return;
+    nav.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", String(open));
+    toggle.setAttribute("aria-label", open ? "Cerrar menú" : "Abrir menú");
+    document.body.classList.toggle("menu-open", open);
+    if (open) panel.querySelector<HTMLAnchorElement>("a")?.focus();
+  };
+
+  toggle?.addEventListener("click", () => setOpen(!nav?.classList.contains("is-open")));
+  backdrop?.addEventListener("click", () => setOpen(false));
+  panel?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setOpen(false)));
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && nav?.classList.contains("is-open")) {
+      setOpen(false);
+      toggle?.focus();
+    }
+  });
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 900) setOpen(false);
+  });
+</script>

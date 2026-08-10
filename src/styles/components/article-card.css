@@ -1,82 +1,58 @@
 .article-card {
-
-  max-width: 420px;
-  margin: 0 auto;
-
   display: flex;
   flex-direction: column;
-
-  overflow: hidden;
-
-  background: #fff;
-  border-radius: var(--radius-lg);
-
-  box-shadow: var(--shadow-sm);
-
-  transition:
-    transform .25s ease,
-    box-shadow .25s ease;
-
+  width: 100%;
   height: 100%;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
 }
 
-.article-card:hover {
-  transform: translateY(-4px);
+.article-card:hover,
+.article-card:focus-visible {
+  transform: translateY(-5px);
+  border-color: #d9c79e;
   box-shadow: var(--shadow-md);
-}
-
-.article-card h3 {
-  margin: 0 0 var(--space-sm);
-  color: var(--color-text);
-  font-size: var(--font-size-lg);
-}
-
-.article-card p {
-  margin: 0;
-  color: var(--color-text-light);
 }
 
 .article-card__image {
   width: 100%;
   aspect-ratio: 16 / 9;
-
   object-fit: cover;
-  display: block;
 }
 
 .article-card__content {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: var(--space-sm);
+  gap: .8rem;
   padding: 1.5rem;
 }
 
+.article-card h3 {
+  margin: 0;
+  color: var(--color-text);
+  font-size: 1.3rem;
+  line-height: 1.3;
+}
+
+.article-card p {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0;
+  color: var(--color-text-light);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.article-card__meta { display: flex; flex-wrap: wrap; gap: .35rem .65rem; color: var(--color-text-light); font-size: .78rem; }
+.article-card__meta span:first-child { color: var(--color-primary-dark); font-weight: 800; text-transform: uppercase; letter-spacing: .05em; }
+.article-card__meta > * + *::before { margin-right: .65rem; color: #c2b89f; content: "•"; }
 .article-card__link {
   margin-top: auto;
-
-  font-weight: 600;
-  color: var(--color-primary);
-
-  transition: transform .2s ease;
-}
-
-.article-card:hover .article-card__link {
-  transform: translateX(6px);
-}
-
-.article-card__content {
-  padding: 1.5rem;
-}
-
-.article-card__date{
-  margin:.25rem 0 1rem;
-  font-size:.875rem;
-  color:#6b7280;
-}
-
-.article-card__date {
-  font-size: .85rem;
-  color: #6b7280;
-  margin: -.25rem 0 .75rem;
+  padding-top: .35rem;
+  color: var(--color-primary-dark);
+  font-weight: 700;
 }

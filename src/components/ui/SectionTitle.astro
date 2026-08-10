@@ -5,18 +5,21 @@ interface Props {
   title: string;
   subtitle?: string;
   center?: boolean;
+  level?: "h1" | "h2";
 }
 
 const {
   title,
   subtitle,
-  center = false
+  center = false,
+  level = "h2"
 } = Astro.props;
+const Heading = level;
 ---
 
 <header class={`section-title ${center ? "section-title--center" : ""}`}>
 
-  <h2>{title}</h2>
+  <Heading>{title}</Heading>
 
   {subtitle && (
     <p>{subtitle}</p>

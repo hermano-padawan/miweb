@@ -29,12 +29,13 @@ const relacionados = preguntas
   .filter((p) => p.data.category === pregunta.data.category)
   .slice(0, 3);
 
-const { Content } = await render(pregunta);
+const { Content, headings } = await render(pregunta);
 ---
 
 <ArticlePage
   article={pregunta}
   Content={Content}
+  headings={headings}
   related={relacionados}
   backUrl="/preguntas-biblicas"
   backText="Volver a todas las preguntas bíblicas"

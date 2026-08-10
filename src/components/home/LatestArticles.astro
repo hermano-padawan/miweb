@@ -23,7 +23,7 @@ const {
 } = Astro.props;
 ---
 
-<Section>
+<Section class="home-latest-section">
 
   <SectionTitle
   title={title}
@@ -39,6 +39,8 @@ const {
         image={article.data.image}
         pubDate={article.data.pubDate}
         url={`${baseUrl}/${article.id}`}
+        category={article.data.category}
+        readingTime={article.data.readingTime}
       />
 
     ))}

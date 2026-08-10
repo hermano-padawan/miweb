@@ -2,6 +2,7 @@
 import "../../styles/home.css";
 
 import { getTagSlug } from "../../utils/content";
+import { withBase } from "../../utils/paths";
 
 interface Props {
   tags: string[];
@@ -21,7 +22,7 @@ const { tags } = Astro.props;
     {tags.map((tag) => (
 
       <a
-        href={`/tags/${getTagSlug(tag)}`}
+        href={withBase(`/tags/${getTagSlug(tag)}`)}
         class="article-tag"
       >
         {tag}

@@ -1,58 +1,17 @@
 ---
 import { getPersonajesBiblicos } from "../../utils/content";
-import MainLayout from "../../layouts/MainLayout.astro";
-import ArticleCard from "../../components/ArticleCard.astro";
-import CardGrid from "../../components/CardGrid.astro";
-
-import Section from "../../components/ui/Section.astro";
-import SectionTitle from "../../components/ui/SectionTitle.astro";
-
-const personajes = await getPersonajesBiblicos();
+import ClusterIndex from "../../components/article/ClusterIndex.astro";
+const entries = await getPersonajesBiblicos();
 ---
-
-<MainLayout
-  seo={{
-    title: "Personajes bíblicos | Nexo Bíblico",
-    description:
-      "Conoce la historia de los principales personajes de la Biblia y descubre las enseñanzas que dejaron para nuestra vida.",
-  }}
->
-
-  <Section>
-
-    <SectionTitle
-      title="Personajes bíblicos"
-      subtitle="Conoce a los hombres y mujeres que protagonizan la historia de la Biblia y aprende de su fe, sus errores y su relación con Dios."
-    />
-
-    <p>
-      Explora la vida de Abraham, Moisés, David, Ester, María, Pedro, Pablo y muchos otros personajes bíblicos. Descubre su contexto, su historia y las enseñanzas que siguen inspirando a millones de personas.
-    </p>
-
-    <p>
-      <strong>{personajes.length}</strong> personajes disponibles.
-    </p>
-
-    <CardGrid>
-
-      {
-        personajes.map((personaje) => (
-
-          <ArticleCard
-            title={personaje.data.title}
-            description={personaje.data.description}
-            image={personaje.data.image}
-            pubDate={personaje.data.pubDate}
-            url={`/personajes-biblicos/${personaje.id.replace(".md", "")}`}
-          />
-
-        ))
-      }
-
-    </CardGrid>
-
-    <!-- Paginación -->
-
-  </Section>
-
-</MainLayout>
+<ClusterIndex
+  entries={entries}
+  baseUrl="/personajes-biblicos"
+  title="Personajes bíblicos: historias y lecciones"
+  subtitle="Conoce a los hombres y mujeres de la Biblia, su contexto, sus decisiones y las enseñanzas que su vida deja para nosotros."
+  seoTitle="Personajes bíblicos: historias y significado"
+  seoDescription="Conoce la historia y las enseñanzas de los principales personajes bíblicos, desde Abraham y Moisés hasta Jesús y Pablo."
+  eyebrow="Vidas que enseñan y transforman"
+  libraryTitle="Descubre sus historias"
+  countLabel="biografías bíblicas"
+  topics={["Patriarcas", "Reyes", "Profetas", "Mujeres", "Discípulos", "Apóstoles"]}
+/>

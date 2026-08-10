@@ -29,12 +29,13 @@ const relacionados = versiculos
   .filter((v) => v.data.category === versiculo.data.category)
   .slice(0, 3);
 
-const { Content } = await render(versiculo);
+const { Content, headings } = await render(versiculo);
 ---
 
 <ArticlePage
   article={versiculo}
   Content={Content}
+  headings={headings}
   related={relacionados}
   backUrl="/versiculos"
   backText="Volver a todos los versículos"

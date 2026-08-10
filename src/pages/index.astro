@@ -1,65 +1,68 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Hero from "../components/Hero.astro";
-
-import FeaturedArticle from "../components/home/FeaturedArticle.astro";
 import LatestArticles from "../components/home/LatestArticles.astro";
-import CategoryGrid from "../components/home/CategoryGrid.astro";
-import TagCloud from "../components/home/TagCloud.astro";
-
+import { withBase } from "../utils/paths";
+import "../styles/home.css";
 import {
-  getSermones,
-  getDevocionales,
-  getCategories,
-  getTags,
+  getSermones, getDevocionales, getVersiculos, getPersonajesBiblicos,
+  getEstudiosBiblicos, getPreguntasBiblicas, getDiccionarioBiblico, getOraciones,
 } from "../utils/content";
 
-const sermones = await getSermones();
-const devocionales = await getDevocionales();
-
-const categorias = await getCategories();
-const tags = await getTags();
-
-const destacado = sermones[0];
+const [sermones, devocionales, versiculos, personajes, estudios, preguntas, diccionario, oraciones] = await Promise.all([
+  getSermones(), getDevocionales(), getVersiculos(), getPersonajesBiblicos(),
+  getEstudiosBiblicos(), getPreguntasBiblicas(), getDiccionarioBiblico(), getOraciones(),
+]);
+const secciones = [
+  { title: "Sermones recientes", articles: sermones, baseUrl: "/sermones", buttonText: "Todos los sermones" },
+  { title: "Devocionales para hoy", articles: devocionales, baseUrl: "/devocionales", buttonText: "Todos los devocionales" },
+  { title: "Versículos explicados", articles: versiculos, baseUrl: "/versiculos", buttonText: "Todos los versículos" },
+  { title: "Estudios para profundizar", articles: estudios, baseUrl: "/estudios-biblicos", buttonText: "Todos los estudios" },
+  { title: "Respuestas a tus preguntas", articles: preguntas, baseUrl: "/preguntas-biblicas", buttonText: "Todas las respuestas" },
+  { title: "Personajes y sus lecciones", articles: personajes, baseUrl: "/personajes-biblicos", buttonText: "Todos los personajes" },
+  { title: "Palabras de la Biblia", articles: diccionario, baseUrl: "/diccionario-biblico", buttonText: "Abrir el diccionario" },
+  { title: "Oraciones para cada momento", articles: oraciones, baseUrl: "/oraciones", buttonText: "Todas las oraciones" },
+];
+const needs = [
+  { title: "Necesito paz", text: "Recursos para ansiedad, preocupación y descanso.", href: "/preguntas-biblicas/que-dice-la-biblia-sobre-la-ansiedad" },
+  { title: "Quiero confiar", text: "Mensajes para decisiones y tiempos inciertos.", href: "/sermones/confiar-en-dios-cuando-no-sabes-que-hacer" },
+  { title: "Quiero aprender", text: "Un método sencillo para estudiar con contexto.", href: "/estudios-biblicos/como-estudiar-biblia-contexto" },
+  { title: "Necesito orar", text: "Palabras para acercarte a Dios con honestidad.", href: "/oraciones" },
+];
+const homeSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "WebSite", name: "Nexo Bíblico", url: "https://nexobiblico.com", inLanguage: "es" },
+    { "@type": "Organization", name: "Nexo Bíblico", url: "https://nexobiblico.com", description: "Recursos bíblicos claros para comprender las Escrituras y crecer en la fe." },
+  ],
+};
 ---
-
-<MainLayout
-  seo={{
-    title: "Portal Cristiano",
-    description: "Sermones, devocionales y recursos para crecer en la fe.",
-  }}
->
-
+<MainLayout seo={{
+  title: "Nexo Bíblico: comprende la Biblia y fortalece tu fe",
+  description: "Sermones, estudios bíblicos, devocionales, versículos explicados y respuestas claras para llevar la Palabra de Dios a tu vida diaria.",
+}}>
+  <script type="application/ld+json" set:html={JSON.stringify(homeSchema)} />
   <Hero />
 
-  <div class="container">
+  <section class="home-needs container" aria-labelledby="needs-title">
+    <div class="home-needs__heading"><p>Encuentra un punto de partida</p><h2 id="needs-title">¿Qué necesitas hoy?</h2></div>
+    <div class="home-needs__grid">
+      {needs.map((item) => <a href={withBase(item.href)}><h3>{item.title}</h3><p>{item.text}</p><span>Explorar →</span></a>)}
+    </div>
+  </section>
 
-    <FeaturedArticle
-      article={destacado}
-    />
-
-    <LatestArticles
-      title="Últimos sermones"
-      articles={sermones}
-      baseUrl="/sermones"
-      buttonText="Ver todos los sermones"
-    />
-
-    <LatestArticles
-      title="Últimos devocionales"
-      articles={devocionales}
-      baseUrl="/devocionales"
-      buttonText="Ver todos los devocionales"
-    />
-
-    <CategoryGrid
-      categories={categorias}
-    />
-
-    <TagCloud
-      tags={tags}
-    />
-
+  <div class="home-sections">
+    {secciones.map((seccion) => <LatestArticles {...seccion} />)}
   </div>
 
+  <section class="home-start container">
+    <div><p class="home-start__eyebrow">Una ruta sencilla</p><h2>Empieza a estudiar la Biblia sin sentirte perdido</h2><p>Aprende a observar el texto, comprender su contexto y convertir lo leído en una respuesta concreta.</p><a href={withBase("/estudios-biblicos/como-estudiar-biblia-contexto")}>Ver la guía paso a paso →</a></div>
+    <ol><li><strong>Observa</strong><span>¿Qué dice realmente el pasaje?</span></li><li><strong>Comprende</strong><span>¿Qué significó en su contexto?</span></li><li><strong>Responde</strong><span>¿Qué cambia hoy en tu manera de vivir?</span></li></ol>
+  </section>
+
+  <section class="home-team container">
+    <div><p>Contenido con propósito</p><h2>Claridad bíblica, honestidad y aplicación responsable</h2></div>
+    <p>Nexo Bíblico crea recursos accesibles sin reducir preguntas complejas a respuestas fáciles. Conoce nuestros principios y el proceso de revisión editorial.</p>
+    <a href={withBase("/equipo")}>Conocer al equipo →</a>
+  </section>
 </MainLayout>

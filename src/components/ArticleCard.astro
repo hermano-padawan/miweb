@@ -1,5 +1,6 @@
 ---
 import "../styles/components/article-card.css";
+import { withBase } from "../utils/paths";
 
 interface Props {
   title: string;
@@ -7,37 +8,28 @@ interface Props {
   image: string;
   pubDate: Date;
   url: string;
+  category?: string;
+  readingTime?: number;
 }
 
-const { title, description, image, pubDate, url } = Astro.props;
+const { title, description, image, pubDate, url, category, readingTime } = Astro.props;
 ---
 
-<a href={url} class="article-card">
-
+<a href={withBase(url)} class="article-card">
   <img
-  src={image}
-  alt={title}
-  class="article-card__image"
-/>
-
+    src={withBase(image)}
+    alt={title}
+    class="article-card__image"
+    loading="lazy"
+    decoding="async"
+  />
   <div class="article-card__content">
-
+    <div class="article-card__meta">
+      {category && <span>{category}</span>}
+      {readingTime && <span>{readingTime} min</span>}
+    </div>
     <h3>{title}</h3>
-
-    <p class="article-card__date">
-      {pubDate.toLocaleDateString("es-ES", {
-        day: "numeric",
-        month: "short",
-        year: "numeric",
-      })}
-    </p>
-
     <p>{description}</p>
-
-    <span class="article-card__link">
-      Leer más →
-    </span>
-
+    <span class="article-card__link">Leer artículo <span aria-hidden="true">→</span></span>
   </div>
-
 </a>

@@ -1,23 +1,15 @@
 ---
 import "../styles/components/hero.css";
-import Button from "./ui/Button.astro";
-import Container from "./ui/Container.astro";
+import { withBase } from "../utils/paths";
 ---
-
-<section class="hero">
+<section class="hero" style={`--hero-image: url("${withBase("/images/hero-home-new.webp")}")`}>
   <div class="hero__content">
-    <div class="hero__content">
-      
-      <h1>La Palabra de Dios para cada día</h1>
-
-      <p>
-        Descubre sermones, estudios bíblicos, devocionales y herramientas para profundizar en la Palabra de Dios.
-      </p>
-
-      <Button href="/sermones">
-        Ver sermones
-      </Button>
-      
+    <p class="hero__eyebrow">Nexo Bíblico</p>
+    <h1>La Biblia, explicada para la vida diaria</h1>
+    <p>Sermones, estudios y recursos claros para comprender las Escrituras, fortalecer tu fe y dar el siguiente paso.</p>
+    <div class="hero__actions">
+      <a href={withBase("/estudios-biblicos")}>Comenzar a estudiar</a>
+      <a href={withBase("/devocionales")}>Leer un devocional</a>
     </div>
   </div>
 </section>

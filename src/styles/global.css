@@ -18,6 +18,14 @@ body {
   background: var(--color-background);
   color: var(--color-text);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #f4d99d; color: #102a43; }
+
+:focus-visible {
+  outline: 3px solid #d69e2e;
+  outline-offset: 3px;
 }
 
 img {

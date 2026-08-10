@@ -2,110 +2,105 @@
 import MainLayout from "../../layouts/MainLayout.astro";
 import CardGrid from "../CardGrid.astro";
 import ArticleCard from "../ArticleCard.astro";
-
-import {
-  getCategorySlug,
-  getTagSlug,
-} from "../../utils/content";
-
+import { getCategorySlug, getTagSlug } from "../../utils/content";
 import "../../styles/components/article-page.css";
+import { withBase } from "../../utils/paths";
+import { site } from "../../config/site";
 
 interface Props {
   article: any;
   Content: any;
+  headings?: { depth: number; slug: string; text: string }[];
   related: any[];
   backUrl: string;
   backText: string;
   relatedTitle: string;
 }
 
-const {
-  article,
-  Content,
-  related,
-  backUrl,
-  backText,
-  relatedTitle,
-} = Astro.props;
+const { article, Content, headings = [], related, backUrl, backText, relatedTitle } = Astro.props;
+const toc = headings.filter((heading) => heading.depth === 2);
+const articleUrl = new URL(Astro.url.pathname, site.url).href;
+const imageUrl = new URL(withBase(article.data.image), site.url).href;
+const published = article.data.pubDate.toISOString();
+const modified = (article.data.updatedDate || article.data.pubDate).toISOString();
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Inicio", item: site.url },
+    { "@type": "ListItem", position: 2, name: backText.replace(/^Volver a (todos los|todas las) /i, ""), item: `${site.url}${backUrl}` },
+    { "@type": "ListItem", position: 3, name: article.data.title, item: articleUrl },
+  ],
+};
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: article.data.title,
+  description: article.data.description,
+  image: [imageUrl],
+  datePublished: published,
+  dateModified: modified,
+  mainEntityOfPage: articleUrl,
+  inLanguage: "es",
+  author: { "@type": "Organization", name: article.data.author, url: `${site.url}/equipo` },
+  publisher: { "@type": "Organization", name: site.name, url: site.url },
+};
 ---
 
-<MainLayout
-  seo={{
-    title: article.data.title,
-    description: article.data.description,
-  }}
->
-  <section class="container article-page">
+<MainLayout seo={{ title: article.data.title, description: article.data.description, image: withBase(article.data.image), type: "article" }}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
-    <a
-      href={`/categorias/${getCategorySlug(article.data.category)}`}
-      class="article-category"
-    >
-      {article.data.category}
-    </a>
+  <article class="container article-page">
+    <nav class="article-breadcrumbs" aria-label="Migas de pan">
+      <a href={withBase("/")}>Inicio</a><span aria-hidden="true">/</span>
+      <a href={withBase(backUrl)}>{backText.replace(/^Volver a /, "")}</a>
+    </nav>
 
-    <h1>{article.data.title}</h1>
+    <header class="article-header">
+      <a href={withBase(`/categorias/${getCategorySlug(article.data.category)}`)} class="article-category">{article.data.category}</a>
+      <h1>{article.data.title}</h1>
+      <p class="article-lead">{article.data.description}</p>
+      <div class="article-meta">
+        <time datetime={published}>Publicado el {article.data.pubDate.toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" })}</time>
+        {article.data.updatedDate && <time datetime={modified}>Actualizado el {article.data.updatedDate.toLocaleDateString("es-ES", { day: "numeric", month: "long", year: "numeric" })}</time>}
+        {article.data.readingTime && <span>{article.data.readingTime} min de lectura</span>}
+        <span>Por <a href={withBase("/equipo")}>{article.data.author}</a></span>
+      </div>
+    </header>
 
-    <p class="article-date">
-      {article.data.pubDate.toLocaleDateString("es-ES", {
-        day: "numeric",
-        month: "long",
-        year: "numeric",
-      })}
-      &nbsp;·&nbsp;
-      <span class="article-author">
-        Por {article.data.author}
-      </span>
-    </p>
+    <img src={withBase(article.data.image)} alt={`Imagen principal de ${article.data.title}`} class="article-image" width="1200" height="675" />
 
-    <img
-      src={article.data.image}
-      alt={article.data.title}
-      class="article-image"
-    />
-
-    <p>{article.data.description}</p>
-
-    <hr />
-
-    <Content />
-
-    {related.length > 0 && (
-      <>
-        <hr />
-
-        <h2>{relatedTitle}</h2>
-
-        <CardGrid>
-          {related.map((item) => (
-            <ArticleCard
-              title={item.data.title}
-              description={item.data.description}
-              image={item.data.image}
-              pubDate={item.data.pubDate}
-              url={`${backUrl}/${item.id}`}
-            />
-          ))}
-        </CardGrid>
-      </>
+    {toc.length >= 3 && (
+      <nav class="article-toc" aria-label="Índice del artículo">
+        <strong>En este artículo</strong>
+        <ol>{toc.map((heading) => <li><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ol>
+      </nav>
     )}
 
-    <div class="back-link">
-      <a href={backUrl}>← {backText}</a>
+    <div class="article-body"><Content /></div>
+
+    <aside class="article-topic-links">
+      <p>Continúa explorando este tema</p>
+      <div>{article.data.tags.map((tag: string) => <a href={withBase(`/tags/${getTagSlug(tag)}`)}>{tag}</a>)}</div>
+    </aside>
+
+    {related.length > 0 && (
+      <section class="article-related">
+        <div class="article-related__heading">
+          <p>Lecturas recomendadas</p><h2>{relatedTitle}</h2>
+        </div>
+        <CardGrid>
+          {related.map((item) => (
+            <ArticleCard title={item.data.title} description={item.data.description} image={item.data.image} pubDate={item.data.pubDate} url={`${backUrl}/${item.id}`} category={item.data.category} readingTime={item.data.readingTime} />
+          ))}
+        </CardGrid>
+      </section>
+    )}
+
+    <div class="article-footer-nav">
+      <a href={withBase(backUrl)}>← {backText}</a>
+      {related[0] && <a href={withBase(`${backUrl}/${related[0].id}`)}>Siguiente lectura: {related[0].data.title} →</a>}
     </div>
-
-    <div class="article-tags">
-      <strong>Etiquetas:</strong>
-
-      {article.data.tags.map((tag: string) => (
-        <a
-          href={`/tags/${getTagSlug(tag)}`}
-          class="article-tag"
-        >
-          {tag}
-        </a>
-      ))}
-    </div>
-
-  </section>
+  </article>
 </MainLayout>

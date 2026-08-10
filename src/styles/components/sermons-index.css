@@ -1,0 +1,70 @@
+.sermons-hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at 82% 25%, rgba(214,158,46,.2), transparent 27rem),
+    linear-gradient(135deg, #f8f4e9 0%, #fff 62%);
+  border-bottom: 1px solid var(--color-border);
+}
+.sermons-hero::after {
+  position: absolute;
+  right: -5rem;
+  bottom: -9rem;
+  width: 25rem;
+  height: 25rem;
+  border: 1px solid rgba(183,121,31,.2);
+  border-radius: 50%;
+  content: "";
+}
+.sermons-hero .container { position: relative; z-index: 1; }
+.sermons-hero__eyebrow,
+.sermons-kicker {
+  margin: 0 0 .85rem;
+  color: var(--color-primary-dark);
+  font-size: .78rem;
+  font-weight: 800;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.sermons-hero .section-title { max-width: 880px; margin-bottom: .7rem; }
+.sermons-topics { display: flex; flex-wrap: wrap; gap: .65rem; }
+.sermons-topics span {
+  padding: .45rem .8rem;
+  background: rgba(255,255,255,.72);
+  border: 1px solid #dfd4bd;
+  border-radius: 999px;
+  color: #40566c;
+  font-size: .86rem;
+  font-weight: 600;
+}
+.sermons-library { background: #fff; }
+.sermons-library__heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: .8rem;
+}
+.sermons-library__heading h2,
+.sermons-guide h2 { margin: 0; color: var(--color-text); font-size: clamp(1.7rem, 3vw, 2.35rem); line-height: 1.2; }
+.sermons-library__heading > p { max-width: 350px; margin: 0; color: var(--color-text-light); text-align: right; }
+.sermons-guide {
+  display: grid;
+  grid-template-columns: .9fr 1.4fr;
+  gap: 2.5rem;
+  margin-top: clamp(1.4rem, 2.8vw, 2.4rem);
+  padding: clamp(1rem, 2vw, 1.6rem);
+  background: #102a43;
+  border-radius: 24px;
+  color: white;
+}
+.sermons-guide h2 { color: white; }
+.sermons-guide .sermons-kicker { color: #f0c76e; }
+.sermons-guide ol { display: grid; gap: 1rem; margin: 0; padding-left: 1.3rem; color: #d9e2ec; }
+.sermons-guide__link { grid-column: 2; width: fit-content; color: #f0c76e; font-weight: 700; }
+@media (max-width: 720px) {
+  .sermons-library__heading { align-items: start; flex-direction: column; }
+  .sermons-library__heading > p { text-align: left; }
+  .sermons-guide { grid-template-columns: 1fr; }
+  .sermons-guide__link { grid-column: 1; }
+}

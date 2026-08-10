@@ -1,6 +1,7 @@
 ---
 
 import "../../styles/components/button.css";
+import { withBase } from "../../utils/paths";
 
 
 interface Props {
@@ -16,7 +17,7 @@ const {
 
 {
   href ? (
-    <a href={href} class={`button button--${variant}`}>
+    <a href={withBase(href)} class={`button button--${variant}`}>
       <slot />
     </a>
   ) : (

@@ -25,12 +25,13 @@ const relacionados = estudios
   .filter((e) => e.data.category === estudio.data.category)
   .slice(0, 3);
 
-const { Content } = await render(estudio);
+const { Content, headings } = await render(estudio);
 ---
 
 <ArticlePage
   article={estudio}
   Content={Content}
+  headings={headings}
   related={relacionados}
   backUrl="/estudios-biblicos"
   backText="Volver a todos los estudios bíblicos"

@@ -1,6 +1,7 @@
 export const site = {
-  name: "La Voz de Dios",
-  description: "Sermones, estudios bíblicos, devocionales y recursos para crecer en la fe.",
-  url: "https://lavozdedios.com",
+  name: "Nexo Bíblico",
+  description:
+    "Sermones, estudios bíblicos, devocionales y recursos para comprender la Biblia y crecer en la fe.",
+  url: "https://nexobiblico.com",
   language: "es",
 };

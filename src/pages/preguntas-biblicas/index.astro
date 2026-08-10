@@ -1,58 +1,17 @@
 ---
 import { getPreguntasBiblicas } from "../../utils/content";
-import MainLayout from "../../layouts/MainLayout.astro";
-import ArticleCard from "../../components/ArticleCard.astro";
-import CardGrid from "../../components/CardGrid.astro";
-
-import Section from "../../components/ui/Section.astro";
-import SectionTitle from "../../components/ui/SectionTitle.astro";
-
-const preguntas = await getPreguntasBiblicas();
+import ClusterIndex from "../../components/article/ClusterIndex.astro";
+const entries = await getPreguntasBiblicas();
 ---
-
-<MainLayout
-  seo={{
-    title: "Preguntas bíblicas | Nexo Bíblico",
-    description:
-      "Encuentra respuestas bíblicas a las preguntas más frecuentes sobre Dios, Jesús, la fe cristiana y las Escrituras.",
-  }}
->
-
-  <Section>
-
-    <SectionTitle
-      title="Preguntas bíblicas"
-      subtitle="Respuestas claras y fundamentadas en la Biblia para resolver las dudas más comunes sobre la fe cristiana."
-    />
-
-    <p>
-      Descubre respuestas bíblicas sobre Dios, Jesús, la salvación, el cielo, el infierno, la oración, el pecado, el Espíritu Santo y muchos otros temas fundamentales del cristianismo.
-    </p>
-
-    <p>
-      <strong>{preguntas.length}</strong> preguntas disponibles.
-    </p>
-
-    <CardGrid>
-
-      {
-        preguntas.map((pregunta) => (
-
-          <ArticleCard
-            title={pregunta.data.title}
-            description={pregunta.data.description}
-            image={pregunta.data.image}
-            pubDate={pregunta.data.pubDate}
-            url={`/preguntas-biblicas/${pregunta.id.replace(".md", "")}`}
-          />
-
-        ))
-      }
-
-    </CardGrid>
-
-    <!-- Paginación -->
-
-  </Section>
-
-</MainLayout>
+<ClusterIndex
+  entries={entries}
+  baseUrl="/preguntas-biblicas"
+  title="Preguntas bíblicas con respuestas claras"
+  subtitle="Respuestas accesibles y fundamentadas en las Escrituras para comprender mejor a Dios, la fe cristiana y la vida espiritual."
+  seoTitle="Preguntas bíblicas y respuestas claras"
+  seoDescription="Encuentra respuestas bíblicas claras sobre Dios, Jesús, la salvación, la oración y las preguntas más frecuentes de la fe cristiana."
+  eyebrow="Entiende lo que crees"
+  libraryTitle="Resuelve tus dudas sobre la fe"
+  countLabel="respuestas bíblicas"
+  topics={["Dios", "Jesús", "Salvación", "Biblia", "Oración", "Vida eterna"]}
+/>

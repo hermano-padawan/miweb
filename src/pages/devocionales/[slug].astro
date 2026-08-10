@@ -30,7 +30,7 @@ const relacionados = devocionales
   .filter((s) => s.data.category === devocional.data.category)
   .slice(0, 3);
 
-const { Content } = await render(devocional);
+const { Content, headings } = await render(devocional);
 
 import ArticlePage from "../../components/article/ArticlePage.astro";
 ---
@@ -38,8 +38,9 @@ import ArticlePage from "../../components/article/ArticlePage.astro";
 <ArticlePage
   article={devocional}
   Content={Content}
+  headings={headings}
   related={relacionados}
-  backUrl="/sermones"
-  backText="Volver a todos los sermones"
-  relatedTitle="Sermones relacionados"
+  backUrl="/devocionales"
+  backText="Volver a todos los devocionales"
+  relatedTitle="Devocionales relacionados"
 />

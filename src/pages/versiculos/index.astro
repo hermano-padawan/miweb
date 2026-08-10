@@ -1,58 +1,17 @@
 ---
 import { getVersiculos } from "../../utils/content";
-import MainLayout from "../../layouts/MainLayout.astro";
-import ArticleCard from "../../components/ArticleCard.astro";
-import CardGrid from "../../components/CardGrid.astro";
-
-import Section from "../../components/ui/Section.astro";
-import SectionTitle from "../../components/ui/SectionTitle.astro";
-
-const versiculos = await getVersiculos();
+import ClusterIndex from "../../components/article/ClusterIndex.astro";
+const entries = await getVersiculos();
 ---
-
-<MainLayout
-  seo={{
-    title: "Versículos bíblicos | Nexo Bíblico",
-    description:
-      "Descubre versículos bíblicos organizados por temas para fortalecer tu fe, encontrar esperanza y meditar en la Palabra de Dios.",
-  }}
->
-
-  <Section>
-
-    <SectionTitle
-      title="Versículos bíblicos"
-      subtitle="Encuentra pasajes de la Biblia para cada momento de tu vida y fortalece tu relación con Dios mediante Su Palabra."
-    />
-
-    <p>
-      Explora una colección de versículos bíblicos sobre la fe, el amor, la esperanza, la oración, el perdón, la salvación y muchos otros temas. Encuentra inspiración y dirección para tu vida diaria a través de las Escrituras.
-    </p>
-
-    <p>
-      <strong>{versiculos.length}</strong> versículos disponibles.
-    </p>
-
-    <CardGrid>
-
-      {
-        versiculos.map((versiculo) => (
-
-          <ArticleCard
-            title={versiculo.data.title}
-            description={versiculo.data.description}
-            image={versiculo.data.image}
-            pubDate={versiculo.data.pubDate}
-            url={`/versiculos/${versiculo.id.replace(".md", "")}`}
-          />
-
-        ))
-      }
-
-    </CardGrid>
-
-    <!-- Paginación -->
-
-  </Section>
-
-</MainLayout>
+<ClusterIndex
+  entries={entries}
+  baseUrl="/versiculos"
+  title="Versículos bíblicos para cada momento"
+  subtitle="Pasajes explicados y organizados por temas para meditar en la Palabra de Dios y encontrar dirección, consuelo y esperanza."
+  seoTitle="Versículos bíblicos explicados por temas"
+  seoDescription="Encuentra versículos bíblicos explicados y organizados por temas para fortalecer tu fe y meditar en la Palabra de Dios."
+  eyebrow="La Palabra para tu camino"
+  libraryTitle="Encuentra un pasaje para hoy"
+  countLabel="recursos bíblicos"
+  topics={["Fe", "Amor", "Esperanza", "Fortaleza", "Ansiedad", "Promesas"]}
+/>

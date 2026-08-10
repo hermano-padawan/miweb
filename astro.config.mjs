@@ -2,8 +2,7 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://hermano-padawan.github.io",
-  base: "/miweb",
+  site: "https://nexobiblico.com",
   output: "static",
   integrations: [sitemap()],
 });

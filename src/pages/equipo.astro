@@ -1,0 +1,76 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout
+  seo={{
+    title: "Equipo editorial",
+    description: "Conoce los criterios editoriales con los que se prepara y revisa el contenido de Nexo Bíblico.",
+  }}
+>
+  <article class="container editorial-page">
+    <h1>Equipo editorial de Nexo Bíblico</h1>
+
+    <p>
+      Nexo Bíblico crea recursos en español para ayudar a leer la Biblia con
+      claridad, comprender su contexto y llevar sus enseñanzas a la vida diaria.
+    </p>
+
+    <h2>Cómo preparamos el contenido</h2>
+
+    <p>
+      Cada artículo parte de una pregunta o necesidad concreta. Revisamos el
+      contexto de los pasajes citados, distinguimos entre explicación bíblica y
+      aplicación pastoral, y evitamos presentar como certeza aquello sobre lo que
+      existen interpretaciones cristianas diferentes.
+    </p>
+
+    <h2>Criterios de revisión</h2>
+
+    <ul>
+      <li>Coherencia con el contexto inmediato y general de la Biblia.</li>
+      <li>Lenguaje comprensible, respetuoso y sin afirmaciones sensacionalistas.</li>
+      <li>Referencias bíblicas verificables y aplicaciones responsables.</li>
+      <li>Revisión de claridad, ortografía, estructura y utilidad práctica.</li>
+    </ul>
+
+    <h2>Contenido pastoral y bienestar</h2>
+
+    <p>
+      Los recursos sobre ansiedad, duelo, relaciones o salud tienen una finalidad
+      educativa y espiritual. No sustituyen la atención de profesionales
+      sanitarios, psicológicos, jurídicos o de emergencias.
+    </p>
+
+    <h2>Correcciones</h2>
+
+    <p>
+      Si detectas una referencia incorrecta, una explicación poco clara o un dato
+      que necesita revisión, puedes comunicárnoslo desde la página de contacto.
+    </p>
+  </article>
+</MainLayout>
+
+<style>
+  .editorial-page {
+    max-width: 820px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .editorial-page h1 {
+    color: #14213d;
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+  }
+
+  .editorial-page h2 {
+    margin-top: 2.25rem;
+    color: #14213d;
+  }
+
+  .editorial-page p,
+  .editorial-page li {
+    line-height: 1.8;
+  }
+</style>

@@ -29,12 +29,13 @@ const relacionados = oraciones
   .filter((o) => o.data.category === oracion.data.category)
   .slice(0, 3);
 
-const { Content } = await render(oracion);
+const { Content, headings } = await render(oracion);
 ---
 
 <ArticlePage
   article={oracion}
   Content={Content}
+  headings={headings}
   related={relacionados}
   backUrl="/oraciones"
   backText="Volver a todas las oraciones"

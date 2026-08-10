@@ -4,6 +4,7 @@ import "../../styles/home.css";
 import Section from "../ui/Section.astro";
 import SectionTitle from "../ui/SectionTitle.astro";
 import Button from "../ui/Button.astro";
+import { withBase } from "../../utils/paths";
 
 interface Props {
   article: any;
@@ -23,7 +24,7 @@ const { article } = Astro.props;
     <div class="featured-image">
 
       <img
-        src={article.data.image}
+        src={withBase(article.data.image)}
         alt={article.data.title}
       />
 

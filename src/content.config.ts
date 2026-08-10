@@ -6,6 +6,7 @@ const schema = z.object({
   description: z.string(),
   image: z.string(),
   pubDate: z.coerce.date(),
+  updatedDate: z.coerce.date().optional(),
   author: z.string(),
   category: z.string(),
   tags: z.array(z.string()),
