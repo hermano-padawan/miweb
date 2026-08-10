@@ -10,7 +10,8 @@
 .main-nav {
   display: flex;
   align-items: center;
-  width: min(1200px, calc(100% - 2rem));
+  width: fit-content;
+  max-width: calc(100% - 2rem);
   min-height: 64px;
   margin: auto;
 }
