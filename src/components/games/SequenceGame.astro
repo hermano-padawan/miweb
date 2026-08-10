@@ -7,27 +7,37 @@ const rounds = [
   { title: "La vida de Jesús", events: ["Nacimiento en Belén", "Bautismo en el Jordán", "Última Cena", "Resurrección"] },
   { title: "La iglesia del primer siglo", events: ["Ascensión de Jesús", "Pentecostés", "Conversión de Pablo", "Viajes misioneros de Pablo"] },
   { title: "Historia bíblica general", events: ["Abraham sale de su tierra", "Éxodo de Egipto", "Reinado de David", "Nacimiento de Jesús"] },
+  { title: "La historia de José", events: ["José sueña con gavillas", "Sus hermanos lo venden", "Interpreta los sueños del faraón", "Se reconcilia con sus hermanos"] },
+  { title: "La historia de Noé", events: ["Dios advierte a Noé", "Noé construye el arca", "Comienza el diluvio", "Aparece el arcoíris"] },
+  { title: "La historia de Abraham", events: ["Sale de Harán", "Se separa de Lot", "Nace Isaac", "Prueba en el monte Moria"] },
+  { title: "La historia de Ester", events: ["Ester llega al palacio", "Es elegida reina", "Mardoqueo descubre un complot", "Ester intercede por su pueblo"] },
+  { title: "El ministerio de Pedro", events: ["Jesús llama a Pedro", "Pedro camina sobre el agua", "Pedro niega a Jesús", "Pedro predica en Pentecostés"] },
+  { title: "La historia de Pablo", events: ["Persigue a los cristianos", "Encuentro camino de Damasco", "Primer viaje misionero", "Viaje como prisionero a Roma"] },
+  { title: "La conquista de Canaán", events: ["Josué sucede a Moisés", "Cruce del Jordán", "Caída de Jericó", "Reparto de la tierra"] },
+  { title: "Los primeros reyes", events: ["Samuel unge a Saúl", "Saúl pierde el reino", "David reina", "Salomón construye el templo"] },
+  { title: "La pasión de Jesús", events: ["Entrada en Jerusalén", "Última Cena", "Crucifixión", "Resurrección"] },
+  { title: "Del exilio al regreso", events: ["Caída de Jerusalén", "Exilio en Babilonia", "Decreto de Ciro", "Reconstrucción del templo"] },
 ];
 const shuffled = rounds.map((round) => ({ ...round, choices: [round.events[2], round.events[0], round.events[3], round.events[1]] }));
 ---
 <section class="sequence" data-sequence>
-  <div class="sequence__head"><div><span>Juego de orden</span><h2>Ordena la historia</h2></div><strong data-sequence-progress>Ronda 1 de 5</strong></div>
+  <div class="sequence__head"><div><span>Juego de orden</span><h2>Ordena la historia</h2></div><strong data-sequence-progress>Ronda 1 de 15</strong></div>
   <article class="sequence__card" data-sequence-card>
     <p data-sequence-title>{shuffled[0].title}</p><h3>Toca los acontecimientos desde el primero hasta el último</h3>
     <div class="sequence__choices" data-sequence-choices>{shuffled[0].choices.map((event) => <button type="button"><i></i><strong>{event}</strong></button>)}</div>
     <button class="sequence__undo" type="button" data-sequence-undo>Deshacer última selección</button>
     <div class="sequence__feedback" data-sequence-feedback hidden><strong data-sequence-feedback-title></strong><p data-sequence-feedback-copy></p><button type="button" data-sequence-next>Siguiente ronda</button></div>
   </article>
-  <article class="sequence__result" data-sequence-result hidden tabindex="-1"><span>Resultado final</span><div><strong data-sequence-score>0</strong>/10</div><h3>Has completado la línea temporal</h3><p data-sequence-result-copy></p><button type="button" data-sequence-share><Share2 size={19}/> Compartir resultado</button><button type="button" data-sequence-retry><RotateCcw size={18}/> Repetir</button></article>
+  <article class="sequence__result" data-sequence-result hidden tabindex="-1"><span>Resultado final</span><div><strong data-sequence-score>0</strong>/10</div><h3>Has completado la línea temporal</h3><p data-sequence-result-copy></p><strong>Envíale este juego a alguien</strong><br/><button type="button" data-sequence-share><Share2 size={19}/> Compartir juego</button><button type="button" data-sequence-retry><RotateCcw size={18}/> Repetir</button></article>
 </section>
 <script type="application/json" data-sequence-data set:html={JSON.stringify(shuffled)}></script>
 <script>
   const root=document.querySelector<HTMLElement>("[data-sequence]");const source=document.querySelector<HTMLScriptElement>("[data-sequence-data]");
   if(root&&source){const rounds=JSON.parse(source.textContent||"[]");let round=0,score=0,selection:string[]=[];const card=root.querySelector<HTMLElement>("[data-sequence-card]")!,result=root.querySelector<HTMLElement>("[data-sequence-result]")!,choices=[...root.querySelectorAll<HTMLButtonElement>("[data-sequence-choices] button")];const set=(s:string,v:string)=>{const e=root.querySelector<HTMLElement>(s);if(e)e.textContent=v};
     const render=()=>{selection=[];set("[data-sequence-progress]",`Ronda ${round+1} de ${rounds.length}`);set("[data-sequence-title]",rounds[round].title);choices.forEach((b,i)=>{b.disabled=false;b.className="";b.querySelector("i")!.textContent="";b.querySelector("strong")!.textContent=rounds[round].choices[i]});root.querySelector<HTMLElement>("[data-sequence-feedback]")!.hidden=true;root.scrollIntoView({block:"start"})};
-    choices.forEach((button)=>button.addEventListener("click",()=>{if(button.disabled)return;selection.push(button.querySelector("strong")!.textContent||"");button.disabled=true;button.classList.add("is-picked");button.querySelector("i")!.textContent=String(selection.length);if(selection.length===4){const ok=selection.every((event,i)=>event===rounds[round].events[i]);if(ok)score+=2;set("[data-sequence-feedback-title]",ok?"Orden correcto":"Este era el orden correcto");set("[data-sequence-feedback-copy]",ok?"Has reconstruido la secuencia completa.":rounds[round].events.join(" → "));root.querySelector<HTMLElement>("[data-sequence-feedback]")!.hidden=false}}));
+    choices.forEach((button)=>button.addEventListener("click",()=>{if(button.disabled)return;selection.push(button.querySelector("strong")!.textContent||"");button.disabled=true;button.classList.add("is-picked");button.querySelector("i")!.textContent=String(selection.length);if(selection.length===4){const ok=selection.every((event,i)=>event===rounds[round].events[i]);if(ok)score+=1;set("[data-sequence-feedback-title]",ok?"Orden correcto":"Este era el orden correcto");set("[data-sequence-feedback-copy]",ok?"Has reconstruido la secuencia completa.":rounds[round].events.join(" → "));root.querySelector<HTMLElement>("[data-sequence-feedback]")!.hidden=false}}));
     root.querySelector("[data-sequence-undo]")?.addEventListener("click",()=>{const last=selection.pop();if(!last)return;const button=choices.find(b=>b.querySelector("strong")?.textContent===last);if(button){button.disabled=false;button.classList.remove("is-picked");button.querySelector("i")!.textContent=""}});
-    root.querySelector("[data-sequence-next]")?.addEventListener("click",()=>{if(round<rounds.length-1){round++;render()}else{set("[data-sequence-score]",String(score));set("[data-sequence-result-copy]",`Has ordenado correctamente ${score/2} de ${rounds.length} historias.`);card.hidden=true;result.hidden=false;result.focus()}});
+    root.querySelector("[data-sequence-next]")?.addEventListener("click",()=>{if(round<rounds.length-1){round++;render()}else{set("[data-sequence-score]",String(Math.round(score/rounds.length*10)));set("[data-sequence-result-copy]",`Has ordenado correctamente ${score} de ${rounds.length} historias.`);card.hidden=true;result.hidden=false;result.focus()}});
     root.querySelector("[data-sequence-retry]")?.addEventListener("click",()=>{round=0;score=0;result.hidden=true;card.hidden=false;render()});
     root.querySelector("[data-sequence-share]")?.addEventListener("click",async()=>{const data={title:"Ordena la historia bíblica",text:`He conseguido ${score}/10 ordenando historias en Nexo Bíblico.`,url:location.href};if(navigator.share)await navigator.share(data);else await navigator.clipboard.writeText(`${data.text} ${data.url}`)});
   }

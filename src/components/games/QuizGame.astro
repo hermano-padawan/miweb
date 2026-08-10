@@ -72,9 +72,10 @@ const clientQuestions = questions.map((question) => ({
       <div class="quiz__score"><strong data-final-score>0</strong><span>/10</span></div>
       <h3 data-result-title></h3>
       <p data-result-copy></p>
+      <strong class="quiz__invite">Envíale este juego a alguien</strong>
       <div class="quiz__result-actions">
         <button type="button" class="quiz__share" data-share>
-          <Share2 size={19} aria-hidden="true" /> Compartir resultado
+          <Share2 size={19} aria-hidden="true" /> Compartir juego
         </button>
         <button type="button" class="quiz__retry" data-retry>
           <RotateCcw size={18} aria-hidden="true" /> Repetir
@@ -273,6 +274,7 @@ const clientQuestions = questions.map((question) => ({
   .quiz__score strong { font-size: clamp(4.5rem, 18vw, 7rem); }
   .quiz__score span { font-size: 1.7rem; font-weight: 750; }
   .quiz__result p { max-width: 520px; margin: .7rem auto 1.3rem; color: var(--color-text-light); }
+  .quiz__invite { display: block; margin: -.35rem 0 .85rem; }
   .quiz__result-actions { display: flex; justify-content: center; gap: .65rem; flex-wrap: wrap; }
   .quiz__share, .quiz__retry { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; padding: .7rem 1rem; border-radius: 8px; font: inherit; font-weight: 800; cursor: pointer; }
   .quiz__share { color: #fff; background: var(--color-primary); border: 1px solid var(--color-primary); }
