@@ -1,0 +1,21 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import { gameCards } from "../../data/games";
+import { withBase } from "../../utils/paths";
+---
+<MainLayout seo={{ title:"Juegos bíblicos online",description:"Escoge entre quizzes, personajes, verdadero o falso, historias ordenadas y tests temáticos de la Biblia." }}>
+  <header class="games-hero"><div><p>Aprender jugando</p><h1>Juegos bíblicos</h1><span>Escoge una experiencia, supera los retos y comparte tu resultado.</span></div></header>
+  <main class="games-main">
+    <div class="games-intro"><div><p>9 juegos disponibles</p><h2>¿A qué quieres jugar?</h2></div><span>Todos funcionan sin registro y guardan el récord únicamente en tu dispositivo.</span></div>
+    <div class="games-grid">
+      {gameCards.map((game,index)=><article class:list={["game-card",index===0&&"game-card--featured"]}>
+        <img src={withBase(game.image)} alt="" width="560" height="310" loading={index<3?"eager":"lazy"}/>
+        <div><p><span>{game.difficulty}</span> · 5-8 min</p><h2>{game.shortTitle}</h2><p>{game.description}</p><a href={withBase(`/juegos-biblicos/${game.slug}`)}>Jugar ahora <span>→</span></a></div>
+      </article>)}
+    </div>
+    <section class="games-copy"><h2>Más que páginas de preguntas</h2><p>Los juegos bíblicos de Nexo Bíblico están diseñados como experiencias interactivas para móvil y ordenador. Cada pregunta aparece de forma individual, las respuestas ofrecen contexto y el resultado final se puede compartir. Los formatos de ordenar y personalidad emplean reglas diferentes para que el catálogo no sea una colección de tests idénticos.</p><p>Estas dinámicas son educativas y lúdicas. No evalúan la fe ni sustituyen la lectura de la Biblia; sirven para recordar historias, descubrir personajes y encontrar temas que después puedes estudiar con más profundidad.</p></section>
+  </main>
+</MainLayout>
+<style>
+ .games-hero{min-height:330px;display:grid;place-items:center;padding:3rem 1rem;color:#fff;text-align:center;background:linear-gradient(rgba(7,30,50,.72),rgba(7,30,50,.84)),url('/images/hero-home-new.webp') center/cover}.games-hero p{margin:0;color:#f1bd60;font-size:.8rem;font-weight:850;letter-spacing:.13em;text-transform:uppercase}.games-hero h1{margin:.35rem 0;font-size:clamp(2.8rem,8vw,5rem);line-height:1}.games-hero span{font-size:clamp(1rem,2vw,1.2rem)}.games-main{width:min(calc(100% - 2rem),1160px);margin:3.5rem auto 5rem}.games-intro{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:1.3rem}.games-intro p{margin:0;color:var(--color-primary-dark);font-size:.8rem;font-weight:850;text-transform:uppercase}.games-intro h2{margin:.2rem 0 0;font-size:clamp(2rem,5vw,3rem)}.games-intro>span{max-width:430px;color:var(--color-text-light)}.games-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}.game-card{overflow:hidden;background:#fff;border:1px solid var(--color-border);border-radius:8px;box-shadow:var(--shadow-sm)}.game-card img{width:100%;aspect-ratio:16/8.8;object-fit:cover}.game-card>div{display:flex;min-height:275px;flex-direction:column;padding:1.1rem}.game-card p{margin:0;color:var(--color-text-light)}.game-card>div>p:first-child{color:var(--color-primary-dark);font-size:.76rem;font-weight:800;text-transform:uppercase}.game-card h2{margin:.45rem 0;font-size:1.35rem;line-height:1.2}.game-card a{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:1rem;color:var(--color-primary-dark);font-weight:850}.games-copy{max-width:780px;margin:4rem auto 0;color:var(--color-text-light);font-size:1.05rem}.games-copy h2{color:var(--color-text);font-size:clamp(1.6rem,4vw,2.2rem)}@media(max-width:900px){.games-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.games-main{width:calc(100% - 1.25rem);margin-top:2.2rem}.games-intro{display:block}.games-intro>span{display:block;margin-top:.6rem}.games-grid{grid-template-columns:1fr}.game-card>div{min-height:240px}}
+</style>

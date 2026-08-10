@@ -4,7 +4,7 @@ import { withBase } from "../../utils/paths";
 
 export interface QuizQuestion {
   question: string;
-  answers: [string, string, string];
+  answers: string[];
   correct: number;
   explanation: string;
   relatedHref: string;
@@ -14,9 +14,11 @@ export interface QuizQuestion {
 interface Props {
   questions: QuizQuestion[];
   storageKey: string;
+  heading?: string;
+  eyebrow?: string;
 }
 
-const { questions, storageKey } = Astro.props;
+const { questions, storageKey, heading = "¿Cuánto sabes de la Biblia?", eyebrow = "Quiz bíblico" } = Astro.props;
 const clientQuestions = questions.map((question) => ({
   ...question,
   relatedHref: withBase(question.relatedHref),
@@ -26,8 +28,8 @@ const clientQuestions = questions.map((question) => ({
 <section class="quiz" data-quiz data-storage-key={storageKey} aria-labelledby="quiz-heading">
   <div class="quiz__topline">
     <div>
-      <span class="quiz__eyebrow">Quiz bíblico</span>
-      <h2 id="quiz-heading">¿Cuánto sabes de la Biblia?</h2>
+      <span class="quiz__eyebrow">{eyebrow}</span>
+      <h2 id="quiz-heading">{heading}</h2>
     </div>
     <span class="quiz__best" data-best hidden>Récord: <strong data-best-score>0</strong>/10</span>
   </div>
