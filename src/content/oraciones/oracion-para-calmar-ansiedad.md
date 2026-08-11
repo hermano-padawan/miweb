@@ -14,22 +14,31 @@ featured: true
 readingTime: 5
 ---
 
-Una oración para cuando los pensamientos pesan y necesitas sentirte acompañado.
+Padre,
 
-Padre, tú conoces mi mente y sabes cuánto me cuesta descansar ahora. Conoces cada preocupación,
-incluso las que no sé explicar.
+tú conoces mi mente.
 
-No quiero pelear a solas con todos estos pensamientos. Te los entrego uno a uno. Lo que temo, lo que no
-puedo controlar, lo que todavía no tiene respuesta: recíbelo tú.
+Sabes cuánto me cuesta estar tranquilo ahora. Conoces cada preocupación, incluso las que no sé explicar.
 
-Recuérdame que mi valor no depende de tenerlo todo bajo control. Recuérdame que puedo pedir ayuda,
-que puedo descansar y que tu amor no se aleja cuando me siento frágil.
+No quiero luchar a solas con todos estos pensamientos.
 
-Dame la paz necesaria para este momento, no para todos los días futuros a la vez. Dame el pan de hoy, la
-fuerza de hoy y el descanso de hoy.
+Te entrego lo que temo.
 
-Quédate conmigo. Guarda mi corazón y mi mente. Cuando los pensamientos vuelvan, ayúdame a volver
-también a ti. Amén.
+Lo que no puedo controlar.
+
+Lo que todavía no tiene respuesta.
+
+Recuérdame que puedo pedir ayuda. Que puedo parar. Que tu amor no se aleja cuando me siento débil.
+
+Dame la paz que necesito en este momento. No para todos los días futuros. Solo para ahora.
+
+Dame la fuerza de hoy y el descanso de hoy.
+
+Quédate conmigo.
+
+Guarda mi corazón y mi mente. Cuando los pensamientos vuelvan, ayúdame a volver también a ti.
+
+Amén.
 
 ## Preguntas frecuentes
 

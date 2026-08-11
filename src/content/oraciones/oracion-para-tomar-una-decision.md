@@ -11,21 +11,31 @@ featured: true
 readingTime: 6
 ---
 
-Una oración para pedir luz, sabiduría y libertad frente al miedo a equivocarse.
+Señor,
 
-Señor, tengo delante una decisión y no veo todo con claridad. Tú conoces mis deseos, mis miedos y
-también aquello que quizá yo mismo no estoy viendo.
+tengo que tomar una decisión y no sé qué hacer.
 
-Dame sabiduría. Líbrame de decidir solo por presión, orgullo o temor. Ayúdame a escuchar buenos
-consejos y a reconocer qué camino es más coherente con la verdad, el amor y la responsabilidad.
-Si tengo que esperar, dame paciencia. Si tengo que avanzar, dame valor. Si debo renunciar a algo, dame
-paz. Y si ninguna opción es perfecta, recuérdame que tu presencia no depende de que yo nunca me
-equivoque.
+Tú conoces mis deseos y mis miedos. También ves lo que yo todavía no puedo ver.
 
-No te pido controlar el futuro; te pido caminar contigo. Ordena mi corazón para que pueda decidir con
-libertad y confianza.
+Dame sabiduría.
 
-Pongo esta elección en tus manos. Guíame y acompáñame en lo que venga después. Amén.
+No dejes que decida solo por miedo, presión u orgullo. Ayúdame a escuchar a las personas que pueden aconsejarme bien.
+
+Si tengo que esperar, dame paciencia.
+
+Si tengo que avanzar, dame valor.
+
+Si debo renunciar a algo, dame paz.
+
+Tengo miedo de equivocarme. Recuérdame que incluso entonces podré volver a ti, aprender y seguir caminando.
+
+No te pido conocer todo el futuro.
+
+Te pido que camines conmigo.
+
+Pongo esta decisión en tus manos. Guíame y acompáñame también después de elegir.
+
+Amén.
 
 ## Preguntas frecuentes
 

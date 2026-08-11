@@ -4,6 +4,8 @@ import { join } from "node:path";
 const date = "2026-08-09";
 const author = "Equipo Nexo Bíblico";
 
+// Las oraciones generadas deben reescribirse y revisarse con la guía
+// docs/voz-editorial-oraciones.md antes de publicarse.
 // Los devocionales generados deben reescribirse y revisarse con la guía
 // docs/voz-editorial-devocionales.md antes de publicarse.
 // Los sermones generados deben reescribirse y revisarse con la guía obligatoria

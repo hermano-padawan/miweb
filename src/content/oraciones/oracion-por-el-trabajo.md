@@ -15,32 +15,42 @@ draft: false
 readingTime: 6
 ---
 
-El trabajo toca dignidad, recursos y servicio. La incertidumbre laboral necesita oración y también apoyo práctico.
+Padre,
 
-Protege de la explotación, enséñame a administrar y muéstrame cómo apoyar a quien atraviesa necesidad.
+tú conoces mi necesidad.
 
-No necesitas decir estas palabras de una manera perfecta. Puedes hacer pausas, añadir nombres, llorar o quedarte en silencio. Dios no escucha una actuación: escucha el corazón que se acerca.
+Sabes si estoy buscando trabajo, si temo perderlo o si el dinero no alcanza para cubrir lo necesario.
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+Abre una puerta para trabajar con dignidad. Dame fuerzas para seguir buscando cuando me desanime y pon personas buenas en mi camino.
 
-La oración no obliga a negar la realidad. Nos permite ponerla en manos de Dios, pedir cuidado y reconocer que no todo descansa sobre nuestras fuerzas.
+Si tengo trabajo, ayúdame a hacerlo con honradez. Dame paciencia con mis compañeros, sabiduría para resolver problemas y valor ante lo que es injusto.
 
-Que esta oración sea compañía y no carga; un lugar donde respirar, recibir esperanza y recordar que el amor de Dios ya estaba cerca antes de pronunciar la primera palabra.
+Protege a quienes sufren abuso o explotación. Permite que encuentren ayuda y un lugar seguro.
 
-## Oración
+Enséñame a cuidar lo que recibo y a compartir cuando pueda hacerlo. No dejes que la preocupación por el dinero ocupe todo mi corazón.
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+Hoy necesito tu provisión.
+
+Necesito el pan de cada día.
+
+Necesito recordar que mi valor no depende de un puesto ni de un sueldo.
+
+Sostén a mi familia y guíame hacia el siguiente paso.
+
+Confío en ti, Señor.
+
+Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Puedo orar mientras busco trabajo?
 
-Una oración para pedir empleo, integridad, provisión y relaciones laborales justas.
+Sí. Puedes pedir una oportunidad, fuerzas para buscar y personas que te ayuden.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Esta oración garantiza que encontraré empleo pronto?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. Expresa confianza y necesidad sin prometer una fecha o un resultado concreto.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Puedo adaptarla a mi situación?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sí. Puedes nombrar tu trabajo, una entrevista o la necesidad concreta de tu familia.

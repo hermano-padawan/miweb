@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-Orar por los hijos incluye pedir por ellos y permitir que Dios transforme nuestra manera de acompañarlos.
+Padre,
 
-Enséñanos a cuidar sin controlar y a ofrecer límites claros junto con un amor constante.
+hoy pongo a mis hijos en tus manos.
 
-No necesitas decir estas palabras de una manera perfecta. Puedes hacer pausas, añadir nombres, llorar o quedarte en silencio. Dios no escucha una actuación: escucha el corazón que se acerca.
+Tú los conoces mejor que yo. Sabes lo que sienten, lo que temen y las preguntas que no siempre comparten conmigo.
 
-Esta verdad no borra de golpe lo difícil, pero impide que el dolor ocupe toda la habitación. La gracia abre una ventana: recuerda que la historia continúa y que Dios sigue obrando incluso en aquello que todavía no comprendemos.
+Protégelos en sus caminos. Dales amigos que les hagan bien y sabiduría para alejarse de aquello que pueda dañarlos.
 
-La oración no obliga a negar la realidad. Nos permite ponerla en manos de Dios, pedir cuidado y reconocer que no todo descansa sobre nuestras fuerzas.
+Cuando tengan miedo, recuérdales que no están solos. Cuando se equivoquen, ayúdales a decir la verdad, aprender y volver a empezar.
 
-Que esta oración sea compañía y no carga; un lugar donde respirar, recibir esperanza y recordar que el amor de Dios ya estaba cerca antes de pronunciar la primera palabra.
+Dame sabiduría para acompañarlos.
 
-## Oración
+Enséñame a escuchar sin responder demasiado rápido. Ayúdame a poner límites con amor y a darles espacio para crecer.
 
-Dios fiel, entra en mis preguntas y en mi cansancio. Dame luz para este día, ternura para tratarme y confianza para dejar en tus manos lo que no puedo controlar. Amén.
+Líbrame del deseo de controlar cada paso. Hay lugares a los que yo no puedo llegar, pero tú sí puedes estar con ellos.
+
+Cuida su cuerpo, su mente y su fe. Muéstrales que en Jesús siempre encontrarán una puerta abierta.
+
+Y cuando yo no sepa qué hacer, dame paciencia para orar, pedir consejo y seguir amando.
+
+Gracias por sus vidas.
+
+Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Puedo mencionar el nombre de cada hijo?
 
-Palabras para pedir protección, sabiduría y libertad responsable para los hijos en cada etapa.
+Sí. Puedes nombrarlos y añadir aquello que cada uno está viviendo.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Puede rezarse por hijos adultos?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+Sí. La oración puede adaptarse a cualquier edad y etapa de la vida.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Qué puedo pedir como padre o madre?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sabiduría para escuchar, poner límites con amor y aceptar lo que no puedes controlar.

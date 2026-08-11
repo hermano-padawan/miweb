@@ -14,19 +14,35 @@ featured: false
 readingTime: 6
 ---
 
-Palabras para cerrar el día, soltar lo que pesa y descansar bajo el cuidado de Dios.
-Señor, el día termina y vengo a ti tal como estoy. Gracias por lo bueno que recibí, incluso por aquello
-pequeño que quizá pasó desapercibido.
+Señor,
 
-También pongo delante de ti mis errores. Perdóname donde no amé bien, donde hablé sin cuidado o
-donde dejé que el miedo dirigiera mis pasos. Enséñame y regálame un nuevo comienzo mañana.
-Ahora te entrego lo que no pude resolver. Las conversaciones pendientes, las preocupaciones, las
-personas que amo y todo aquello que mi mente quiere seguir vigilando. Yo necesito dormir; tú no.
-Cubre esta noche con tu paz. Guarda mi casa, mi familia y mi corazón. Que mi descanso sea también un
-acto de confianza.
+el día termina y vengo a ti tal como estoy.
 
-Gracias porque no tengo que terminar el día siendo perfecto; puedo terminarlo sostenido por tu gracia. En
-el nombre de Jesús. Amén.
+Gracias por lo bueno que recibí. Gracias también por esos pequeños regalos que casi no vi mientras tenía prisa.
+
+Perdóname por las palabras con las que hice daño, por lo que pude hacer mejor y por las veces que dejé que el miedo mandara en mí.
+
+Ayúdame a aprender y dame un nuevo comienzo mañana.
+
+Ahora te entrego lo que no pude resolver.
+
+Las conversaciones pendientes.
+
+Las preocupaciones que vuelven.
+
+Las personas que amo.
+
+Mi mente quiere seguir vigilándolo todo, pero yo necesito dormir. Tú permanecerás despierto.
+
+Cuida mi casa y mi familia. Cubre esta noche con tu paz. Calma mis pensamientos y permite que mi cuerpo descanse.
+
+Gracias porque no tengo que terminar este día siendo perfecto.
+
+Puedo terminarlo en tus manos.
+
+En el nombre de Jesús.
+
+Amén.
 
 ## Preguntas frecuentes
 
