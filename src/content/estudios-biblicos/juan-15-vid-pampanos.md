@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-Jesús utiliza la imagen de una vid para describir dependencia, permanencia y fruto dentro de una relación viva.
+En Juan 15, Jesús utiliza una vid para explicar cómo es nuestra relación con Él.
 
-Revisa qué prácticas te ayudan a permanecer y qué actividad está sustituyendo una relación real con Dios.
+## El contexto de Juan 15
 
-El pasaje no habla desde una vida ajena al dolor. Nace en una historia real, con personas frágiles que aprenden a reconocer la fidelidad de Dios dentro de circunstancias que no siempre cambian de inmediato.
+Jesús pronunció estas palabras durante la última noche con sus discípulos, poco antes de ser arrestado. Ellos iban a vivir miedo, confusión y separación. Jesús los preparó para seguir unidos a Él aunque ya no pudieran verlo de la misma manera.
 
-Quizá hoy no necesites una explicación perfecta, sino una verdad en la que descansar. Dios conoce la parte de tu historia que nadie más ve y no se acerca a ella con prisa ni dureza. Su presencia puede sostenerte mientras el camino todavía se aclara.
+## «Yo soy la vid»
 
-Leído desde el corazón del evangelio, el texto no se convierte en una carga más, sino en una ventana hacia el carácter de Dios. Nos muestra a un Señor que llama, sostiene, corrige con misericordia y permanece fiel a su promesa.
+> «Yo soy la vid y vosotros los pámpanos» (Juan 15:5).
 
-Estudiar la Biblia también puede ser una forma de descanso: detenerse ante una palabra, permitir que ilumine nuestras preguntas y descubrir que el Dios de aquellas páginas sigue encontrándose hoy con su pueblo.
+Un pámpano es una rama de la vid. No puede producir uvas separado de la planta. Del mismo modo, la vida cristiana no nace solo del esfuerzo. Necesitamos recibir de Jesús la fuerza y dirección para vivir.
 
-## Una oración para el camino
+## Qué significa permanecer en Jesús
 
-Señor, acércate a mi vida con tu paz. Sostén lo que hoy me cuesta llevar y ayúdame a descansar en tu fidelidad. Que tu amor tenga la palabra más profunda sobre mi historia. Amén.
+Permanecer significa continuar unidos a Él. Lo hacemos cuando escuchamos sus palabras, oramos, obedecemos y descansamos en su amor.
+
+No se trata de pensar en Dios cada segundo. Se trata de volver a Jesús una y otra vez y dejar que sus palabras guíen nuestras decisiones.
+
+## Qué es el fruto
+
+El fruto es la vida que nace de esa unión: amor, obediencia, oración y una manera de tratar a otros que se parece cada vez más a Jesús.
+
+Dar fruto no significa conseguir siempre resultados visibles. Una respuesta paciente, una verdad dicha con amor o una decisión fiel también pueden ser fruto.
+
+## Resumen
+
+Jesús no pide a sus discípulos que produzcan una vida cristiana solos. Los invita a permanecer unidos a Él. La rama da fruto porque recibe vida de la vid.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Quién es la vid?
 
-Qué significa permanecer en Cristo y dar fruto según el discurso de despedida de Jesús.
+Jesús es la vid; sus discípulos son las ramas que reciben vida de Él.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Cómo puedo permanecer en Cristo?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Escuchando su Palabra, orando, obedeciendo y volviendo a su amor cada día.

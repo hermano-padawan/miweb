@@ -15,32 +15,42 @@ draft: false
 readingTime: 6
 ---
 
-El Padrenuestro forma parte del Sermón del Monte y enseña a orar sin convertir la oración en espectáculo o acumulación de palabras.
+El Padrenuestro aparece en Mateo 6:9-13. Jesús no solo dio palabras para repetir: enseñó qué lugar ocupan Dios, nuestras necesidades, el perdón y la ayuda en la oración.
 
-Ora cada petición lentamente y tradúcela en una necesidad concreta de tu día.
+## El contexto
 
-El pasaje no habla desde una vida ajena al dolor. Nace en una historia real, con personas frágiles que aprenden a reconocer la fidelidad de Dios dentro de circunstancias que no siempre cambian de inmediato.
+El Padrenuestro forma parte del Sermón del Monte. Antes de enseñarlo, Jesús advierte contra la oración hecha para impresionar y contra repetir muchas palabras pensando que así Dios escuchará más.
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+## «Padre nuestro que estás en los cielos»
 
-Leído desde el corazón del evangelio, el texto no se convierte en una carga más, sino en una ventana hacia el carácter de Dios. Nos muestra a un Señor que llama, sostiene, corrige con misericordia y permanece fiel a su promesa.
+La oración comienza llamando Padre a Dios. «Nuestro» recuerda que no oramos aislados: formamos parte de una familia.
 
-Estudiar la Biblia también puede ser una forma de descanso: detenerse ante una palabra, permitir que ilumine nuestras preguntas y descubrir que el Dios de aquellas páginas sigue encontrándose hoy con su pueblo.
+## «Santificado sea tu nombre»
 
-## Una oración para el camino
+Santificar significa reconocer a Dios como santo y darle el primer lugar. La oración empieza con quién es Dios antes de hablar de lo que necesitamos.
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+## «Venga tu reino»
+
+Pedimos que la voluntad buena de Dios se haga en el mundo y también en nuestra vida. Es una petición de justicia, paz y obediencia.
+
+## «Danos hoy nuestro pan cotidiano»
+
+Jesús nos enseña a pedir lo necesario para hoy. El pan representa las necesidades básicas y nos recuerda que dependemos de Dios.
+
+## Perdón y tentación
+
+Pedimos perdón porque lo necesitamos y nos comprometemos a perdonar. También pedimos ayuda para no caer en el mal.
+
+## Resumen
+
+El Padrenuestro pone a Dios en el centro y presenta con sencillez nuestras necesidades. Podemos repetirlo y también usar cada frase para hablar con Dios con nuestras propias palabras.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Hay que repetirlo literalmente?
 
-Una guía para comprender la estructura y las peticiones de la oración que Jesús enseñó.
+Puede repetirse tal como Jesús lo enseñó y también servir como guía para otras oraciones.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Dónde aparece?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+En Mateo 6:9-13 y, de forma más breve, en Lucas 11:2-4.

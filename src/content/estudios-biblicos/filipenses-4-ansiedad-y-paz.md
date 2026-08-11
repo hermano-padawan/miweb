@@ -11,16 +11,26 @@ featured: true
 readingTime: 9
 ---
 
-Un estudio pastoral sobre la invitación de Pablo a llevar nuestras preocupaciones a Dios.
+Filipenses 4:6-7 invita a llevar cada preocupación a Dios y describe su paz como una guardia para el corazón y la mente.
+
+## El contexto de Filipenses
+
+Pablo escribió esta carta mientras estaba preso. Sus palabras no nacieron de una vida sin problemas.
+
+## Presentar las peticiones a Dios
 Filipenses 4:6-7 es uno de los textos más citados cuando hablamos de preocupación. Pablo invita a
 presentar nuestras peticiones a Dios con oración y gratitud, y habla de una paz que guarda el corazón y la
 mente en Cristo.
+
+## Oración y gratitud
 
 Estas palabras no nacen desde una vida cómoda. Filipenses fue escrita en circunstancias difíciles. Por
 eso el pasaje no suena a negación del sufrimiento, sino a una práctica de confianza en medio de él.
 Presentar una preocupación a Dios no significa que automáticamente desaparezca la emoción. Significa
 que ya no la cargamos como si estuviéramos solos. La gratitud tampoco obliga a fingir alegría; nos ayuda
 a recordar que la dificultad presente no contiene toda la realidad.
+
+## Una paz que guarda
 
 La paz de Dios es descrita como una guardia sobre el corazón. Es una imagen de protección interior.
 Podemos pedir esa paz y, al mismo tiempo, buscar el apoyo humano que necesitemos. La fe no nos exige
