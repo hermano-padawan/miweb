@@ -15,32 +15,38 @@ draft: false
 readingTime: 6
 ---
 
-La Biblia no ofrece una explicación única para cada sufrimiento. Rechaza respuestas simples que culpan automáticamente a quien padece.
+La Biblia no ofrece una única explicación para cada sufrimiento. Enseña que el mundo está herido por el pecado, muestra consecuencias de decisiones humanas y reconoce males que no podemos explicar. También afirma que Dios se acerca al que sufre y promete que el mal no tendrá la última palabra.
 
-La fe puede buscar causas responsables, aliviar dolor y esperar restauración sin fingir comprenderlo todo.
+## No todo sufrimiento es un castigo personal
 
-La Biblia no trata esta pregunta con frialdad. La sitúa dentro de una relación con Dios en la que caben la confianza, el lamento, la espera y la gracia. No todas las respuestas llegan de una vez, pero ninguna pregunta sincera nos deja fuera de su amor.
+El libro de Job rechaza las explicaciones fáciles de sus amigos. En Juan 9, Jesús niega que la ceguera de un hombre se deba automáticamente a un pecado suyo o de sus padres.
 
-Esta verdad no borra de golpe lo difícil, pero impide que el dolor ocupe toda la habitación. La gracia abre una ventana: recuerda que la historia continúa y que Dios sigue obrando incluso en aquello que todavía no comprendemos.
+No debemos culpar a quien sufre diciendo que le falta fe.
 
-La fe cristiana no exige fingir certeza donde todavía existe dolor. Nos invita a llevar la pregunta a Jesús y a mirar desde su vida, su cruz y su resurrección: allí Dios se muestra cercano a la fragilidad humana.
+## Decisiones humanas y un mundo herido
 
-Podemos quedarnos con una certeza humilde: Dios conoce más de lo que nosotros alcanzamos a ver y su carácter es digno de confianza. Cuando la explicación no basta, su presencia todavía puede acompañar.
+Parte del sufrimiento nace de la violencia, la injusticia y otras decisiones humanas. La Biblia también describe una creación que gime y espera restauración (Romanos 8).
 
-## Una oración para el camino
+Esto no explica cada caso. Hay preguntas para las que la Biblia no da una causa concreta.
 
-Dios fiel, entra en mis preguntas y en mi cansancio. Dame luz para este día, ternura para tratarme y confianza para dejar en tus manos lo que no puedo controlar. Amén.
+## Dios entra en el sufrimiento
+
+Jesús lloró ante la muerte de Lázaro. En la cruz sufrió rechazo, dolor y muerte. La fe cristiana no presenta a un Dios indiferente, sino a Dios acercándose al dolor humano en Jesús.
+
+## La esperanza cristiana
+
+Apocalipsis 21 anuncia un día sin muerte, llanto ni dolor. Mientras esperamos, los cristianos están llamados a consolar, proteger, buscar justicia y aliviar el sufrimiento.
+
+## Resumen
+
+No sabemos por qué ocurre cada dolor. Sí sabemos que no todo es castigo, que Dios está cerca del que sufre y que la Biblia promete una restauración final.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Está mal preguntar «por qué»?
 
-Una respuesta bíblica prudente que reconoce el misterio, la libertad, el dolor y la esperanza.
+No. Job, los salmos y hasta Jesús expresan preguntas y dolor delante de Dios.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Debo decir a alguien que sufre que todo pasa por algo?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+No. Esa frase puede hacer daño y la Biblia no explica así cada sufrimiento.

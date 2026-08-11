@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-María recibe un anuncio que altera sus planes y la expone a incertidumbre. Su respuesta combina preguntas y disponibilidad.
+## Quién fue María
 
-La disponibilidad madura pregunta, escucha y permanece incluso cuando el camino incluye dolor.
+María fue una joven judía de Nazaret escogida para ser la madre de Jesús. Los Evangelios la muestran recibiendo una llamada inesperada, acompañando a su hijo y permaneciendo cerca incluso durante la cruz.
 
-La Biblia no esconde la fragilidad de sus personajes. Sus historias tienen dudas, decisiones equivocadas, pérdidas y nuevos comienzos. Precisamente por eso podemos reconocernos en ellas sin sentir que la fe exige una vida impecable.
+## El anuncio del ángel
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+Lucas 1 cuenta que el ángel Gabriel anunció a María que tendría un hijo por obra del Espíritu Santo. Ella preguntó cómo ocurriría. La Biblia no presenta su pregunta como falta de fe. Después respondió: «Hágase conmigo conforme a tu palabra».
 
-En medio de esa humanidad aparece la fidelidad de Dios. Él llama a personas incompletas, las acompaña durante procesos largos y puede escribir esperanza incluso sobre capítulos que parecían cerrados.
+María visitó a Elisabet y pronunció un canto conocido como el Magníficat. Allí alabó a Dios porque levanta a los humildes y cumple sus promesas.
 
-Su historia no nos pide copiar cada detalle, sino mirar al Dios que estuvo presente. Ese mismo Dios sigue acercándose a vidas reales, con heridas reales, y no desprecia los comienzos pequeños.
+## María en la vida de Jesús
 
-## Una oración para el camino
+María dio a luz en Belén y, junto a José, cuidó a Jesús. Lo llevó al templo y más tarde lo buscó cuando, con doce años, permaneció allí hablando con los maestros.
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+En las bodas de Caná informó a Jesús de que se había terminado el vino. Juan también la sitúa junto a la cruz. Después de la resurrección aparece orando con los discípulos antes de Pentecostés.
+
+## Qué sabemos y qué no sabemos
+
+Los Evangelios no cuentan la edad exacta de María, su aspecto ni muchos detalles de su vida posterior. No debemos inventarlos.
+
+## Qué podemos aprender
+
+María pregunta, escucha y responde. Su fe no evita el dolor, pero permanece. Su canto muestra confianza en un Dios fiel a los humildes.
+
+## Dónde aparece en la Biblia
+
+Principalmente en Mateo 1–2, Lucas 1–2, Juan 2 y 19, y Hechos 1:14.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿María estuvo junto a la cruz?
 
-Qué enseñan los evangelios sobre la respuesta, el canto y la perseverancia de María.
+Sí. Juan 19:25 la menciona allí.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿La Biblia dice cuántos años tenía?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+No. Podemos saber que era una joven comprometida con José, pero el texto no indica su edad exacta.

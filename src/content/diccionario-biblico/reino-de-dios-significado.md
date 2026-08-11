@@ -15,32 +15,36 @@ draft: false
 readingTime: 6
 ---
 
-El reino de Dios es el gobierno activo de Dios, anunciado y encarnado por Jesús. No se limita a un territorio político.
+El Reino de Dios es el gobierno de Dios actuando para salvar, sanar y poner las cosas en orden. No es principalmente un país o territorio. Jesús anunció que este Reino se había acercado por medio de Él.
 
-Buscar el reino significa ordenar la vida bajo los valores y la autoridad de Dios.
+## Significado en la Biblia
 
-En la Biblia, esta palabra no es una definición fría. Forma parte de la historia de Dios acercándose a personas y comunidades reales. Tiene raíces en su carácter y se hace visible en relaciones transformadas.
+Reino puede referirse al lugar gobernado por un rey, pero también a su autoridad y acción de gobernar. Cuando Jesús habla del Reino de Dios, habla de Dios reinando.
 
-Esta verdad no borra de golpe lo difícil, pero impide que el dolor ocupe toda la habitación. La gracia abre una ventana: recuerda que la historia continúa y que Dios sigue obrando incluso en aquello que todavía no comprendemos.
+## El Reino en las palabras de Jesús
 
-Comprenderla es mirar más allá de una idea religiosa. Es descubrir una verdad que toca la culpa, el dolor, la esperanza y la manera en que nos relacionamos con los demás.
+Marcos 1:15 resume su anuncio: «El Reino de Dios se ha acercado. Arrepentíos y creed en el evangelio».
 
-En el corazón del mensaje cristiano, su significado encuentra profundidad en Jesús. En Él, las grandes palabras de la fe adquieren rostro, cercanía y una invitación a vivir bajo la gracia.
+Las parábolas muestran un Reino que comienza de forma pequeña, como una semilla, y crece. Los milagros de Jesús muestran señales de ese Reino: el mal retrocede, los enfermos reciben ayuda y los excluidos son acogidos.
 
-## Una oración para el camino
+## Ya presente y todavía futuro
 
-Dios fiel, entra en mis preguntas y en mi cansancio. Dame luz para este día, ternura para tratarme y confianza para dejar en tus manos lo que no puedo controlar. Amén.
+Los cristianos hablan de un Reino «ya presente» porque Jesús comenzó su obra, y «todavía futuro» porque esperamos su cumplimiento completo. Aún existen sufrimiento, pecado y muerte.
+
+## Buscar el Reino
+
+Buscar primero el Reino significa poner la voluntad de Dios por encima del egoísmo y vivir bajo la enseñanza de Jesús.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿El Reino de Dios es el cielo?
 
-Qué quiso decir Jesús al anunciar el reino de Dios y cómo transforma prioridades y relaciones.
+Está relacionado, pero es más amplio: se refiere al gobierno de Dios, presente ahora y plenamente visible en el futuro.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Quién es el Rey?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+Dios reina, y el Nuevo Testamento presenta a Jesús como Rey y Mesías.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Dónde habla Jesús del Reino?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+En todos los Evangelios, especialmente por medio de parábolas y enseñanzas.

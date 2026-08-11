@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-La justicia bíblica busca que las relaciones sean rectas y que el vulnerable no quede abandonado ante el poder.
+La justicia bíblica es vivir y actuar de acuerdo con lo que Dios considera recto. Incluye tratar a las personas con verdad e igualdad, defender al vulnerable y reparar el daño cuando sea posible.
 
-Practicar justicia incluye verdad, imparcialidad, reparación y cuidado responsable del prójimo.
+## Significado en la Biblia
 
-En la Biblia, esta palabra no es una definición fría. Forma parte de la historia de Dios acercándose a personas y comunidades reales. Tiene raíces en su carácter y se hace visible en relaciones transformadas.
+La justicia nace del carácter de Dios. Deuteronomio 32:4 lo presenta como justo y sin maldad. Por eso la Biblia no limita la justicia al castigo: también habla de proteger al extranjero, al huérfano, a la viuda y al pobre.
 
-Quizá hoy no necesites una explicación perfecta, sino una verdad en la que descansar. Dios conoce la parte de tu historia que nadie más ve y no se acerca a ella con prisa ni dureza. Su presencia puede sostenerte mientras el camino todavía se aclara.
+Los profetas denunciaron a quienes mantenían prácticas religiosas mientras explotaban a otras personas. Isaías 1:17 une la justicia con defender al oprimido.
 
-Comprenderla es mirar más allá de una idea religiosa. Es descubrir una verdad que toca la culpa, el dolor, la esperanza y la manera en que nos relacionamos con los demás.
+## Justicia y rectitud
 
-En el corazón del mensaje cristiano, su significado encuentra profundidad en Jesús. En Él, las grandes palabras de la fe adquieren rostro, cercanía y una invitación a vivir bajo la gracia.
+En la Biblia, justicia y rectitud suelen aparecer juntas. Se refieren a hacer lo correcto delante de Dios tanto en decisiones personales como en relaciones y leyes.
 
-## Una oración para el camino
+## Justicia en Jesús
 
-Señor, acércate a mi vida con tu paz. Sostén lo que hoy me cuesta llevar y ayúdame a descansar en tu fidelidad. Que tu amor tenga la palabra más profunda sobre mi historia. Amén.
+Jesús enseñó a buscar primero el Reino de Dios y su justicia. También denunció la hipocresía y mostró misericordia sin llamar bueno al pecado.
+
+## Ejemplos de justicia
+
+- Decir la verdad sin favorecer al poderoso.
+- Pagar un salario justo.
+- Proteger a quien está en peligro.
+- Reconocer y reparar un daño.
+- Tratar con dignidad a toda persona.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Justicia significa solamente castigo?
 
-Cómo entiende la Biblia la justicia personal, social y relacional.
+No. También incluye protección, igualdad, verdad y reparación.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Qué relación tiene con la misericordia?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No son enemigas. La justicia toma en serio el daño y la misericordia busca responder con compasión.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Dónde aparece este tema?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+En la Ley, los profetas, los Salmos y las enseñanzas de Jesús.

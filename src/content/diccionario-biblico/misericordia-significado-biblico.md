@@ -15,32 +15,36 @@ draft: false
 readingTime: 6
 ---
 
-La misericordia bíblica responde al sufrimiento y a la culpa con compasión activa. No es indiferencia ante el mal, sino una disposición a restaurar.
+Misericordia significa compasión que se acerca y actúa. En la Biblia describe a Dios perdonando al culpable, ayudando al que sufre y tratando a las personas con una bondad que no han podido comprar.
 
-Practicar misericordia puede significar escuchar, ayudar, perdonar o establecer una oportunidad real de cambio.
+## Significado en la Biblia
 
-En la Biblia, esta palabra no es una definición fría. Forma parte de la historia de Dios acercándose a personas y comunidades reales. Tiene raíces en su carácter y se hace visible en relaciones transformadas.
+La misericordia no es sentir pena desde lejos. Mueve a ayudar. En el Antiguo Testamento aparece unida al amor fiel de Dios por su pueblo.
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+El Salmo 103 dice que Dios es compasivo y misericordioso. No ignora el pecado, pero está dispuesto a perdonar a quien vuelve a Él.
 
-Comprenderla es mirar más allá de una idea religiosa. Es descubrir una verdad que toca la culpa, el dolor, la esperanza y la manera en que nos relacionamos con los demás.
+## Misericordia en Jesús
 
-En el corazón del mensaje cristiano, su significado encuentra profundidad en Jesús. En Él, las grandes palabras de la fe adquieren rostro, cercanía y una invitación a vivir bajo la gracia.
+Jesús mostró misericordia al acercarse a enfermos, pecadores y personas rechazadas. En la parábola del buen samaritano, el hombre misericordioso ve al herido, se acerca y paga por su cuidado.
 
-## Una oración para el camino
+## Misericordia y justicia
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+Ser misericordioso no significa permitir que continúe el daño. Puede incluir decir la verdad, mantener límites y ofrecer una oportunidad real de cambio.
+
+## Ejemplos
+
+Escuchar a quien sufre, ayudar con una necesidad, perdonar al arrepentido y tratar con dignidad a alguien que ha fallado son formas de misericordia.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Misericordia y perdón son lo mismo?
 
-Definición de misericordia y su relación con compasión, perdón, justicia y acción.
+El perdón es una forma de misericordia, pero la misericordia también incluye ayuda y compasión.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿La misericordia niega la justicia?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. Puede buscar el bien de una persona sin ocultar la verdad ni las consecuencias.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Qué significa «bienaventurados los misericordiosos»?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Jesús llama bendecidos a quienes ofrecen la compasión que ellos mismos necesitan recibir.

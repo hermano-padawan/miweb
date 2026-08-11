@@ -15,32 +15,42 @@ draft: false
 readingTime: 6
 ---
 
-Pedro habla y actúa con rapidez. Ama a Jesús sinceramente y, aun así, lo niega bajo presión.
+## Quién fue Pedro
 
-Un error grave requiere verdad, gracia y una nueva forma de caminar.
+Pedro fue un pescador de Galilea llamado por Jesús para ser uno de sus doce apóstoles. Fue testigo de su ministerio, negó conocerlo durante el juicio y después recibió una nueva misión.
 
-La Biblia no esconde la fragilidad de sus personajes. Sus historias tienen dudas, decisiones equivocadas, pérdidas y nuevos comienzos. Precisamente por eso podemos reconocernos en ellas sin sentir que la fe exige una vida impecable.
+## Su llamado
 
-Tal vez alguien cercano necesite escuchar hoy este mensaje. No como una respuesta rápida a su dolor, sino como compañía: Dios permanece, su amor no se agota y ninguna noche tiene autoridad para cancelar la esperanza.
+Su nombre era Simón. Jesús lo llamó Pedro, nombre relacionado con piedra. Dejó las redes y comenzó a seguirlo junto a su hermano Andrés.
 
-En medio de esa humanidad aparece la fidelidad de Dios. Él llama a personas incompletas, las acompaña durante procesos largos y puede escribir esperanza incluso sobre capítulos que parecían cerrados.
+Pedro solía hablar y actuar con rapidez. Caminó sobre el agua hacia Jesús, pero tuvo miedo y empezó a hundirse. También reconoció a Jesús como el Mesías y poco después intentó apartarlo del camino de la cruz.
 
-Su historia no nos pide copiar cada detalle, sino mirar al Dios que estuvo presente. Ese mismo Dios sigue acercándose a vidas reales, con heridas reales, y no desprecia los comienzos pequeños.
+## La negación
 
-## Una oración para el camino
+Pedro aseguró que nunca abandonaría a Jesús. Esa misma noche negó tres veces conocerlo. Cuando cantó el gallo, recordó la advertencia de Jesús y lloró amargamente.
 
-Señor, recibe mi vida tal como está. Sana lo herido, fortalece lo débil y ayúdame a reconocer tu bondad aun en los pasos pequeños. Amén.
+El relato no presenta su error como algo pequeño. Pedro falló precisamente cuando su amigo estaba siendo juzgado.
+
+## Jesús restaura a Pedro
+
+Después de resucitar, Jesús se encontró con Pedro junto al mar. Tres veces le preguntó si lo amaba y tres veces le encargó cuidar de sus ovejas. La restauración incluyó verdad, amor y responsabilidad.
+
+En Hechos, Pedro anuncia públicamente a Jesús y participa en el comienzo de la iglesia. También aprende que el evangelio alcanza a personas no judías.
+
+## Qué podemos aprender
+
+Un fracaso grave no tiene por qué ser el final. La gracia de Jesús perdona, pero también llama a una forma nueva de vivir y servir.
+
+## Dónde aparece en la Biblia
+
+En los cuatro Evangelios, Hechos y las cartas de 1 y 2 Pedro.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Por qué Jesús le preguntó tres veces si lo amaba?
 
-La transformación de Pedro desde su llamado hasta su liderazgo en la iglesia.
+El texto no lo explica directamente. Muchos lectores relacionan las tres preguntas con las tres negaciones.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Pedro fue perfecto después?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+No. Gálatas 2 cuenta que Pablo tuvo que corregirlo por su conducta.

@@ -15,32 +15,36 @@ draft: false
 readingTime: 6
 ---
 
-La salvación describe la iniciativa de Dios para rescatar del pecado, reconciliar y conducir hacia una vida renovada.
+Salvación significa rescate. En la Biblia, Dios salva del peligro, del pecado y de la muerte. Para los cristianos, la salvación se recibe por la gracia de Dios mediante la fe en Jesús y conduce a una vida nueva.
 
-Recibir salvación produce gratitud, confianza y una vida que aprende a amar y servir.
+## Significado en el Antiguo Testamento
 
-En la Biblia, esta palabra no es una definición fría. Forma parte de la historia de Dios acercándose a personas y comunidades reales. Tiene raíces en su carácter y se hace visible en relaciones transformadas.
+La palabra puede describir rescates concretos. Dios salva a Israel de la esclavitud en Egipto y libra a personas de enemigos o peligros. Los Salmos llaman a Dios «mi salvación».
 
-Tal vez alguien cercano necesite escuchar hoy este mensaje. No como una respuesta rápida a su dolor, sino como compañía: Dios permanece, su amor no se agota y ninguna noche tiene autoridad para cancelar la esperanza.
+## Salvación en el Nuevo Testamento
 
-Comprenderla es mirar más allá de una idea religiosa. Es descubrir una verdad que toca la culpa, el dolor, la esperanza y la manera en que nos relacionamos con los demás.
+El Nuevo Testamento presenta el pecado como un problema del que no podemos rescatarnos solos. Jesús vino «a buscar y salvar lo que se había perdido» (Lucas 19:10).
 
-En el corazón del mensaje cristiano, su significado encuentra profundidad en Jesús. En Él, las grandes palabras de la fe adquieren rostro, cercanía y una invitación a vivir bajo la gracia.
+Su muerte y resurrección están en el centro de esta salvación. Por medio de Él recibimos perdón, reconciliación con Dios y esperanza de resurrección.
 
-## Una oración para el camino
+## Gracia, fe y obras
 
-Señor, recibe mi vida tal como está. Sana lo herido, fortalece lo débil y ayúdame a reconocer tu bondad aun en los pasos pequeños. Amén.
+Efesios 2:8-10 enseña que la salvación es por gracia mediante la fe, no un premio ganado por obras. Las buenas obras vienen después como fruto de una vida alcanzada por Dios.
+
+## Presente y futuro
+
+La Biblia habla de haber sido salvados, estar siendo transformados y esperar la salvación completa cuando Dios venza definitivamente el pecado y la muerte.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Cómo se recibe la salvación?
 
-Una explicación clara de salvación, rescate, reconciliación y vida nueva en la Biblia.
+El Nuevo Testamento llama a arrepentirse y confiar en Jesús, recibiendo la gracia de Dios.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Se puede comprar o merecer?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. Es un regalo de Dios, no un salario por una vida perfecta.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿La salvación cambia la vida actual?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sí. Trae perdón y comienza una nueva forma de vivir, amar y obedecer.

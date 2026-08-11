@@ -15,32 +15,34 @@ draft: false
 readingTime: 6
 ---
 
-La esperanza cristiana no consiste principalmente en escapar de la creación, sino en resurrección y restauración bajo el gobierno de Dios.
+La Biblia enseña que la muerte no es el final. Habla de estar con Cristo, de una resurrección futura, del juicio de Dios y de una nueva creación donde la muerte y el dolor desaparecerán.
 
-El tema invita a vivir con esperanza, responsabilidad y consuelo, evitando especulación innecesaria.
+## La esperanza de la resurrección
 
-La Biblia no trata esta pregunta con frialdad. La sitúa dentro de una relación con Dios en la que caben la confianza, el lamento, la espera y la gracia. No todas las respuestas llegan de una vez, pero ninguna pregunta sincera nos deja fuera de su amor.
+El centro de la esperanza cristiana es la resurrección de Jesús. 1 Corintios 15 afirma que, así como Cristo resucitó, quienes le pertenecen también resucitarán.
 
-Tal vez alguien cercano necesite escuchar hoy este mensaje. No como una respuesta rápida a su dolor, sino como compañía: Dios permanece, su amor no se agota y ninguna noche tiene autoridad para cancelar la esperanza.
+La esperanza no consiste solamente en que el alma escape del mundo. Apocalipsis 21 describe cielo y tierra renovados, con Dios viviendo junto a su pueblo.
 
-La fe cristiana no exige fingir certeza donde todavía existe dolor. Nos invita a llevar la pregunta a Jesús y a mirar desde su vida, su cruz y su resurrección: allí Dios se muestra cercano a la fragilidad humana.
+## Qué ocurre inmediatamente después de morir
 
-Podemos quedarnos con una certeza humilde: Dios conoce más de lo que nosotros alcanzamos a ver y su carácter es digno de confianza. Cuando la explicación no basta, su presencia todavía puede acompañar.
+Jesús dijo al ladrón en la cruz: «Hoy estarás conmigo en el paraíso» (Lucas 23:43). Pablo también expresó su deseo de partir y estar con Cristo (Filipenses 1:23).
 
-## Una oración para el camino
+Los cristianos coinciden en que quien muere en Cristo está seguro con Él. Existen distintas interpretaciones sobre algunos detalles del estado entre la muerte y la resurrección, y la Biblia no responde cada pregunta que podemos imaginar.
 
-Señor, recibe mi vida tal como está. Sana lo herido, fortalece lo débil y ayúdame a reconocer tu bondad aun en los pasos pequeños. Amén.
+## Juicio y vida eterna
+
+La Biblia enseña que Dios juzgará con justicia. La salvación se recibe por la gracia de Dios mediante la fe en Jesús, y esa fe produce una vida transformada.
+
+## Resumen
+
+Después de la muerte, la esperanza cristiana descansa en estar con Cristo y en la resurrección futura. Dios juzgará justamente y renovará la creación.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿La Biblia enseña la resurrección del cuerpo?
 
-Una introducción a resurrección, juicio, esperanza y nueva creación.
+Sí. 1 Corintios 15 presenta la resurrección corporal como parte central de la fe cristiana.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Sabemos todos los detalles del cielo?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+No. La Biblia ofrece una esperanza firme, pero no responde a toda curiosidad sobre cómo será.

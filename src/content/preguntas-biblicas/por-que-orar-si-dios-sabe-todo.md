@@ -15,32 +15,34 @@ draft: false
 readingTime: 6
 ---
 
-La oración no informa a Dios de datos desconocidos. Nos permite relacionarnos, expresar dependencia y alinear la vida con su voluntad.
+Oramos porque la oración es una relación con Dios, no una forma de darle información. Dios conoce nuestras necesidades y, aun así, nos invita a pedir, agradecer, confesar y escuchar.
 
-La oración abre espacio para gratitud, confesión, petición y una respuesta activa.
+## Jesús dijo que el Padre ya sabe
 
-La Biblia no trata esta pregunta con frialdad. La sitúa dentro de una relación con Dios en la que caben la confianza, el lamento, la espera y la gracia. No todas las respuestas llegan de una vez, pero ninguna pregunta sincera nos deja fuera de su amor.
+En Mateo 6:8, Jesús afirma que el Padre sabe lo que necesitamos antes de que se lo pidamos. Inmediatamente después enseña el Padrenuestro.
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+Por tanto, conocer nuestras necesidades no hace innecesaria la oración. Un padre puede saber que su hijo está preocupado y aun así querer escucharlo.
 
-La fe cristiana no exige fingir certeza donde todavía existe dolor. Nos invita a llevar la pregunta a Jesús y a mirar desde su vida, su cruz y su resurrección: allí Dios se muestra cercano a la fragilidad humana.
+## Qué ocurre cuando oramos
 
-Podemos quedarnos con una certeza humilde: Dios conoce más de lo que nosotros alcanzamos a ver y su carácter es digno de confianza. Cuando la explicación no basta, su presencia todavía puede acompañar.
+La oración nos permite hablar con sinceridad, reconocer que necesitamos ayuda y poner nuestras decisiones delante de Dios. También puede movernos a actuar. Orar por una persona con hambre no sustituye ofrecer alimento cuando podemos hacerlo.
 
-## Una oración para el camino
+La oración no sirve para controlar a Dios. Podemos pedir con confianza y aceptar que su respuesta o su tiempo sean diferentes de lo que esperamos.
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+## ¿La oración cambia algo?
+
+La Biblia presenta oraciones que reciben respuesta y también largos tiempos de espera. Afirma que Dios escucha, pero no promete que cada petición producirá exactamente el resultado pedido.
+
+## Resumen
+
+Dios ya sabe lo que necesitamos. Oramos porque nos ama, nos escucha y nos invita a vivir en relación con Él.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Tengo que usar palabras especiales?
 
-Cómo entender la oración como relación, participación y transformación.
+No. Jesús enseñó una oración sencilla y también podemos hablar con Dios con nuestras propias palabras.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Puedo pedir cosas concretas?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sí. La Biblia anima a presentar nuestras peticiones con sinceridad y confianza.

@@ -4,6 +4,12 @@ import { join } from "node:path";
 const date = "2026-08-09";
 const author = "Equipo Nexo Bíblico";
 
+// Las entradas del diccionario generadas deben reescribirse y revisarse con la
+// guía docs/voz-editorial-diccionario-biblico.md antes de publicarse.
+// Las preguntas bíblicas generadas deben reescribirse y revisarse con la guía
+// docs/voz-editorial-preguntas-biblicas.md antes de publicarse.
+// Los personajes bíblicos generados deben reescribirse y revisarse con la guía
+// docs/voz-editorial-personajes-biblicos.md antes de publicarse.
 // Los estudios bíblicos generados deben reescribirse y revisarse con la guía
 // docs/voz-editorial-estudios-biblicos.md antes de publicarse.
 // Los artículos de versículos generados deben reescribirse y revisarse con la

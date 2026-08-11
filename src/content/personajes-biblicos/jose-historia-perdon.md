@@ -15,32 +15,41 @@ draft: false
 readingTime: 6
 ---
 
-José atraviesa traición, esclavitud y prisión antes de recibir autoridad. El desenlace no hace insignificante el sufrimiento.
+## Quién fue José
 
-El perdón puede incluir tiempo, lágrimas, límites y un proceso de reconocimiento.
+José fue uno de los doce hijos de Jacob. Sus hermanos lo vendieron como esclavo, pero años después llegó a gobernar Egipto por debajo del faraón. Su historia se encuentra en Génesis 37–50.
 
-La Biblia no esconde la fragilidad de sus personajes. Sus historias tienen dudas, decisiones equivocadas, pérdidas y nuevos comienzos. Precisamente por eso podemos reconocernos en ellas sin sentir que la fe exige una vida impecable.
+## Su historia
 
-Quizá hoy no necesites una explicación perfecta, sino una verdad en la que descansar. Dios conoce la parte de tu historia que nadie más ve y no se acerca a ella con prisa ni dureza. Su presencia puede sostenerte mientras el camino todavía se aclara.
+Jacob mostraba un cariño especial por José. Además, José contó sueños en los que su familia se inclinaba ante él. Sus hermanos sintieron odio y celos. Lo arrojaron a un pozo y después lo vendieron a unos comerciantes.
 
-En medio de esa humanidad aparece la fidelidad de Dios. Él llama a personas incompletas, las acompaña durante procesos largos y puede escribir esperanza incluso sobre capítulos que parecían cerrados.
+En Egipto, José sirvió en la casa de Potifar. Fue acusado falsamente por la esposa de su amo y terminó en prisión. Allí interpretó sueños de otros presos. Más tarde, cuando el faraón tuvo unos sueños que nadie comprendía, José explicó que vendrían siete años de abundancia y siete de hambre.
 
-Su historia no nos pide copiar cada detalle, sino mirar al Dios que estuvo presente. Ese mismo Dios sigue acercándose a vidas reales, con heridas reales, y no desprecia los comienzos pequeños.
+El faraón puso a José al frente de la preparación del país. Durante el hambre, sus hermanos llegaron a Egipto buscando alimento sin reconocerlo.
 
-## Una oración para el camino
+## El perdón a sus hermanos
 
-Señor, acércate a mi vida con tu paz. Sostén lo que hoy me cuesta llevar y ayúdame a descansar en tu fidelidad. Que tu amor tenga la palabra más profunda sobre mi historia. Amén.
+José no se dio a conocer inmediatamente. Quiso comprobar si sus hermanos habían cambiado. Cuando finalmente reveló quién era, lloró y decidió no vengarse.
+
+Perdonar no hizo pequeña la traición. José necesitó tiempo, verdad y pruebas de cambio antes de recuperar la relación.
+
+## Qué podemos aprender
+
+- Dios permaneció con José durante años difíciles.
+- Tener poder no obliga a usarlo para vengarse.
+- El perdón puede incluir lágrimas, tiempo y prudencia.
+- Un final bueno no borra el dolor vivido.
+
+## Dónde aparece en la Biblia
+
+Su historia principal está en Génesis 37–50. No debe confundirse con José, esposo de María, que aparece en los Evangelios.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿José perdonó a sus hermanos?
 
-Lecciones de Génesis 37–50 sobre adversidad, poder y reconciliación.
+Sí. Renunció a vengarse y cuidó de ellos, aunque antes comprobó si su actitud había cambiado.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿La Biblia dice que José nunca se equivocó?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+No lo presenta como perfecto. El relato se concentra en la fidelidad de Dios a lo largo de su vida.

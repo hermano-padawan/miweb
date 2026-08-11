@@ -1,5 +1,7 @@
 import type { QuizQuestion } from "../components/games/QuizGame.astro";
 
+// Criterios editoriales: docs/voz-editorial-tests-biblicos.md
+
 const link = {
   relatedHref: "/estudios-biblicos",
   relatedLabel: "Sigue aprendiendo con nuestros estudios",

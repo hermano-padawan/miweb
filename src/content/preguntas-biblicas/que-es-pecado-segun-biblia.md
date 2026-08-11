@@ -15,32 +15,36 @@ draft: false
 readingTime: 6
 ---
 
-El pecado incluye acciones, motivaciones y estructuras que contradicen el amor y la justicia de Dios.
+Según la Biblia, el pecado es todo lo que se opone al carácter y la voluntad de Dios. Incluye acciones, palabras, deseos y omisiones que dañan nuestra relación con Dios y con otras personas.
 
-Reconocer pecado abre camino a confesión, perdón, reparación y transformación.
+## Qué dice la Biblia
 
-La Biblia no trata esta pregunta con frialdad. La sitúa dentro de una relación con Dios en la que caben la confianza, el lamento, la espera y la gracia. No todas las respuestas llegan de una vez, pero ninguna pregunta sincera nos deja fuera de su amor.
+1 Juan 3:4 relaciona el pecado con quebrantar la ley de Dios. Santiago 4:17 añade que saber hacer el bien y no hacerlo también es pecado. Jesús enseñó que el mal no comienza solo en los actos visibles, sino también en el corazón.
 
-No tienes que demostrar fortaleza delante de Dios. Puedes llegar con preguntas, cansancio o lágrimas. La fe comienza muchas veces en esa honestidad y descubre que los brazos del Padre ya estaban abiertos.
+Pecar no es simplemente cometer un error por falta de información. Tiene una dimensión moral: elegimos un camino contrario al amor, la verdad y la justicia de Dios.
 
-La fe cristiana no exige fingir certeza donde todavía existe dolor. Nos invita a llevar la pregunta a Jesús y a mirar desde su vida, su cruz y su resurrección: allí Dios se muestra cercano a la fragilidad humana.
+## ¿Todas las personas pecan?
 
-Podemos quedarnos con una certeza humilde: Dios conoce más de lo que nosotros alcanzamos a ver y su carácter es digno de confianza. Cuando la explicación no basta, su presencia todavía puede acompañar.
+Sí. Romanos 3:23 afirma que todos han pecado. La Biblia no divide a la humanidad entre personas perfectas y personas sin esperanza. Todos necesitamos la gracia de Dios.
 
-## Una oración para el camino
+## Pecado personal y mal compartido
 
-Jesús, quédate cerca. Cuando mi corazón se inquiete, recuérdame que no camino solo. Haz de tu presencia mi refugio y de tu amor mi esperanza. Amén.
+La Biblia habla de decisiones individuales y también de injusticias sostenidas por grupos, gobernantes o sociedades. Los profetas denunciaron sistemas que oprimían a pobres y vulnerables.
+
+## Qué ofrece Jesús
+
+El evangelio no minimiza el pecado. Anuncia que Jesús ofrece perdón, reconciliación y una vida nueva. Arrepentirse significa reconocer el mal, volver a Dios y comenzar a caminar de otra manera.
+
+## Resumen
+
+El pecado es aquello que contradice a Dios y hace daño. Todos necesitamos perdón, y en Jesús podemos recibir gracia y empezar a cambiar.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Un error involuntario siempre es pecado?
 
-Qué significa pecado, cómo afecta relaciones y por qué la gracia no lo minimiza.
+No todo error es una decisión moral. Sin embargo, podemos ser responsables de reparar el daño aunque no fuera intencionado.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Dios perdona cualquier pecado?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+El Nuevo Testamento ofrece perdón a quien se vuelve a Dios con fe y arrepentimiento.
