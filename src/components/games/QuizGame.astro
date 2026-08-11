@@ -36,7 +36,7 @@ const clientQuestions = questions.map((question) => ({
 
   <div class="quiz__progress" aria-label="Progreso del test">
     <span data-progress-text>Pregunta 1 de {questions.length}</span>
-    <span data-score-text>0 aciertos</span>
+    <span><strong data-level-label>Medio</strong> · <span data-score-text>0 aciertos</span><span data-timer hidden> · <b data-time>15</b>s</span></span>
     <div class="quiz__progress-track" aria-hidden="true">
       <span data-progress-bar></span>
     </div>
@@ -95,7 +95,30 @@ const clientQuestions = questions.map((question) => ({
   const source = document.querySelector<HTMLScriptElement>("[data-quiz-questions]");
 
   if (quiz && source) {
-    const questions = JSON.parse(source.textContent || "[]");
+    const sourceQuestions = JSON.parse(source.textContent || "[]");
+    const requestedLevel = new URLSearchParams(window.location.search).get("nivel");
+    const difficulty = ["facil", "medio", "dificil"].includes(requestedLevel || "") ? requestedLevel : "medio";
+    const shuffle = <T,>(items: T[]) => {
+      const copy = [...items];
+      for (let index = copy.length - 1; index > 0; index -= 1) {
+        const swap = Math.floor(Math.random() * (index + 1));
+        [copy[index], copy[swap]] = [copy[swap], copy[index]];
+      }
+      return copy;
+    };
+    const adaptQuestion = (item: any) => {
+      if (difficulty === "facil") {
+        const wrong = item.answers.findIndex((_: string, index: number) => index !== item.correct);
+        const indexes = shuffle([item.correct, wrong]);
+        return { ...item, answers: indexes.map((index) => item.answers[index]), correct: indexes.indexOf(item.correct) };
+      }
+      if (difficulty === "dificil") {
+        const indexes = shuffle(item.answers.map((_: string, index: number) => index));
+        return { ...item, answers: indexes.map((index: number) => item.answers[index]), correct: indexes.indexOf(item.correct) };
+      }
+      return item;
+    };
+    const questions = (difficulty === "medio" ? sourceQuestions : shuffle(sourceQuestions)).map(adaptQuestion);
     const card = quiz.querySelector<HTMLElement>("[data-card]")!;
     const result = quiz.querySelector<HTMLElement>("[data-result]")!;
     const answers = [...quiz.querySelectorAll<HTMLButtonElement>("[data-answer]")];
@@ -104,6 +127,8 @@ const clientQuestions = questions.map((question) => ({
     let current = 0;
     let score = 0;
     let locked = false;
+    let timerId = 0;
+    let secondsLeft = 15;
 
     const text = (selector: string, value: string) => {
       const element = quiz.querySelector<HTMLElement>(selector);
@@ -121,6 +146,23 @@ const clientQuestions = questions.map((question) => ({
       }, window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 220);
     };
 
+    const stopTimer = () => window.clearInterval(timerId);
+    const startTimer = () => {
+      stopTimer();
+      if (difficulty !== "dificil") return;
+      secondsLeft = 15;
+      text("[data-time]", String(secondsLeft));
+      timerId = window.setInterval(() => {
+        secondsLeft -= 1;
+        text("[data-time]", String(secondsLeft));
+        if (secondsLeft <= 0) {
+          stopTimer();
+          const wrongIndex = questions[current].answers.findIndex((_: string, index: number) => index !== questions[current].correct);
+          answers[wrongIndex]?.dispatchEvent(new MouseEvent("click"));
+        }
+      }, 1000);
+    };
+
     const renderQuestion = () => {
       const item = questions[current];
       text("[data-question-number]", `Pregunta ${current + 1}`);
@@ -130,16 +172,20 @@ const clientQuestions = questions.map((question) => ({
       const progress = quiz.querySelector<HTMLElement>("[data-progress-bar]");
       if (progress) progress.style.width = `${(current / questions.length) * 100}%`;
       answers.forEach((button, index) => {
+        const available = index < item.answers.length;
+        button.hidden = !available;
         button.disabled = false;
         button.className = "quiz__answer";
-        button.querySelector("strong")!.textContent = item.answers[index];
+        if (available) button.querySelector("strong")!.textContent = item.answers[index];
       });
       feedback.hidden = true;
       locked = false;
       answers[0]?.focus();
+      startTimer();
     };
 
     const finish = () => {
+      stopTimer();
       const normalizedScore = Math.round((score / questions.length) * 10);
       const level = normalizedScore >= 9
         ? ["Gran conocedor de las Escrituras", "Dominas historias, personajes y enseñanzas clave de la Biblia."]
@@ -178,6 +224,7 @@ const clientQuestions = questions.map((question) => ({
       button.addEventListener("click", () => {
         if (locked) return;
         locked = true;
+        stopTimer();
         const item = questions[current];
         const isCorrect = selected === item.correct;
         if (isCorrect) score += 1;
@@ -228,11 +275,16 @@ const clientQuestions = questions.map((question) => ({
       }
     });
 
+    quiz.dataset.storageKey = `${quiz.dataset.storageKey}-${difficulty}`;
     const storedBest = Number(localStorage.getItem(quiz.dataset.storageKey || "") || 0);
     if (storedBest) {
       text("[data-best-score]", String(storedBest));
       quiz.querySelector<HTMLElement>("[data-best]")!.hidden = false;
     }
+    const labels: Record<string, string> = { facil: "Fácil", medio: "Medio", dificil: "Difícil" };
+    text("[data-level-label]", labels[difficulty]);
+    quiz.querySelector<HTMLElement>("[data-timer]")!.hidden = difficulty !== "dificil";
+    renderQuestion();
   }
 </script>
 

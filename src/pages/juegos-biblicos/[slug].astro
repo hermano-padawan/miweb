@@ -10,12 +10,18 @@ export function getStaticPaths() {
 const { game } = Astro.props;
 ---
 <MainLayout seo={{ title: game.title, description: game.description, image: game.image }}>
-  <header class="game-hero"><p>Juego bíblico · {game.difficulty}</p><h1>{game.title}</h1><span>{game.description}</span></header>
+  <header class="game-hero"><p>Juego bíblico · <span data-page-level>{game.difficulty}</span></p><h1>{game.title}</h1><span>{game.description}</span></header>
   <main class="game-page">
     <QuizGame questions={game.questions} storageKey={`nexo-${game.slug}`} heading={game.shortTitle} />
     <section class="game-copy"><h2>Aprende mientras juegas</h2><p>Este juego contiene quince retos con respuesta explicada. Puedes repetirlo para mejorar tu puntuación y utilizar los enlaces relacionados para profundizar en las historias, personajes y enseñanzas que aparecen durante la partida.</p><p>El resultado se calcula sobre 10 y se guarda solo en este navegador. No representa una evaluación de fe o conocimiento doctrinal, sino una forma entretenida de repasar la Biblia.</p></section>
   </main>
 </MainLayout>
+<script>
+  const level = new URLSearchParams(window.location.search).get("nivel") || "medio";
+  const labels: Record<string, string> = { facil: "Fácil", medio: "Medio", dificil: "Difícil" };
+  const target = document.querySelector<HTMLElement>("[data-page-level]");
+  if (target) target.textContent = labels[level] || labels.medio;
+</script>
 <style>
   .game-hero{padding:clamp(2.5rem,6vw,4.5rem) 1rem;text-align:center;color:#fff;background:#102a43}.game-hero p{margin:0;color:#f0bd62;font-size:.78rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase}.game-hero h1{margin:.5rem auto;font-size:clamp(2rem,6vw,3.7rem);line-height:1.08}.game-hero span{display:block;max-width:650px;margin:auto;color:#dbe7ef}.game-page{width:min(calc(100% - 2rem),960px);margin:2.75rem auto 5rem}.game-copy{max-width:760px;margin:3.5rem auto 0;color:var(--color-text-light);font-size:1.05rem}.game-copy h2{color:var(--color-text);font-size:clamp(1.5rem,4vw,2rem)}@media(max-width:600px){.game-page{width:calc(100% - 1.25rem)}}
 </style>

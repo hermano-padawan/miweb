@@ -637,6 +637,7 @@ export const gameCards = [
   ...quizGames,
   {
     slug: "ordena-historia-biblica",
+    supportsLevels: false,
     shortTitle: "Ordena la historia",
     title: "Ordena la historia bíblica",
     difficulty: "Media",
@@ -645,6 +646,7 @@ export const gameCards = [
   },
   {
     slug: "que-personaje-biblico-eres",
+    supportsLevels: false,
     shortTitle: "¿Qué personaje eres?",
     title: "¿Qué personaje bíblico eres?",
     difficulty: "Lúdico",
