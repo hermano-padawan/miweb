@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-La Biblia relaciona el perdón recibido con una disposición a perdonar, sin minimizar la justicia.
+La Biblia habla del perdón recibido de Dios y del perdón que ofrecemos. También enseña la importancia de la verdad y el arrepentimiento.
 
-Pregunta qué deuda entregas, qué límite mantienes y qué conversación necesita verdad.
+## 1 Juan 1:9: Dios perdona al que confiesa
 
-Estos versículos no son frases mágicas ni niegan la complejidad de lo que vivimos. Son palabras nacidas en historias de espera, pérdida, confianza y restauración. Por eso pueden acompañarnos sin exigir que finjamos.
+> «Si confesamos nuestros pecados, Dios es fiel y justo para perdonarnos».
 
-Tal vez alguien cercano necesite escuchar hoy este mensaje. No como una respuesta rápida a su dolor, sino como compañía: Dios permanece, su amor no se agota y ninguna noche tiene autoridad para cancelar la esperanza.
+Confesar significa reconocer delante de Dios lo que hicimos, sin esconderlo ni buscar excusas. Su respuesta es perdón y limpieza.
 
-Puedes recibirlos como quien recibe una mano. Léelos despacio y deja que una sola frase permanezca contigo. La Palabra no siempre cambia de inmediato las circunstancias, pero puede devolver al corazón un lugar donde apoyarse.
+## Efesios 4:32: perdonar como fuimos perdonados
 
-Cuando no sepas qué decir, permite que estas palabras oren contigo. Dios conoce el silencio que hay detrás de cada lectura y puede hacer de un versículo conocido una fuente nueva de consuelo.
+> «Perdonaos unos a otros, como también Dios os perdonó en Cristo».
 
-## Una oración para el camino
+El perdón cristiano nace de la gracia recibida. No dice que el daño fuera pequeño. Entrega a Dios la deuda y renuncia a vivir buscando venganza.
 
-Señor, recibe mi vida tal como está. Sana lo herido, fortalece lo débil y ayúdame a reconocer tu bondad aun en los pasos pequeños. Amén.
+## Lucas 17:3: verdad y arrepentimiento
+
+> «Si tu hermano peca, repréndelo; y si se arrepiente, perdónalo».
+
+Jesús une el perdón con la verdad. Reconciliar una relación requiere reconocer el daño y mostrar un cambio real.
+
+## Qué pueden decirte hoy
+
+Perdonar no significa olvidar, justificar ni exponerte de nuevo al peligro. Puedes mantener distancia y pedir ayuda. Si todavía no puedes perdonar, comienza diciendo a Dios la verdad sobre tu herida.
+
+## Una idea para recordar
+
+Perdonar no llama bueno al daño; pone la deuda en manos de Dios.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Perdonar y reconciliarse son lo mismo?
 
-Pasajes para comprender la gracia, el arrepentimiento y los límites del perdón.
+No. La reconciliación necesita verdad, arrepentimiento y cambios de ambas partes.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Puedo perdonar y mantener distancia?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sí. El perdón no te obliga a volver a una situación de abuso o peligro.

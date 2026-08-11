@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-La fe bíblica no es negar los hechos. Descansa en el carácter de Dios y produce pasos responsables.
+La fe bíblica no consiste en negar los hechos ni en sentirse fuerte todo el tiempo. Es confiar en Dios y dar un paso con Él.
 
-Elige un pasaje, léelo en contexto y conviértelo en una oración y una acción.
+## Hebreos 11:1: confiar en lo que esperamos
 
-Estos versículos no son frases mágicas ni niegan la complejidad de lo que vivimos. Son palabras nacidas en historias de espera, pérdida, confianza y restauración. Por eso pueden acompañarnos sin exigir que finjamos.
+> «La fe es la garantía de lo que se espera, la certeza de lo que no se ve».
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+Hebreos recuerda a creyentes que siguieron confiando sin ver todavía el cumplimiento completo de las promesas. Su fe no fue imaginación: se apoyó en el carácter de Dios.
 
-Puedes recibirlos como quien recibe una mano. Léelos despacio y deja que una sola frase permanezca contigo. La Palabra no siempre cambia de inmediato las circunstancias, pero puede devolver al corazón un lugar donde apoyarse.
+## Marcos 9:24: una fe que pide ayuda
 
-Cuando no sepas qué decir, permite que estas palabras oren contigo. Dios conoce el silencio que hay detrás de cada lectura y puede hacer de un versículo conocido una fuente nueva de consuelo.
+> «¡Sí creo! ¡Ayúdame en mi poca fe!».
 
-## Una oración para el camino
+Un padre dijo estas palabras a Jesús mientras pedía ayuda para su hijo. Creía y, al mismo tiempo, reconocía sus dudas. Jesús no lo rechazó.
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+## Proverbios 3:5: confiar sin entenderlo todo
+
+> «Confía en el Señor de todo corazón y no te apoyes en tu propia inteligencia».
+
+Confiar no significa dejar de pensar. Significa reconocer que Dios ve más de lo que nosotros vemos.
+
+## Qué pueden decirte hoy
+
+Quizá tu fe se siente pequeña. Puedes acercarte a Jesús con esa fe. Dile la verdad, pide ayuda y da el paso bueno que tienes delante.
+
+## Una idea para recordar
+
+Una fe pequeña también puede acercarse a un Dios grande.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Tener dudas significa no tener fe?
 
-Pasajes explicados para comprender qué significa confiar en Dios en situaciones reales.
+No. Marcos 9 muestra una fe sincera que reconoce sus dudas y pide ayuda.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿La fe significa ignorar la realidad?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+No. La fe mira la realidad y decide confiar en Dios dentro de ella.

@@ -11,21 +11,39 @@ featured: true
 readingTime: 7
 ---
 
-Palabras bíblicas para respirar, orar y recordar que no cargas solo con todo.
+Cuando la preocupación ocupa demasiado espacio, la Biblia ofrece palabras para acercarnos a Dios. No son fórmulas mágicas, pero pueden ayudarnos a recordar que no cargamos solos con todo.
 
-Cuando la preocupación ocupa demasiado espacio, a veces necesitamos palabras sencillas que nos
-devuelvan a un lugar seguro. Filipenses 4:6-7 nos invita a presentar nuestras peticiones a Dios. 1 Pedro
-5:7 habla de echar sobre Él nuestras preocupaciones porque tiene cuidado de nosotros. El Salmo 56
-recuerda que podemos confiar incluso en el día del temor.
+## Filipenses 4:6-7: habla con Dios de lo que te preocupa
 
-Estos versículos no son fórmulas mágicas. Son lugares de encuentro. Puedes leer uno lentamente,
-repetirlo, convertirlo en oración y dejar que acompañe tu respiración.
+> «No os inquietéis por nada; más bien, en toda ocasión, presentad vuestras peticiones a Dios».
 
-También Mateo 6 nos recuerda que el Padre conoce nuestras necesidades. Jesús no ridiculiza nuestra
-fragilidad; nos orienta hacia una confianza cotidiana: el pan de hoy, la gracia de hoy, el día de hoy.
-Si la preocupación es intensa o persistente, recibir apoyo no contradice estas palabras. La fe y el cuidado
-pueden caminar juntos. La Biblia nos recuerda que somos criaturas sostenidas por Dios, no personas
-obligadas a poder con todo.
+Pablo escribió estas palabras desde la cárcel. No estaba viviendo un momento cómodo. Invitaba a presentar cada preocupación a Dios con oración y gratitud. La paz prometida no depende de negar el problema, sino de llevarlo a Dios.
+
+## 1 Pedro 5:7: Dios cuida de ti
+
+> «Depositen en él toda ansiedad, porque él cuida de ustedes».
+
+Pedro anima a soltar el peso delante de Dios. Puedes nombrar una preocupación concreta y decir: «Señor, esto pesa demasiado para mí».
+
+## Salmo 56:3: confiar cuando llega el miedo
+
+> «Cuando siento miedo, pongo en ti mi confianza».
+
+El salmista no dice que nunca siente miedo. Explica qué hace cuando aparece: vuelve su corazón hacia Dios.
+
+## Mateo 6:34: vivir el día de hoy
+
+> «No os preocupéis por el mañana».
+
+Jesús no ridiculiza nuestras necesidades. Nos recuerda que el Padre las conoce y nos invita a vivir un día cada vez.
+
+## Qué pueden decirte hoy
+
+Elige un solo versículo. Léelo despacio y conviértelo en una oración. Si la ansiedad es intensa o continúa durante mucho tiempo, busca también ayuda adecuada. Hacerlo no contradice la fe.
+
+## Una idea para recordar
+
+Puedo llevar a Dios la preocupación de este momento.
 
 ## Oración
 

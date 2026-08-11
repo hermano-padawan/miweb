@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-La gratitud bíblica recuerda dones y fidelidad sin obligarnos a negar pérdidas.
+La gratitud bíblica reconoce los regalos de Dios sin obligarnos a negar lo que duele.
 
-Anota tres regalos concretos y una dificultad que todavía presentarás con honestidad.
+## Salmo 103:2: no olvidar sus beneficios
 
-Estos versículos no son frases mágicas ni niegan la complejidad de lo que vivimos. Son palabras nacidas en historias de espera, pérdida, confianza y restauración. Por eso pueden acompañarnos sin exigir que finjamos.
+> «Bendice, alma mía, al Señor, y no olvides ninguno de sus beneficios».
 
-No tienes que demostrar fortaleza delante de Dios. Puedes llegar con preguntas, cansancio o lágrimas. La fe comienza muchas veces en esa honestidad y descubre que los brazos del Padre ya estaban abiertos.
+El salmista habla consigo mismo para recordar el perdón, el cuidado y la misericordia de Dios. Agradecer también es hacer memoria.
 
-Puedes recibirlos como quien recibe una mano. Léelos despacio y deja que una sola frase permanezca contigo. La Palabra no siempre cambia de inmediato las circunstancias, pero puede devolver al corazón un lugar donde apoyarse.
+## 1 Tesalonicenses 5:18: agradecer en toda situación
 
-Cuando no sepas qué decir, permite que estas palabras oren contigo. Dios conoce el silencio que hay detrás de cada lectura y puede hacer de un versículo conocido una fuente nueva de consuelo.
+> «Dad gracias en toda situación».
 
-## Una oración para el camino
+Pablo no dice que demos gracias por todo lo malo. Dice que podemos agradecer dentro de cualquier situación. Incluso en un día difícil puede quedar una persona, una ayuda o una muestra del cuidado de Dios.
 
-Jesús, quédate cerca. Cuando mi corazón se inquiete, recuérdame que no camino solo. Haz de tu presencia mi refugio y de tu amor mi esperanza. Amén.
+## Filipenses 4:6: unir petición y gratitud
+
+> «Presentad vuestras peticiones a Dios y dadle gracias».
+
+Puedes pedir ayuda y dar gracias en la misma oración. Una cosa no cancela la otra.
+
+## Qué pueden decirte hoy
+
+Piensa en un regalo concreto de este día. Después cuenta también a Dios lo que te preocupa. La gratitud cristiana puede sostener la alegría y las lágrimas juntas.
+
+## Una idea para recordar
+
+Puedo agradecer lo bueno sin fingir que lo difícil no existe.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Debo dar gracias por algo malo?
 
-Pasajes para practicar agradecimiento de forma honesta en días buenos y difíciles.
+No. Puedes agradecer la presencia y la ayuda de Dios dentro de una situación dolorosa sin llamar bueno al daño.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Cómo puedo practicar gratitud?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Nombra cada día uno o dos regalos concretos y conviértelos en una oración sencilla.

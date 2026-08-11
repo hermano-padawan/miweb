@@ -14,18 +14,34 @@ featured: false
 readingTime: 6
 ---
 
-Pasajes para buscar dirección sin convertir la fe en una búsqueda ansiosa de señales.
-Proverbios 3:5-6 invita a confiar en Dios y reconocerlo en nuestros caminos. Santiago 1:5 anima a pedir
-sabiduría. Salmo 119 presenta la Palabra como lámpara para nuestros pasos. Juntos forman una imagen
-equilibrada: confiar, pedir sabiduría y caminar a la luz de lo que Dios ya ha revelado.
-No todas las decisiones tienen una respuesta explícita en la Biblia. En esos casos, la sabiduría cristiana
-pregunta qué opción es coherente con el amor, la verdad, la responsabilidad y el carácter de Cristo.
-A veces esperamos una certeza absoluta antes de avanzar. Pero una lámpara no ilumina kilómetros;
-ilumina el siguiente tramo. Dios puede guiarnos también mediante consejo maduro, circunstancias,
-oración y una conciencia formada por su Palabra.
+La Biblia no nombra cada decisión que tendremos que tomar. Pero ofrece principios para elegir con sabiduría, pedir ayuda y confiar en Dios.
 
-No necesitas convertir cada detalle en una señal. Puedes pedir dirección con humildad y después decidir
-con paz, sabiendo que Dios es capaz de acompañarte incluso mientras aprendes.
+## Proverbios 3:5-6: confía en Dios
+
+> «Confía en el Señor de todo corazón y no te apoyes en tu propia inteligencia».
+
+Este pasaje no dice que debas dejar de pensar. Te recuerda que tu mirada es limitada y que puedes reconocer a Dios mientras decides.
+
+## Santiago 1:5: pide sabiduría
+
+> «Si a alguno de vosotros le falta sabiduría, pídasela a Dios».
+
+Santiago habla a creyentes que atraviesan pruebas. La sabiduría es necesaria para saber cómo vivir bien dentro de una situación difícil.
+
+## Salmo 119:105: luz para el siguiente paso
+
+> «Tu palabra es una lámpara a mis pies; es una luz en mi sendero».
+
+Una lámpara no muestra todo el camino de una vez. Ilumina lo suficiente para dar el siguiente paso.
+## Qué pueden decirte hoy
+
+No conviertas cada detalle en una señal. Ora, mira los hechos, escucha un consejo maduro y descarta cualquier opción contraria al amor, la verdad o la Palabra de Dios.
+
+Después toma la decisión con humildad. Dios puede acompañarte mientras aprendes.
+
+## Una idea para recordar
+
+No necesito ver todo el camino para dar el siguiente paso con Dios.
 
 ## Oración
 

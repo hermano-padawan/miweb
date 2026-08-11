@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-La esperanza bíblica mira el sufrimiento con honestidad y afirma que no tendrá autoridad definitiva.
+La esperanza bíblica no obliga a fingir que todo va bien. Permite mirar el dolor y seguir creyendo que Dios no ha terminado la historia.
 
-Escribe qué reconoce cada texto y qué promesa permite sostener.
+## Lamentaciones 3:22-23: la misericordia se renueva
 
-Estos versículos no son frases mágicas ni niegan la complejidad de lo que vivimos. Son palabras nacidas en historias de espera, pérdida, confianza y restauración. Por eso pueden acompañarnos sin exigir que finjamos.
+> «El gran amor del Señor nunca se acaba, y su compasión jamás se agota. Cada mañana se renuevan sus bondades».
 
-Quizá hoy no necesites una explicación perfecta, sino una verdad en la que descansar. Dios conoce la parte de tu historia que nadie más ve y no se acerca a ella con prisa ni dureza. Su presencia puede sostenerte mientras el camino todavía se aclara.
+Estas palabras nacieron en medio de una ciudad destruida. El autor no ignoraba el sufrimiento. Recordaba que, incluso allí, la misericordia de Dios no se había agotado.
 
-Puedes recibirlos como quien recibe una mano. Léelos despacio y deja que una sola frase permanezca contigo. La Palabra no siempre cambia de inmediato las circunstancias, pero puede devolver al corazón un lugar donde apoyarse.
+## Romanos 8:38-39: nada nos separa de su amor
 
-Cuando no sepas qué decir, permite que estas palabras oren contigo. Dios conoce el silencio que hay detrás de cada lectura y puede hacer de un versículo conocido una fuente nueva de consuelo.
+> «Nada podrá separarnos del amor de Dios que es en Cristo Jesús».
 
-## Una oración para el camino
+Pablo menciona peligros, sufrimiento y muerte. Su esperanza no consiste en evitar todo dolor, sino en saber que nada puede arrancarnos del amor de Dios.
 
-Señor, acércate a mi vida con tu paz. Sostén lo que hoy me cuesta llevar y ayúdame a descansar en tu fidelidad. Que tu amor tenga la palabra más profunda sobre mi historia. Amén.
+## Salmo 42:11: hablar con el corazón cansado
+
+> «¿Por qué voy a inquietarme? ¿Por qué me voy a angustiar? En Dios pondré mi esperanza».
+
+El salmista está triste y se habla a sí mismo. No niega lo que siente. Recuerda dónde puede volver a apoyar su vida.
+
+## Qué pueden decirte hoy
+
+Quizá todavía no ha llegado la respuesta. Puedes elegir un versículo y repetirlo cuando el desánimo vuelva. La esperanza no te dice que mañana todo cambiará. Te recuerda que mañana Dios seguirá contigo.
+
+## Una idea para recordar
+
+Mi dolor es real, pero no tiene la última palabra.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Tener esperanza significa no estar triste?
 
-Textos bíblicos explicados para sostener la esperanza sin negar el dolor.
+No. La Biblia muestra tristeza y esperanza en el mismo corazón.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Qué versículo puedo recordar hoy?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Lamentaciones 3:22-23 recuerda que la misericordia de Dios se renueva cada mañana.

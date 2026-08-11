@@ -11,16 +11,29 @@ featured: true
 readingTime: 8
 ---
 
-Una explicación del salmo que invita a encontrar refugio cuando todo parece moverse.
-El Salmo 46 imagina un mundo que pierde estabilidad: la tierra cambia, los montes tiemblan, las aguas
-rugen. Y en medio de ese lenguaje aparece una afirmación firme: «Dios es nuestro amparo y fortaleza».
-El salmo no dice que el creyente nunca verá caos. Dice que existe un refugio más profundo que el caos.
-La presencia de Dios se convierte en el centro que no se derrumba cuando otras seguridades fallan.
-Más adelante llega una frase conocida: «Estad quietos, y conoced que yo soy Dios». No es una invitación
-a la pasividad ante toda situación, sino a reconocer que el último control no nos pertenece.
-Cuando todo se mueve, quizá la oración más sabia sea dejar de intentar sostenerlo todo durante un
-momento y recordar: Dios sigue siendo Dios. Su presencia puede ser refugio incluso antes de que
-cambien las circunstancias.
+> «Dios es nuestro amparo y nuestra fortaleza, nuestra ayuda segura en momentos de angustia» (Salmo 46:1).
+
+## Qué significa «Dios es nuestro amparo»
+
+Amparo significa refugio: un lugar al que acudir cuando estamos en peligro. El versículo dice que Dios no mira la angustia desde lejos. Está presente y ofrece ayuda.
+
+## Su contexto
+
+El salmo describe un mundo que pierde estabilidad. La tierra se mueve, los montes tiemblan, el mar ruge y las naciones se enfrentan.
+
+No sabemos qué situación exacta dio origen al salmo. Lo que sí está claro es su mensaje: aunque todo parezca derrumbarse, Dios permanece.
+
+Más adelante dice: «Estad quietos, y conoced que yo soy Dios». No significa que nunca debamos actuar. Es una llamada a dejar de creer que todo depende de nosotros.
+
+## Qué puede decirte hoy
+
+Quizá una noticia ha cambiado tus planes o algo que parecía seguro ya no lo es. Puedes atender el problema y pedir ayuda sin olvidar que Dios sigue siendo tu refugio.
+
+Su presencia puede sostenerte antes de que cambien las circunstancias.
+
+## Una idea para recordar
+
+Cuando todo se mueve, Dios permanece.
 
 ## Oración
 

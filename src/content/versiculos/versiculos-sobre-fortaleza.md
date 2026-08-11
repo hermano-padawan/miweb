@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-La fortaleza bíblica no exige autosuficiencia. Muchas veces comienza reconociendo debilidad y recibiendo apoyo.
+La fortaleza que presenta la Biblia no exige poder con todo. Muchas veces comienza cuando reconocemos que necesitamos a Dios.
 
-Nombra tu límite y la ayuda concreta que necesitas recibir hoy.
+## Isaías 40:29: fuerzas para el cansado
 
-Estos versículos no son frases mágicas ni niegan la complejidad de lo que vivimos. Son palabras nacidas en historias de espera, pérdida, confianza y restauración. Por eso pueden acompañarnos sin exigir que finjamos.
+> «Él fortalece al cansado y acrecienta las fuerzas del débil».
 
-Esta verdad no borra de golpe lo difícil, pero impide que el dolor ocupe toda la habitación. La gracia abre una ventana: recuerda que la historia continúa y que Dios sigue obrando incluso en aquello que todavía no comprendemos.
+Isaías habló a un pueblo agotado que podía pensar que Dios lo había olvidado. El pasaje recuerda que Dios no se cansa y puede sostener a quien ya no tiene fuerzas.
 
-Puedes recibirlos como quien recibe una mano. Léelos despacio y deja que una sola frase permanezca contigo. La Palabra no siempre cambia de inmediato las circunstancias, pero puede devolver al corazón un lugar donde apoyarse.
+## 2 Corintios 12:9: gracia en la debilidad
 
-Cuando no sepas qué decir, permite que estas palabras oren contigo. Dios conoce el silencio que hay detrás de cada lectura y puede hacer de un versículo conocido una fuente nueva de consuelo.
+> «Te basta con mi gracia, pues mi poder se perfecciona en la debilidad».
 
-## Una oración para el camino
+Pablo había pedido que desapareciera algo que le hacía sufrir. Dios no le prometió que ocurriría como esperaba. Le aseguró que su gracia lo sostendría.
 
-Dios fiel, entra en mis preguntas y en mi cansancio. Dame luz para este día, ternura para tratarme y confianza para dejar en tus manos lo que no puedo controlar. Amén.
+## Salmo 46:1: ayuda en la angustia
+
+> «Dios es nuestro amparo y nuestra fortaleza».
+
+La fuerza no se encuentra solamente dentro de ti. Puedes buscar refugio en Dios y recibir también la ayuda de otras personas.
+
+## Qué pueden decirte hoy
+
+Si estás cansado, no tienes que aparentar. Nombra tu límite. Descansa, pide ayuda y habla con Dios. Reconocer que no puedes solo no es fracasar.
+
+## Una idea para recordar
+
+No tengo que parecer fuerte para ser sostenido por Dios.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Pedir ayuda demuestra poca fe?
 
-Pasajes para pedir fuerzas, reconocer límites y perseverar con ayuda.
+No. Dios puede sostenerte mediante familiares, amigos, la iglesia y profesionales preparados.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Qué texto puedo leer cuando estoy agotado?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Isaías 40:28-31 habla directamente a quienes se sienten cansados y sin fuerzas.
