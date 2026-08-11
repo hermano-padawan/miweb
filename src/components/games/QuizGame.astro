@@ -13,16 +13,18 @@ export interface QuizQuestion {
 
 interface Props {
   questions: QuizQuestion[];
+  questionsByLevel?: Record<"facil" | "medio" | "dificil", QuizQuestion[]>;
   storageKey: string;
   heading?: string;
   eyebrow?: string;
 }
 
-const { questions, storageKey, heading = "¿Cuánto sabes de la Biblia?", eyebrow = "Quiz bíblico" } = Astro.props;
-const clientQuestions = questions.map((question) => ({
+const { questions, questionsByLevel, storageKey, heading = "¿Cuánto sabes de la Biblia?", eyebrow = "Quiz bíblico" } = Astro.props;
+const sourceLevels = questionsByLevel ?? { facil: questions, medio: questions, dificil: questions };
+const clientQuestions = Object.fromEntries(Object.entries(sourceLevels).map(([level, items]) => [level, items.map((question) => ({
   ...question,
   relatedHref: withBase(question.relatedHref),
-}));
+}))]));
 ---
 
 <section class="quiz" data-quiz data-storage-key={storageKey} aria-labelledby="quiz-heading">
@@ -95,7 +97,7 @@ const clientQuestions = questions.map((question) => ({
   const source = document.querySelector<HTMLScriptElement>("[data-quiz-questions]");
 
   if (quiz && source) {
-    const sourceQuestions = JSON.parse(source.textContent || "[]");
+    const questionLevels = JSON.parse(source.textContent || "{}");
     const requestedLevel = new URLSearchParams(window.location.search).get("nivel");
     const difficulty = ["facil", "medio", "dificil"].includes(requestedLevel || "") ? requestedLevel : "medio";
     const shuffle = <T,>(items: T[]) => {
@@ -118,13 +120,7 @@ const clientQuestions = questions.map((question) => ({
       }
       return item;
     };
-    const ranges: Record<string, [number, number]> = {
-      facil: [0, 5],
-      medio: [5, 10],
-      dificil: [10, 15],
-    };
-    const [start, end] = ranges[difficulty];
-    const levelQuestions = sourceQuestions.slice(start, end);
+    const levelQuestions = questionLevels[difficulty] || questionLevels.medio || [];
     const questions = (difficulty === "medio" ? levelQuestions : shuffle(levelQuestions)).map(adaptQuestion);
     const card = quiz.querySelector<HTMLElement>("[data-card]")!;
     const result = quiz.querySelector<HTMLElement>("[data-result]")!;
