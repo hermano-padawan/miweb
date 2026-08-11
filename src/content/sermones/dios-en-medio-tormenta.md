@@ -15,32 +15,66 @@ draft: false
 readingTime: 6
 ---
 
-Las tormentas bíblicas no siempre desaparecen inmediatamente. En ellas se revela qué sostiene nuestra confianza.
+Hay momentos en los que la vida cambia de repente.
 
-Atiende el peligro real, pide ayuda y recuerda que la crisis no define toda la historia.
+Una mala noticia. Un problema en casa. Una enfermedad. Algo que parecía seguro deja de serlo.
 
-El evangelio no nos invita a esconder la herida bajo palabras religiosas. Nos permite mirarla desde la cruz, donde Jesús entra en el sufrimiento humano y responde al mal sin convertirse en su reflejo. Allí la verdad y la misericordia se encuentran.
+Y sientes que estás en medio de una tormenta.
 
-Esta verdad no borra de golpe lo difícil, pero impide que el dolor ocupe toda la habitación. La gracia abre una ventana: recuerda que la historia continúa y que Dios sigue obrando incluso en aquello que todavía no comprendemos.
+## Jesús no ha salido de la barca
 
-La buena noticia es que nuestro peor momento no tiene por qué convertirse en nuestro nombre. Cristo sigue llamando, restaurando y haciendo nuevas las cosas. Lo que hoy parece una ruina puede ser el lugar donde la gracia comience a levantar un hogar.
+Marcos 4 cuenta que Jesús y sus discípulos cruzaban el lago cuando comenzó un fuerte temporal. Las olas llenaban la barca de agua. Los discípulos, llenos de miedo, despertaron a Jesús y le dijeron: «¿No te importa que nos ahoguemos?».
 
-Por eso este mensaje no termina en una exigencia, sino en una invitación: vuelve el corazón a Dios. No hace falta llegar fuerte ni tener todas las respuestas. Basta con acercarse a Aquel que no abandona la obra de sus manos.
+Quizá tú también has pensado algo parecido.
 
-## Una oración para el camino
+«Dios, ¿no ves lo que está pasando?»
 
-Dios fiel, entra en mis preguntas y en mi cansancio. Dame luz para este día, ternura para tratarme y confianza para dejar en tus manos lo que no puedo controlar. Amén.
+Jesús se levantó y calmó el viento. Pero hay algo que conviene recordar: incluso antes de calmar el mar, Jesús ya estaba con ellos.
+
+La tormenta no significaba que los hubiera abandonado.
+
+## Puedes pedir ayuda
+
+Confiar en Dios no significa ignorar el peligro. Los discípulos hicieron bien en despertar a Jesús.
+
+Si estás en una situación difícil, pide ayuda. Habla con tu familia, con tu iglesia o con la persona que pueda ayudarte. Atiende lo urgente. Ora mientras haces lo que está en tu mano.
+
+Dios puede cuidar de ti por medio de otras personas.
+
+No tienes que aparentar calma. Puedes llorar. Puedes decir que tienes miedo. Jesús no se aleja cuando tu fe tiembla.
+
+## La tormenta no es toda tu historia
+
+Ahora mismo quizá solo ves olas.
+
+El problema sigue ahí.
+
+La respuesta todavía no llega.
+
+Pero este momento no contiene toda tu vida. Dios ve más allá de lo que tú puedes ver hoy.
+
+Tal vez Él calme pronto la tormenta. Tal vez te dé fuerzas para atravesarla un día cada vez. La Biblia no promete una vida sin problemas. Sí promete que nada podrá separarnos del amor de Dios.
+
+Respira.
+
+Habla con Jesús.
+
+La barca se mueve, pero Él sigue contigo.
+
+## Oración
+
+Señor Jesús, tengo miedo y necesito tu ayuda. Dame calma para pensar, valor para pedir apoyo y fuerzas para este día. Cuando solo vea la tormenta, recuérdame que tú sigues en la barca conmigo. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Una dificultad significa que Dios me ha abandonado?
 
-Un mensaje para encontrar presencia y dirección cuando la vida pierde estabilidad.
+No. Los discípulos pasaron por una tormenta mientras Jesús estaba con ellos.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Confiar en Dios significa no pedir ayuda a nadie?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. Dios muchas veces responde y cuida por medio de personas preparadas para ayudarnos.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Qué puedo recordar hoy?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Que la tormenta es una parte de tu historia, pero no es el final de ella.

@@ -15,32 +15,38 @@ draft: false
 readingTime: 6
 ---
 
-El cansancio prolongado puede hacernos pensar que descansar es una pérdida de tiempo. Pero reconocer límites no es pereza; es aceptar que no somos infinitos.
+> «Venid vosotros aparte a un lugar tranquilo y descansad un poco» (Marcos 6:31).
 
-Define una pausa concreta, apaga una fuente de ruido y permite que el descanso no tenga que justificarse mediante un logro posterior.
+Jesús dijo estas palabras a sus discípulos cuando había tanta gente que ni siquiera podían comer.
 
-Dios también habita lo cotidiano: la mesa sin recoger, el trayecto de siempre, una conversación breve, el cansancio al final del día. Su presencia no espera a que la vida parezca extraordinaria para hacerse cercana.
+No les dijo que trabajaran un poco más.
 
-Esta verdad no borra de golpe lo difícil, pero impide que el dolor ocupe toda la habitación. La gracia abre una ventana: recuerda que la historia continúa y que Dios sigue obrando incluso en aquello que todavía no comprendemos.
+Les dijo que descansaran.
 
-Puedes respirar y recibir este momento sin convertirlo en otra tarea espiritual. La gracia no se gana por hacerlo todo bien. Se recibe, a veces, simplemente deteniéndose y recordando que eres amado antes de haber terminado la lista.
+Tal vez tú solo paras cuando ya no puedes continuar. Y cuando por fin te sientas, aparece la culpa: «Debería estar haciendo algo».
 
-Guarda una frase sencilla para hoy: Dios está aquí. Repítela cuando vuelva la prisa o el desánimo. Que sea una pequeña lámpara encendida en medio de tus horas.
+Pero no fuiste creado para vivir sin límites.
 
-## Una oración para el camino
+Dormir, comer con calma o pasar un rato sin producir nada no te convierte en una persona perezosa. El descanso es una manera de reconocer que el mundo sigue en manos de Dios.
 
-Dios fiel, entra en mis preguntas y en mi cansancio. Dame luz para este día, ternura para tratarme y confianza para dejar en tus manos lo que no puedo controlar. Amén.
+Hoy elige una pausa concreta. Apaga un momento el ruido. Deja una tarea para mañana si puede esperar.
+
+No tienes que ganarte el derecho a descansar terminándolo todo. La lista siempre puede crecer. Tu cuerpo, en cambio, necesita cuidado.
+
+**Para recordar hoy:**
+
+Descansar no reduce mi valor. También puedo encontrar a Dios en la pausa.
+
+## Oración
+
+Jesús, tú conoces mi cansancio. Ayúdame a aceptar mis límites y a descansar sin culpa. Mientras me detengo, recuérdame que todo sigue en tus manos. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Descansar es una falta de responsabilidad?
 
-Una reflexión bíblica sobre límites, descanso y la tentación de medir nuestro valor por la productividad.
+No. El descanso adecuado te ayuda a cuidar la vida y cumplir mejor tus responsabilidades.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Cómo puedo empezar?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Elige hoy una pausa pequeña y concreta, sin convertirla en otra tarea que hacer perfectamente.

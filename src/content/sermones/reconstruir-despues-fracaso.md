@@ -15,32 +15,58 @@ draft: false
 readingTime: 6
 ---
 
-El fracaso puede producir vergüenza o defensividad. Reconstruir comienza cuando dejamos de proteger la imagen y atendemos la verdad.
+Fracasar duele.
 
-Reconoce, pide perdón, repara lo posible y establece una práctica que reduzca la repetición.
+Quizá tomaste una mala decisión. Heriste a alguien. Perdiste una oportunidad. Ahora miras lo ocurrido y piensas: «Lo he arruinado todo».
 
-El evangelio no nos invita a esconder la herida bajo palabras religiosas. Nos permite mirarla desde la cruz, donde Jesús entra en el sufrimiento humano y responde al mal sin convertirse en su reflejo. Allí la verdad y la misericordia se encuentran.
+Tu error es parte de tu historia. Pero no tiene que ser el final.
 
-No tienes que demostrar fortaleza delante de Dios. Puedes llegar con preguntas, cansancio o lágrimas. La fe comienza muchas veces en esa honestidad y descubre que los brazos del Padre ya estaban abiertos.
+## Pedro también falló
 
-La buena noticia es que nuestro peor momento no tiene por qué convertirse en nuestro nombre. Cristo sigue llamando, restaurando y haciendo nuevas las cosas. Lo que hoy parece una ruina puede ser el lugar donde la gracia comience a levantar un hogar.
+Pedro aseguró que nunca abandonaría a Jesús. Pocas horas después, negó tres veces que lo conocía.
 
-Por eso este mensaje no termina en una exigencia, sino en una invitación: vuelve el corazón a Dios. No hace falta llegar fuerte ni tener todas las respuestas. Basta con acercarse a Aquel que no abandona la obra de sus manos.
+Cuando comprendió lo que había hecho, lloró.
 
-## Una oración para el camino
+Jesús sabía la verdad. No llamó pequeño al pecado de Pedro. Pero después de resucitar, fue a buscarlo. Tres veces le preguntó si lo amaba y volvió a confiarle una tarea: «Cuida de mis ovejas» (Juan 21).
 
-Jesús, quédate cerca. Cuando mi corazón se inquiete, recuérdame que no camino solo. Haz de tu presencia mi refugio y de tu amor mi esperanza. Amén.
+Jesús no dijo que nada había pasado. Le mostró que todavía había un camino.
+
+## Reconocer el error es el primer paso
+
+Para reconstruir, deja de esconder lo ocurrido. Habla con Dios. Si dañaste a alguien, pide perdón sin poner excusas.
+
+Tal vez también puedas reparar una parte del daño: devolver algo, cumplir una deuda, corregir una mentira o cambiar una costumbre.
+
+No siempre podrás arreglarlo todo. Algunas consecuencias permanecen. Pero sí puedes caminar desde hoy con verdad.
+
+## La gracia te permite levantarte
+
+La vergüenza dice: «Eres un fracaso».
+
+Jesús dice: «Has fallado, pero ven conmigo».
+
+La gracia no borra lo que tienes que aprender. Te da fuerzas para aprender sin quedar enterrado bajo la culpa.
+
+Quizá recuperar la confianza lleve tiempo. No intentes apresurar a quienes fueron heridos. Sé paciente. Deja que tus cambios se vean en decisiones pequeñas y constantes.
+
+Dios restauró a Pedro y siguió obrando por medio de él.
+
+También puede comenzar algo nuevo contigo.
+
+## Oración
+
+Señor Jesús, tú conoces mi fracaso. Dame valor para reconocerlo, pedir perdón y reparar lo que pueda. Líbrame de la vergüenza que me paraliza y enséñame a caminar de nuevo contigo. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Dios puede perdonarme después de un gran error?
 
-Un mensaje sobre verdad, responsabilidad, gracia y nuevos comienzos.
+Sí. Cuando confiesas tu pecado con sinceridad, Dios ofrece perdón y un nuevo comienzo.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿La gracia elimina las consecuencias?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No siempre. La gracia te ayuda a afrontar la verdad, aprender y vivir de una manera diferente.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Cómo recupero la confianza de otras personas?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Pide perdón sin excusas, repara lo posible y demuestra el cambio con paciencia y hechos constantes.

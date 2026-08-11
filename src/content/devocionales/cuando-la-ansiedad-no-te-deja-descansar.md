@@ -11,38 +11,36 @@ featured: true
 readingTime: 6
 ---
 
-Un devocional de consuelo para cuando la mente sigue despierta aunque el cuerpo esté cansado.
-Hay noches en las que el cuerpo quiere descansar y la mente no sabe cómo hacerlo. Los pensamientos
-regresan una y otra vez, como si preocuparse un poco más pudiera protegernos de lo que todavía no ha
-sucedido.
+> «Depositen en él toda ansiedad, porque él cuida de ustedes» (1 Pedro 5:7).
 
-En esos momentos, la oración puede ser un lugar donde dejar peso. No tienes que resolver la vida antes
-de dormir. Puedes nombrar delante de Dios lo que te preocupa y decir: «Esto me supera; por esta noche,
-lo dejo en tus manos».
+El cuerpo está cansado, pero la mente sigue despierta.
 
-La paz bíblica no siempre llega como una emoción inmediata. A veces llega como permiso para no tener
-todas las respuestas. Como una manta sobre el corazón. Como el recuerdo de que Dios seguirá siendo
-Dios mientras tú duermes.
+Repasas lo que ocurrió. Imaginas lo que podría salir mal. Parece que preocuparte un poco más puede protegerte.
 
-Si hoy tu mente está cansada, no te juzgues por necesitar calma, apoyo o ayuda. Dios también puede
-cuidarnos a través de otras personas. Esta noche, quédate con una verdad sencilla: no tienes que vigilar
-el mundo entero. Puedes descansar.
+Pero esta noche no tienes que resolver toda tu vida.
+
+Pedro dice que puedes poner tu ansiedad en manos de Dios porque Él cuida de ti. No tienes que explicarlo bien. Basta con nombrar lo que pesa:
+
+«Señor, esto me supera. Por esta noche, lo dejo en tus manos».
+
+Tal vez la calma no llegue de inmediato. No te culpes. Respira despacio. Apaga el ruido que puedas apagar. Si necesitas apoyo, pídelo. Dios también cuida por medio de otras personas.
+
+Mientras duermes, Dios no deja de ser Dios. El mundo no depende de que tú permanezcas despierto.
+
+**Para recordar esta noche:**
+
+Puedo descansar porque no todo depende de mí.
 
 ## Oración
 
-Señor, recibe mis pensamientos y preocupaciones. Guarda mi mente, acompaña mi noche y concédeme
-el descanso que necesito.
+Señor, recibe mis pensamientos y mis temores. Guarda mi mente durante esta noche. Ayúdame a soltar lo que no puedo resolver ahora y concédeme el descanso que necesito. Amén.
 
 ## Preguntas frecuentes
 
-### ¿La Biblia promete que nunca sentiré ansiedad?
+### ¿Sentir ansiedad significa que me falta fe?
 
-No. Ofrece consuelo, presencia y una invitación a llevar nuestras cargas a Dios.
+No. Puedes amar a Dios y necesitar calma, compañía o ayuda profesional.
 
-### ¿Pedir ayuda contradice la fe?
+### ¿Qué hago si no puedo dormir?
 
-No. Buscar apoyo adecuado puede formar parte del cuidado.
-
-### ¿Qué recordar esta noche?
-
-Mientras descansas, no estás dejando de confiar; estás aceptando que no todo depende de ti.
+Ora con una frase sencilla, respira despacio y busca apoyo si la ansiedad se repite o te impide vivir con normalidad.

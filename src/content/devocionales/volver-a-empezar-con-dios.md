@@ -14,36 +14,40 @@ featured: false
 readingTime: 6
 ---
 
-Un devocional sobre esos nuevos comienzos que nacen después de haber fallado.
+> «Si confesamos nuestros pecados, él es fiel y justo para perdonarnos» (1 Juan 1:9).
 
-Hay errores que dejan una voz insistente dentro de nosotros: «Ya lo arruinaste». La culpa puede hacernos
-pensar que debemos escondernos de Dios hasta ser mejores. Pero el evangelio cuenta una historia
-distinta: Dios nos llama precisamente desde el lugar donde necesitamos gracia.
+Después de fallar, esconderse parece más fácil.
 
-Arrepentirse no es vivir castigándonos. Es volver el rostro hacia Dios, reconocer lo que necesita cambiar y
-recibir la misericordia que abre un camino nuevo.
+Piensas que primero tienes que arreglarte. Que volverás a Dios cuando seas mejor.
 
-Pedro negó a Jesús y, sin embargo, su historia no terminó aquella noche. Jesús volvió a encontrarse con
-él, lo restauró y le confió una misión. El fracaso fue real, pero no fue la última palabra.
-Quizá hoy volver a empezar sea una oración pequeña, una disculpa, una decisión distinta o simplemente
-dejar de huir. No necesitas reconstruir toda tu vida en una mañana. Da el paso de regreso. La gracia sabe
-trabajar desde ahí.
+Pero Dios te invita a volver ahora.
+
+Confesar no es buscar palabras para defenderte. Es contarle la verdad a Dios y recibir su perdón.
+
+Pedro negó a Jesús. Su fracaso fue real. Sin embargo, Jesús volvió a buscarlo, habló con él y le dio un nuevo comienzo.
+
+Tu error tampoco tiene que ser la última palabra.
+
+Volver a empezar quizá sea hoy una oración pequeña. Tal vez sea pedir perdón a alguien o tomar una decisión distinta. No tienes que reconstruir toda tu vida esta mañana.
+
+Da el paso de regreso.
+
+La gracia de Dios puede encontrarte allí.
+
+**Para recordar hoy:**
+
+No tengo que esconderme. Puedo volver a Dios y comenzar de nuevo.
 
 ## Oración
 
-Jesús, gracias porque mis errores no agotan tu misericordia. Ayúdame a volver, aprender y comenzar de
-nuevo contigo.
+Jesús, he fallado y necesito tu perdón. Dame valor para decir la verdad, reparar lo que pueda y dar hoy un paso distinto contigo. Amén.
 
 ## Preguntas frecuentes
 
 ### ¿Dios puede perdonarme otra vez?
 
-El corazón del evangelio es la gracia ofrecida al que vuelve sinceramente a Dios.
+Sí. Dios recibe a quien reconoce su pecado y vuelve a Él con sinceridad.
 
-### ¿Arrepentirse es sentirse culpable?
+### ¿Arrepentirse es solamente sentirse culpable?
 
-Es más que culpa: implica volver a Dios y abrirse a un cambio real.
-
-### ¿Qué historia puede acompañarme?
-
-La restauración de Pedro en Juan 21 muestra que el fracaso no tiene que ser el final.
+No. También significa volver a Dios y comenzar a caminar de una manera diferente.

@@ -15,32 +15,76 @@ draft: false
 readingTime: 6
 ---
 
-Jesús llama a romper el ciclo de odio y venganza. Este amor busca el bien sin negar la verdad.
+Jesús dijo unas palabras que no siempre son fáciles de escuchar:
 
-Ora por libertad del odio y decide una respuesta que no reproduzca el daño.
+> «Amad a vuestros enemigos y orad por quienes os persiguen» (Mateo 5:44).
 
-El evangelio no nos invita a esconder la herida bajo palabras religiosas. Nos permite mirarla desde la cruz, donde Jesús entra en el sufrimiento humano y responde al mal sin convertirse en su reflejo. Allí la verdad y la misericordia se encuentran.
+Es fácil leerlas cuando todo va bien.
 
-Quizá hoy no necesites una explicación perfecta, sino una verdad en la que descansar. Dios conoce la parte de tu historia que nadie más ve y no se acerca a ella con prisa ni dureza. Su presencia puede sostenerte mientras el camino todavía se aclara.
+Lo difícil es recordarlas cuando alguien te ha herido.
 
-La buena noticia es que nuestro peor momento no tiene por qué convertirse en nuestro nombre. Cristo sigue llamando, restaurando y haciendo nuevas las cosas. Lo que hoy parece una ruina puede ser el lugar donde la gracia comience a levantar un hogar.
+Quizá confiabas en una persona y te traicionó. Tal vez aún recuerdas sus palabras. Puede que lo sucedido cambiara tu vida y todavía te duela.
 
-Por eso este mensaje no termina en una exigencia, sino en una invitación: vuelve el corazón a Dios. No hace falta llegar fuerte ni tener todas las respuestas. Basta con acercarse a Aquel que no abandona la obra de sus manos.
+Jesús no mira esa herida desde lejos. Él fue rechazado, insultado y abandonado. Uno de sus amigos lo traicionó. Jesús sabe lo que es recibir el mal de otras personas.
 
-## Una oración para el camino
+Y aun así, no dejó que el odio llenara su corazón.
 
-Señor, acércate a mi vida con tu paz. Sostén lo que hoy me cuesta llevar y ayúdame a descansar en tu fidelidad. Que tu amor tenga la palabra más profunda sobre mi historia. Amén.
+## Amar no significa decir que estuvo bien
+
+Perdonar no borra lo ocurrido. Amar a quien te hizo daño tampoco significa dejar que vuelva a dañarte.
+
+Puedes alejarte. Puedes pedir ayuda. Si existe maltrato o peligro, puedes buscar protección y contar la verdad. Nada de eso está en contra de las palabras de Jesús.
+
+Jesús te pide algo distinto: que no entregues tu corazón al odio.
+
+A veces la persona sale de nuestra vida, pero sigue dentro de nosotros por medio del dolor. Recordamos la conversación. Imaginamos lo que diríamos. La herida vuelve a abrirse.
+
+Dios quiere encontrarte también ahí.
+
+## Puedes comenzar con una oración pequeña
+
+Tal vez hoy no puedes decir: «Ya he perdonado».
+
+No tienes que fingir.
+
+Puedes decirle a Dios:
+
+> «Señor, todavía me duele. No sé cómo perdonar. Pero no quiero que el rencor mande en mi vida. Ayúdame».
+
+A veces el perdón comienza así. No con una gran emoción, sino con una oración sincera.
+
+Después viene otra oración. Y quizá otra más.
+
+Dios puede ir sanando poco a poco lo que todavía duele. Puede enseñarte a recordar sin desear venganza. Puede darte paz sin llamar bueno a lo malo.
+
+## Jesús camina contigo
+
+No te castigues porque perdonar te cueste. Hay heridas que necesitan tiempo.
+
+Mira a Jesús. En la cruz pidió perdón por quienes lo estaban hiriendo. Ese amor no nació de la debilidad. Nació de un corazón unido al Padre.
+
+Tú también puedes acercarte al Padre como estás: enfadado, cansado o confundido.
+
+Quizá hoy solo puedas decir: «Señor, quiero aprender a perdonar».
+
+Eso ya es un comienzo.
+
+Jesús no te pide que recorras todo el camino hoy. Te invita a dejar que Él camine contigo.
+
+## Oración
+
+Señor Jesús, tú conoces el daño que me hicieron. Ayúdame a no vivir atado al rencor. Dame valor para cuidar mi vida, decir la verdad y comenzar a perdonar. Camina conmigo hasta que tu paz llegue también a esta herida. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Perdonar significa justificar el daño?
 
-Qué significa amar al enemigo sin justificar abuso ni abandonar la justicia.
+No. Puedes perdonar y reconocer que lo ocurrido estuvo mal. También puedes mantener distancia y buscar ayuda.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Tengo que volver a confiar en esa persona?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No necesariamente. La confianza necesita verdad, arrepentimiento y cambios reales.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Qué hago si todavía no puedo perdonar?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Habla con Dios con sinceridad. Pídele ayuda y empieza con un paso pequeño. Él conoce tu dolor y no te abandona.

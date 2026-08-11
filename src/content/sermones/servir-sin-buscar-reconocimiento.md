@@ -15,32 +15,58 @@ draft: false
 readingTime: 6
 ---
 
-La necesidad de aprobación puede mezclarse incluso con buenas acciones. Jesús invita a servir delante del Padre, no como espectáculo.
+Hacer el bien y no recibir ni siquiera un «gracias» puede doler.
 
-Realiza esta semana una acción buena que no anunciarás ni utilizarás para obtener una deuda emocional.
+Quizá ayudaste a alguien y nadie lo notó. Tal vez llevas mucho tiempo cuidando o sirviendo, y sientes que tu esfuerzo no importa.
 
-El evangelio no nos invita a esconder la herida bajo palabras religiosas. Nos permite mirarla desde la cruz, donde Jesús entra en el sufrimiento humano y responde al mal sin convertirse en su reflejo. Allí la verdad y la misericordia se encuentran.
+Dios sí lo ve.
 
-Tal vez alguien cercano necesite escuchar hoy este mensaje. No como una respuesta rápida a su dolor, sino como compañía: Dios permanece, su amor no se agota y ninguna noche tiene autoridad para cancelar la esperanza.
+## Jesús conoce lo que haces en secreto
 
-La buena noticia es que nuestro peor momento no tiene por qué convertirse en nuestro nombre. Cristo sigue llamando, restaurando y haciendo nuevas las cosas. Lo que hoy parece una ruina puede ser el lugar donde la gracia comience a levantar un hogar.
+Jesús habló de quienes hacían buenas obras para ser admirados. Después dijo:
 
-Por eso este mensaje no termina en una exigencia, sino en una invitación: vuelve el corazón a Dios. No hace falta llegar fuerte ni tener todas las respuestas. Basta con acercarse a Aquel que no abandona la obra de sus manos.
+> «Tu Padre, que ve lo que se hace en secreto, te recompensará» (Mateo 6:4).
 
-## Una oración para el camino
+El vaso de agua que nadie aplaude importa. La llamada a una persona sola importa. La comida preparada con cansancio importa.
 
-Señor, recibe mi vida tal como está. Sana lo herido, fortalece lo débil y ayúdame a reconocer tu bondad aun en los pasos pequeños. Amén.
+Tu Padre lo ve.
+
+## Mira lo que busca tu corazón
+
+Todos necesitamos sentirnos valorados. No tienes que avergonzarte por ello.
+
+Pero a veces el deseo de reconocimiento empieza a mandar. Nos enfadamos si no nos nombran. Dejamos de ayudar si nadie agradece.
+
+Entonces puedes decir: «Señor, quería hacer esto por amor, pero también quería que me vieran. Limpia mi corazón».
+
+Jesús no te rechaza por reconocerlo. Quiere enseñarte a servir con libertad.
+
+## Servir no significa agotarte
+
+Jesús también se apartaba para descansar y orar. Servir con humildad no significa decir que sí a todo.
+
+Puedes descansar. Puedes pedir ayuda. Puedes poner un límite cuando ya no puedes más.
+
+Dios no necesita que destruyas tu salud para demostrarle amor.
+
+Sirve con lo que tienes. Hazlo por amor a Jesús y a la persona que tienes delante. Y si nadie lo cuenta, recuerda que el cielo no ha pasado por alto ese gesto.
+
+En las manos de Dios, ninguna obra hecha con amor es pequeña.
+
+## Oración
+
+Padre, tú ves lo que otros no ven. Ayúdame a servir sin vivir pendiente del aplauso. Enséñame también a descansar y a recibir ayuda. Que mis manos hagan el bien por amor a ti. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Está mal desear que agradezcan lo que hago?
 
-Un sermón sobre motivaciones, humildad y el valor de las acciones que nadie ve.
+No. Es humano querer sentirse valorado. El problema aparece cuando el aplauso se convierte en la razón principal para servir.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Servir a Dios significa aceptar todas las peticiones?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. Jesús también descansaba. Decir «ahora no puedo» puede ser una decisión sabia.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Importa una buena acción que nadie conoce?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sí. Jesús enseñó que el Padre ve lo que hacemos en secreto.

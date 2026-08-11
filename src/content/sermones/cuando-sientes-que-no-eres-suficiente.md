@@ -15,32 +15,62 @@ draft: false
 readingTime: 6
 ---
 
-La comparación y la exigencia pueden convertir cada tarea en un examen de nuestro valor. El evangelio comienza en otro lugar: somos recibidos por gracia.
+Tal vez hoy sientes que no eres suficiente.
 
-Nombra la medida imposible que utilizas contigo y reemplázala por una responsabilidad concreta y humana.
+Miras lo que hacen otros y piensas que siempre vas por detrás. Te esfuerzas, pero nunca parece bastar. Un error pequeño puede hacerte sentir que todo en ti está mal.
 
-El evangelio no nos invita a esconder la herida bajo palabras religiosas. Nos permite mirarla desde la cruz, donde Jesús entra en el sufrimiento humano y responde al mal sin convertirse en su reflejo. Allí la verdad y la misericordia se encuentran.
+Vivir así cansa mucho.
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+## Dios no te ama por tus resultados
 
-La buena noticia es que nuestro peor momento no tiene por qué convertirse en nuestro nombre. Cristo sigue llamando, restaurando y haciendo nuevas las cosas. Lo que hoy parece una ruina puede ser el lugar donde la gracia comience a levantar un hogar.
+La Biblia dice que somos salvados por gracia, no por nuestras obras (Efesios 2:8-9).
 
-Por eso este mensaje no termina en una exigencia, sino en una invitación: vuelve el corazón a Dios. No hace falta llegar fuerte ni tener todas las respuestas. Basta con acercarse a Aquel que no abandona la obra de sus manos.
+Eso significa que el amor de Dios no es un premio para quienes nunca fallan. Es un regalo.
 
-## Una oración para el camino
+Jesús no esperó a que tu vida estuviera en orden para amarte. Dio su vida por ti conociendo tus días buenos y tus días malos.
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+Tu trabajo puede salir mal. Una persona puede no valorar lo que haces. Puedes necesitar descansar. Nada de eso hace que Dios te ame menos.
+
+## No tienes que poder con todo
+
+Pablo pidió a Dios que quitara algo que le hacía sufrir. La respuesta fue:
+
+> «Te basta con mi gracia, pues mi poder se perfecciona en la debilidad» (2 Corintios 12:9).
+
+Dios no avergonzó a Pablo por ser débil. Le recordó que su gracia seguía sosteniéndolo.
+
+Tú tampoco tienes que esconder tus límites. Puedes pedir ayuda. Puedes decir que no puedes con una tarea. Puedes aprender sin insultarte por no saber todavía.
+
+Ser humilde no es pensar que no vales nada. Es reconocer que necesitas a Dios y que también necesitas a otras personas.
+
+## Mira tu vida con los ojos de Jesús
+
+Quizá hay una voz dentro de ti que repite: «Deberías hacer más. Deberías ser mejor».
+
+Detente un momento.
+
+Jesús no te habla con desprecio. Te llama por tu nombre. Te corrige con amor y te ayuda a levantarte.
+
+Hoy no necesitas demostrar que mereces estar cerca de Dios. Puedes acercarte porque Él te recibe por gracia.
+
+Haz con fidelidad lo que puedas hacer hoy. Descansa cuando sea necesario. Y cuando vuelvas a sentir que no bastas, recuerda esto:
+
+La gracia de Dios sí basta.
+
+## Oración
+
+Padre, estoy cansado de sentir que nunca hago suficiente. Ayúdame a recibir tu amor como un regalo. Enséñame a aceptar mis límites, a aprender de mis errores y a verme con la ternura con la que tú me miras. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Dios me ama aunque haya fallado?
 
-Un sermón sobre identidad, límites y la gracia que no depende de demostrar valor.
+Sí. Su amor no depende de que seas perfecto. Puedes reconocer tu error, pedir perdón y volver a empezar con Él.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Aceptar mis límites significa rendirme?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. Significa dejar de exigirte lo imposible y hacer con fidelidad lo que sí está en tu mano.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Qué puedo recordar cuando me compare?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Que Dios no te pide vivir la vida de otra persona. Te invita a caminar con Él en la tuya.

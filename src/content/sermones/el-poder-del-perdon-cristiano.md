@@ -14,40 +14,64 @@ featured: false
 readingTime: 7
 ---
 
-Un sermón sobre la gracia que rompe las cadenas del resentimiento sin negar las heridas.
-Perdonar no es decir que no dolió. No es borrar la memoria ni llamar pequeño a lo que dejó una herida. El
-perdón cristiano comienza precisamente donde reconocemos la verdad: algo ocurrió, nos hizo daño y no
-podemos cambiar el pasado.
+Perdonar no siempre es fácil.
 
-Jesús nos conduce por un camino distinto al de la venganza. Nos recuerda que también nosotros vivimos
-sostenidos por una gracia que no merecemos. Desde esa gracia, el perdón deja de ser una victoria del
-otro y se convierte en una libertad para nuestro propio corazón.
+Hay palabras que seguimos escuchando muchos años después. Hay hechos que cambiaron una familia, una amistad o una vida entera.
 
-Perdonar tampoco significa permitir que el daño continúe. Puede haber distancia, límites y decisiones
-prudentes. La reconciliación necesita verdad y, muchas veces, un cambio real. Pero aun cuando la
-relación no pueda volver a ser la misma, el corazón puede dejar de alimentar cada día la deuda.
-A veces el perdón ocurre en un instante; otras veces hay que volver a entregarle a Dios la misma herida
-muchas veces. No te desesperes si el recuerdo regresa. Cada vez que eliges no vivir desde el odio, estás
-dejando que la gracia tenga una palabra nueva sobre tu historia.
+Dios no te pide que digas que no dolió.
 
-Quizá hoy no puedas decir «ya está superado». Pero sí puedes decir: «Señor, no quiero que esto
-gobierne mi vida». Ese puede ser el comienzo. Dios sabe trabajar con comienzos pequeños.
+## Perdonar no es olvidar
+
+Perdonar no convierte el mal en algo bueno. Tampoco obliga a recuperar la confianza de inmediato.
+
+Puedes perdonar y mantener distancia. Puedes perdonar y pedir que se haga justicia. Si alguien sigue haciéndote daño, busca protección y ayuda.
+
+Jesús nunca llamó amor a permitir el abuso.
+
+El perdón comienza cuando entregamos a Dios el deseo de cobrar la deuda con nuestras propias manos.
+
+## Recuerda la gracia que has recibido
+
+La Biblia dice:
+
+> «Perdonaos unos a otros, como Dios os perdonó en Cristo» (Efesios 4:32).
+
+No perdonamos porque el daño sea pequeño. Perdonamos porque nosotros también vivimos del perdón de Dios.
+
+Jesús llevó nuestros pecados en la cruz. Nos ofreció gracia cuando no podíamos pagar nuestra deuda. Esa gracia puede llegar a la parte del corazón que aún está llena de rencor.
+
+## A veces hay que perdonar más de una vez
+
+Puede que hoy ores y mañana vuelva el recuerdo.
+
+Eso no significa que hayas fracasado.
+
+Vuelve a hablar con Dios. Dile la verdad: «Señor, ha vuelto a doler. Una vez más, pongo esto en tus manos».
+
+El perdón puede comenzar en un momento y necesitar muchas oraciones. Poco a poco, Dios puede hacer que el recuerdo ya no mande sobre tu día.
+
+Quizá la relación nunca vuelva a ser la misma. La reconciliación necesita arrepentimiento, verdad y cambios. Pero tu corazón no tiene que vivir para siempre unido a lo que ocurrió.
+
+Hoy quizá no puedas decir: «Ya está superado».
+
+Puedes decir: «Señor, no quiero vivir lleno de rencor».
+
+Dios sabe trabajar con esa oración.
 
 ## Oración
 
-Dios de misericordia, entra en mis heridas. Líbrame del resentimiento, dame sabiduría para cuidar mi
-corazón y enséñame a perdonar desde la gracia que tú me has dado. Amén.
+Dios de misericordia, tú conoces mi herida. Ayúdame a perdonar sin negar la verdad. Líbrame del deseo de venganza, dame sabiduría para cuidarme y sana poco a poco lo que todavía duele. Amén.
 
 ## Preguntas frecuentes
 
 ### ¿Perdonar es justificar lo ocurrido?
 
-No. Perdonar no convierte el mal en algo bueno ni elimina la necesidad de límites.
+No. Perdonar no llama bueno al daño ni elimina sus consecuencias.
 
 ### ¿Perdonar y reconciliarse son lo mismo?
 
-No siempre. La reconciliación requiere condiciones que el perdón personal no puede garantizar por sí solo.
+No. Para reconciliarse hacen falta verdad, arrepentimiento y cambios reales por parte de ambas personas.
 
-### ¿Qué idea resume el mensaje?
+### ¿Por qué vuelve el dolor si ya perdoné?
 
-El perdón no cambia el pasado, pero puede impedir que el pasado siga gobernando el corazón.
+Porque algunas heridas necesitan tiempo. Cuando el recuerdo vuelva, puedes entregárselo otra vez a Dios.
