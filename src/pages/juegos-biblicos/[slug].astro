@@ -13,7 +13,7 @@ const { game } = Astro.props;
   <header class="game-hero"><p>Juego bíblico · <span data-page-level>{game.difficulty}</span></p><h1>{game.title}</h1><span>{game.description}</span></header>
   <main class="game-page">
     <QuizGame questions={game.questions} storageKey={`nexo-${game.slug}`} heading={game.shortTitle} />
-    <section class="game-copy"><h2>Aprende mientras juegas</h2><p>Este juego contiene quince retos con respuesta explicada. Puedes repetirlo para mejorar tu puntuación y utilizar los enlaces relacionados para profundizar en las historias, personajes y enseñanzas que aparecen durante la partida.</p><p>El resultado se calcula sobre 10 y se guarda solo en este navegador. No representa una evaluación de fe o conocimiento doctrinal, sino una forma entretenida de repasar la Biblia.</p></section>
+    <section class="game-copy"><h2>Aprende mientras juegas</h2><p>Cada nivel contiene cinco retos distintos con respuesta explicada. Puedes completar los tres niveles y utilizar los enlaces relacionados para profundizar en las historias, personajes y enseñanzas de la partida.</p><p>El resultado se calcula sobre 10 y se guarda solo en este navegador. No representa una evaluación de fe o conocimiento doctrinal, sino una forma entretenida de repasar la Biblia.</p></section>
   </main>
 </MainLayout>
 <script>

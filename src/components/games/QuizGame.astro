@@ -118,7 +118,14 @@ const clientQuestions = questions.map((question) => ({
       }
       return item;
     };
-    const questions = (difficulty === "medio" ? sourceQuestions : shuffle(sourceQuestions)).map(adaptQuestion);
+    const ranges: Record<string, [number, number]> = {
+      facil: [0, 5],
+      medio: [5, 10],
+      dificil: [10, 15],
+    };
+    const [start, end] = ranges[difficulty];
+    const levelQuestions = sourceQuestions.slice(start, end);
+    const questions = (difficulty === "medio" ? levelQuestions : shuffle(levelQuestions)).map(adaptQuestion);
     const card = quiz.querySelector<HTMLElement>("[data-card]")!;
     const result = quiz.querySelector<HTMLElement>("[data-result]")!;
     const answers = [...quiz.querySelectorAll<HTMLButtonElement>("[data-answer]")];

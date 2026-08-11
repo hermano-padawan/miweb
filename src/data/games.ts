@@ -31,7 +31,7 @@ export const quizGames: QuizGameDefinition[] = [
     difficulty: "Media",
     image: "/images/personajes-biblicos/articles/david-goliat.webp",
     description:
-      "Reconoce quince personajes a partir de pistas sobre sus decisiones, viajes e historias.",
+      "Reconoce personajes a partir de pistas que cambian según la dificultad elegida.",
     questions: [
       q(
         "Construí un arca para proteger a mi familia del diluvio. ¿Quién soy?",
@@ -132,7 +132,7 @@ export const quizGames: QuizGameDefinition[] = [
     difficulty: "Fácil",
     image: "/images/preguntas-biblicas/articles/empezar-leer-biblia.webp",
     description:
-      "Decide si quince afirmaciones conocidas de la Biblia son verdaderas o falsas.",
+      "Decide si distintas afirmaciones de la Biblia son verdaderas o falsas en cada nivel.",
     questions: [
       q(
         "Moisés construyó el arca.",
