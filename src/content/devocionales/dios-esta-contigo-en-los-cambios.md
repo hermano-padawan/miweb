@@ -15,32 +15,38 @@ draft: false
 readingTime: 6
 ---
 
-Los cambios alteran rutinas, relaciones y expectativas. La fe no elimina esa sensación de desorientación, pero nos recuerda que la presencia de Dios no depende de que todo siga igual.
+> «Yo, el Señor, no cambio» (Malaquías 3:6).
 
-Nombra qué termina y qué comienza. Agradece lo recibido, pide sabiduría para lo nuevo y atiende la responsabilidad más cercana.
+Los cambios pueden desordenarlo todo.
 
-Dios también habita lo cotidiano: la mesa sin recoger, el trayecto de siempre, una conversación breve, el cansancio al final del día. Su presencia no espera a que la vida parezca extraordinaria para hacerse cercana.
+Una casa nueva. Un trabajo distinto. Una persona que ya no está. Incluso un cambio bueno puede traer miedo y echar de menos lo anterior.
 
-No tienes que demostrar fortaleza delante de Dios. Puedes llegar con preguntas, cansancio o lágrimas. La fe comienza muchas veces en esa honestidad y descubre que los brazos del Padre ya estaban abiertos.
+Hoy quizá no reconoces tu propia rutina.
 
-Puedes respirar y recibir este momento sin convertirlo en otra tarea espiritual. La gracia no se gana por hacerlo todo bien. Se recibe, a veces, simplemente deteniéndose y recordando que eres amado antes de haber terminado la lista.
+Pero Dios no ha cambiado.
 
-Guarda una frase sencilla para hoy: Dios está aquí. Repítela cuando vuelva la prisa o el desánimo. Que sea una pequeña lámpara encendida en medio de tus horas.
+El mismo Dios que estuvo contigo antes seguirá contigo en lo nuevo. Su presencia no depende de una dirección, un horario o una etapa de la vida.
 
-## Una oración para el camino
+No tienes que adaptarte a todo en un día. Puedes despedirte de lo que termina y dar gracias por lo vivido. También puedes mirar lo nuevo sin tener todavía todas las respuestas.
 
-Jesús, quédate cerca. Cuando mi corazón se inquiete, recuérdame que no camino solo. Haz de tu presencia mi refugio y de tu amor mi esperanza. Amén.
+Haz hoy la tarea más cercana. Conoce un poco el nuevo lugar. Llama a la persona que echas de menos. Pide a Dios sabiduría para el siguiente paso.
+
+Cuando todo alrededor se mueve, puedes descansar en Aquel que permanece.
+
+**Para recordar hoy:**
+
+Mi vida está cambiando, pero Dios sigue conmigo.
+
+## Oración
+
+Señor, me cuesta dejar atrás lo conocido. Acompáñame en esta nueva etapa. Dame paz para soltar, valor para avanzar y confianza en tu presencia. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Por qué un cambio bueno también puede doler?
 
-Una reflexión para atravesar transiciones sin perder de vista la presencia y la fidelidad de Dios.
+Porque todo cambio implica dejar algo conocido. Puedes sentir alegría y tristeza al mismo tiempo.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Qué puedo hacer hoy?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+No intentes resolver toda la nueva etapa. Pide a Dios ayuda para el paso que tienes delante.

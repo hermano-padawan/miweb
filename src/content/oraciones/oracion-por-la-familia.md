@@ -11,21 +11,33 @@ featured: true
 readingTime: 6
 ---
 
-Una oración para poner delante de Dios a las personas que forman nuestro hogar y nuestra historia.
-Padre, hoy pongo delante de ti a mi familia. Tú conoces nuestros nombres, nuestras alegrías, nuestras
-heridas y las cosas que a veces no sabemos decirnos.
+Padre,
 
-Protígenos y danos sabiduría. Guarda nuestros caminos y enséñanos a cuidarnos sin controlarnos, a
-escucharnos sin juzgarnos demasiado rápido y a pedir perdón cuando sea necesario.
+hoy pongo delante de ti a mi familia.
 
-Donde haya distancia, abre caminos de reconciliación. Donde haya cansancio, trae descanso. Donde
-haya preocupación, sostennos. Donde haya decisiones importantes, danos luz.
+Tú conoces nuestros nombres, nuestras alegrías, nuestras heridas y las cosas que no sabemos decirnos.
 
-Bendice a quienes están cerca y a quienes están lejos. Acompaña especialmente a quien hoy atraviesa un
-momento difícil. Haz de nuestra familia un lugar donde la gracia tenga espacio.
+Protégenos y danos sabiduría.
 
-Y cuando no podamos resolverlo todo, recuérdanos que podemos seguir amándonos y confiando en ti. En
-el nombre de Jesús. Amén.
+Enséñanos a cuidarnos sin querer controlarlo todo. Ayúdanos a escuchar antes de juzgar y a pedir perdón cuando hagamos daño.
+
+Donde haya distancia, abre un camino para volver a hablar.
+
+Donde haya cansancio, trae descanso.
+
+Donde haya preocupación, sostennos.
+
+Donde haya decisiones importantes, danos luz.
+
+Bendice a quienes están cerca y a quienes están lejos. Acompaña especialmente a quien hoy está pasando por un momento difícil.
+
+Haz de nuestro hogar un lugar donde podamos decir la verdad, recibir consuelo y comenzar de nuevo.
+
+Cuando no podamos resolverlo todo, recuérdanos que podemos seguir amándonos y confiando en ti.
+
+En el nombre de Jesús.
+
+Amén.
 
 ## Preguntas frecuentes
 

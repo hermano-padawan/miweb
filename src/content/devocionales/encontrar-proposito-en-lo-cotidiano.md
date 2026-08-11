@@ -15,32 +15,38 @@ draft: false
 readingTime: 6
 ---
 
-A menudo relacionamos propósito con proyectos extraordinarios. Sin embargo, gran parte de la fidelidad cristiana se practica en conversaciones, tareas y decisiones que nadie celebra.
+> «Todo lo que hagáis, hacedlo de corazón, como para el Señor» (Colosenses 3:23).
 
-Escoge una tarea habitual y hazla hoy con atención, gratitud e intención de servir a una persona concreta.
+No todos los días contienen algo extraordinario.
 
-Dios también habita lo cotidiano: la mesa sin recoger, el trayecto de siempre, una conversación breve, el cansancio al final del día. Su presencia no espera a que la vida parezca extraordinaria para hacerse cercana.
+Hay ropa que doblar. Correos que responder. Comida que preparar. El mismo camino de siempre.
 
-Tal vez alguien cercano necesite escuchar hoy este mensaje. No como una respuesta rápida a su dolor, sino como compañía: Dios permanece, su amor no se agota y ninguna noche tiene autoridad para cancelar la esperanza.
+Puede parecer que nada de eso tiene importancia.
 
-Puedes respirar y recibir este momento sin convertirlo en otra tarea espiritual. La gracia no se gana por hacerlo todo bien. Se recibe, a veces, simplemente deteniéndose y recordando que eres amado antes de haber terminado la lista.
+Pero gran parte de la vida ocurre precisamente ahí.
 
-Guarda una frase sencilla para hoy: Dios está aquí. Repítela cuando vuelva la prisa o el desánimo. Que sea una pequeña lámpara encendida en medio de tus horas.
+Pablo recuerda que incluso las tareas normales pueden hacerse para el Señor. Una tarea pequeña puede ser una forma de cuidar. Un trabajo bien hecho puede ayudar a alguien. Escuchar con atención puede cambiar el día de una persona.
 
-## Una oración para el camino
+No necesitas una misión enorme para vivir hoy con propósito.
 
-Señor, recibe mi vida tal como está. Sana lo herido, fortalece lo débil y ayúdame a reconocer tu bondad aun en los pasos pequeños. Amén.
+Elige una tarea habitual. Hazla con cuidado y sin prisa innecesaria. Piensa en la persona a la que servirá. Invita a Dios a acompañarte en ella.
+
+Quizá nadie aplauda lo que haces. Dios sí conoce el amor escondido en los actos pequeños.
+
+**Para recordar hoy:**
+
+Lo cotidiano también puede hacerse con Dios y por amor.
+
+## Oración
+
+Señor, ayúdame a encontrarte en las tareas de siempre. Dame atención, gratitud y amor para servir a las personas que pones cerca de mí. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Puede una tarea pequeña tener propósito?
 
-Cómo reconocer valor espiritual en las tareas pequeñas, repetidas y poco visibles.
+Sí. Una tarea sencilla puede cuidar, servir y expresar amor a otra persona.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Cómo puedo vivirlo hoy?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Elige una tarea habitual y hazla con atención, pensando en Dios y en la persona a la que beneficia.

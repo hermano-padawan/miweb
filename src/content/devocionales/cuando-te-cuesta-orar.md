@@ -14,38 +14,40 @@ featured: false
 readingTime: 6
 ---
 
-Un devocional para esos días en los que quieres acercarte a Dios, pero no encuentras palabras.
-A veces orar fluye. Otras veces cuesta incluso empezar. Puede haber cansancio, tristeza, distracción o
-una sensación extraña de distancia. Entonces pensamos que necesitamos encontrar las palabras
-correctas antes de acercarnos a Dios.
+> «El Espíritu mismo intercede por nosotros con gemidos que no pueden expresarse con palabras» (Romanos 8:26).
 
-Pero Dios no necesita discursos perfectos. Un suspiro puede ser oración. Un «ayúdame» puede ser
-oración. Permanecer unos minutos en silencio delante de Él también puede ser una forma de decir: «Aquí
-estoy».
+Hay días en los que no sabes qué decirle a Dios.
 
-Los salmos pueden prestarnos palabras cuando las nuestras faltan. Podemos leer uno lentamente y
-convertir una frase en oración. También podemos repetir el nombre de Jesús y descansar, sin intentar
-producir una emoción especial.
+Quizá estás cansado. Quizá te distraes. Tal vez ha pasado tanto tiempo que no sabes cómo volver.
 
-No midas tu relación con Dios por la belleza de tus oraciones. A veces la oración más sincera es la más
-pequeña. Si hoy solo puedes ofrecerle unas pocas palabras, entrégaselas. Él conoce todo lo que hay
-detrás de ellas.
+No esperes a encontrar palabras perfectas.
+
+Un suspiro puede ser oración.
+
+Un «ayúdame» puede ser oración.
+
+Quedarte en silencio delante de Dios también puede ser una forma de decir: «Aquí estoy».
+
+Romanos 8 recuerda que el Espíritu nos ayuda cuando somos débiles. Dios entiende incluso aquello que todavía no sabes explicar.
+
+Si necesitas palabras prestadas, abre un salmo. Lee una frase despacio y conviértela en tu oración. También puedes repetir el nombre de Jesús y descansar unos minutos.
+
+No midas el amor de Dios por la belleza de tus oraciones. Él escucha el corazón sincero.
+
+**Para recordar hoy:**
+
+Dios me escucha incluso cuando apenas encuentro palabras.
 
 ## Oración
 
-Señor, hoy me cuesta hablar. Recibe incluso mi silencio. Quédate cerca y enséñame a descansar en tu
-presencia.
+Señor, hoy me cuesta hablar contigo. Recibe mi silencio y estas pocas palabras. Quédate cerca y ayúdame a volver a ti. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Orar mal puede alejarme de Dios?
+### ¿Puedo orar aunque no sienta nada?
 
-La oración sincera no necesita ser perfecta para ser recibida.
+Sí. La oración no depende de sentir una emoción especial.
 
 ### ¿Qué hago si no sé qué decir?
 
-Puedes usar un salmo, el Padrenuestro o una frase sencilla.
-
-### ¿Qué recordar?
-
-Dios conoce el corazón antes de que encuentre palabras.
+Usa un salmo, el Padrenuestro o una frase tan sencilla como «Señor, ayúdame».

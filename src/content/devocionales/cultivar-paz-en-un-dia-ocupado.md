@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-La prisa puede fragmentar la atención hasta hacernos reaccionar sin pensar. La paz bíblica no requiere una agenda vacía, pero sí un centro estable.
+> «Estad quietos, y conoced que yo soy Dios» (Salmo 46:10).
 
-Antes de cambiar de tarea, detente treinta segundos, respira, nombra tu siguiente responsabilidad y entrégale a Dios lo demás.
+Hay días en los que terminas una tarea y ya estás pensando en las tres siguientes.
 
-Dios también habita lo cotidiano: la mesa sin recoger, el trayecto de siempre, una conversación breve, el cansancio al final del día. Su presencia no espera a que la vida parezca extraordinaria para hacerse cercana.
+El teléfono suena. Alguien te necesita. La lista no se acaba.
 
-Hay días en los que el alma solo puede avanzar despacio. También allí puede encontrarte Dios. Él no desprecia una fe cansada ni una oración pequeña; recibe con ternura el corazón que vuelve a buscar refugio en Él.
+Quizá no puedas vaciar tu agenda hoy. Pero sí puedes detenerte unos segundos y recordar que Dios está contigo.
 
-Puedes respirar y recibir este momento sin convertirlo en otra tarea espiritual. La gracia no se gana por hacerlo todo bien. Se recibe, a veces, simplemente deteniéndose y recordando que eres amado antes de haber terminado la lista.
+Antes de empezar la siguiente tarea, respira.
 
-Guarda una frase sencilla para hoy: Dios está aquí. Repítela cuando vuelva la prisa o el desánimo. Que sea una pequeña lámpara encendida en medio de tus horas.
+Di en silencio: «Señor, estás aquí».
 
-## Una oración para el camino
+Después haz solo lo que tienes delante.
 
-Padre bueno, tú conoces lo que siento aun antes de que encuentre palabras. Abrázame con tu gracia, renueva mi esperanza y enséñame a caminar contigo sin miedo. Amén.
+La paz no siempre llega cuando desaparecen las obligaciones. A veces llega cuando dejamos de intentar atenderlo todo al mismo tiempo.
+
+Jesús conoció días llenos de personas y necesidades. También buscó momentos para apartarse y orar. Tú puedes hacer una pausa sin sentir que estás perdiendo el tiempo.
+
+Treinta segundos con Dios no resolverán toda la agenda. Pero pueden ayudarte a volver a ella con un corazón menos acelerado.
+
+**Para recordar hoy:**
+
+No tengo que hacerlo todo a la vez. Dios está conmigo en esta tarea.
+
+## Oración
+
+Señor, mi día está lleno y mi mente corre deprisa. Ayúdame a detenerme, respirar y hacer con paz lo que tengo delante. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Necesito una agenda vacía para tener paz?
 
-Prácticas sencillas para recuperar atención y vivir un día exigente delante de Dios.
+No. Puedes hacer pequeñas pausas y recordar la presencia de Dios dentro de un día ocupado.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Qué práctica sencilla puedo hacer?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
-
-### ¿Qué puedo guardar en el corazón?
-
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Antes de cambiar de tarea, detente unos segundos y di: «Señor, estás aquí».

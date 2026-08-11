@@ -14,22 +14,31 @@ featured: false
 readingTime: 6
 ---
 
-Una oración para entregar a Dios la jornada antes de saber todo lo que traerá.
+Padre,
 
-Padre bueno, gracias por este nuevo día. Gracias por la vida, por el aire que respiro y por la oportunidad
-de comenzar otra vez.
+gracias por este nuevo día.
 
-Antes de entrar en mis tareas, quiero poner mi corazón delante de ti. Guía mis palabras, mis decisiones y
-mis encuentros. Dame paciencia donde haya tensión, sabiduría donde haya dudas y humildad para
-reconocer cuando necesito ayuda.
+Gracias por la vida, por el aire que respiro y por la oportunidad de comenzar otra vez.
 
-Cuida a las personas que amo. Acompaña también a quienes hoy se sienten solos, cansados o
-preocupados. Hazme sensible para no pasar de largo ante quien necesite una palabra amable.
-No sé todo lo que ocurrirá, pero tú ya estás en este día. Por eso no quiero vivirlo desde el miedo. Quiero
-caminar contigo, recibir tu gracia y compartirla.
+Antes de mirar todo lo que tengo que hacer, quiero mirarte a ti.
 
-Que al terminar la jornada pueda mirar atrás y reconocer pequeñas huellas de tu presencia. En el nombre
-de Jesús. Amén.
+Guía mis palabras y mis decisiones. Dame paciencia cuando algo no salga como esperaba. Dame sabiduría cuando no sepa qué hacer.
+
+Cuida a las personas que amo. Acompaña a quien hoy se siente solo, cansado o preocupado.
+
+Ayúdame a no pasar de largo ante quien necesite una palabra amable, una mano o un poco de tiempo.
+
+No sé todo lo que traerá este día.
+
+Pero sé que no tendré que vivirlo sin ti.
+
+Camina conmigo, Señor. Cuando llegue la prisa, recuérdame que estás cerca. Cuando llegue el miedo, ayúdame a confiar.
+
+Pongo este día en tus manos.
+
+En el nombre de Jesús.
+
+Amén.
 
 ## Preguntas frecuentes
 
@@ -43,4 +52,4 @@ No. Puedes usarla como punto de partida y añadir tus propias palabras.
 
 ### ¿Qué idea resume la oración?
 
-Entregar a Dios el día y pedir su presencia, sabiduría y amor.
+Poner el día en manos de Dios y pedirle que acompañe cada paso.

@@ -14,43 +14,68 @@ featured: false
 readingTime: 7
 ---
 
-Una palabra de esperanza para cuando oras, esperas y todavía no entiendes.
+Hay días en los que oras y parece que nada cambia.
 
-Hay silencios que pesan más que una respuesta difícil. Oras y nada cambia. Preguntas y no llega claridad.
-Entonces aparece una tentación dolorosa: pensar que, si no escuchas a Dios, quizá Dios se ha alejado de
-ti.
+La puerta sigue cerrada.
 
-Sin embargo, la Biblia está llena de creyentes que atravesaron temporadas así. Los salmos preguntan
-«¿hasta cuándo?». Job busca respuestas. José pasa años sin comprender el sentido de su camino. El
-silencio no fue el final de sus historias.
+El problema sigue ahí.
 
-Puede que hoy Dios esté obrando de una manera que todavía no puedes ver. No necesitas llamar bueno
-a lo que duele ni fingir una serenidad que no tienes. Puedes presentarte delante de Él con el corazón tal
-como está. Dios no se asusta de tus preguntas.
+La respuesta no llega.
 
-Hay semillas que crecen bajo tierra antes de que aparezca una sola hoja. Durante un tiempo, desde fuera
-parece que no sucede nada. También en la vida espiritual existen procesos escondidos. La espera puede
-estar formando raíces que todavía no ves.
+Entonces puede aparecer una pregunta dolorosa: «Dios, ¿me estás escuchando?».
 
-Si Dios parece guardar silencio, no conviertas ese silencio en una despedida. Sigue acercándote. Sigue
-descansando en lo que ya sabes de su carácter. Y cuando no puedas sostener grandes palabras de fe,
-conserva al menos una pequeña oración: «Señor, no entiendo, pero no quiero soltar tu mano».
+## Puedes decirle a Dios cómo te sientes
+
+La Biblia no esconde esta pregunta. El Salmo 13 comienza así:
+
+> «¿Hasta cuándo, Señor? ¿Me olvidarás para siempre?»
+
+David amaba a Dios y, aun así, se sintió olvidado. No fingió que todo estaba bien. Habló con Dios desde su dolor.
+
+Tú también puedes hacerlo.
+
+Dios no se asusta de tus preguntas. Puedes llorar delante de Él. Puedes decirle que estás cansado de esperar.
+
+## El silencio no siempre es ausencia
+
+José pasó años en una cárcel sin entender qué estaba haciendo Dios. Job pidió respuestas en medio del sufrimiento. Incluso Jesús oró con angustia antes de la cruz.
+
+El silencio no fue el final de sus historias.
+
+Quizá hoy no puedes ver lo que Dios está haciendo. Eso no demuestra que se haya marchado.
+
+Una semilla puede estar creciendo bajo la tierra aunque todavía no veamos ninguna hoja. Del mismo modo, puede haber cosas que Dios está preparando y que aún no puedes conocer.
+
+No sabemos cuándo llegará una respuesta ni cuál será. Pero sabemos cómo es Dios: fiel, cercano y lleno de misericordia.
+
+## Qué hacer mientras esperas
+
+Sigue hablando con Dios, aunque tu oración sea corta.
+
+Lee un salmo. Recuerda una promesa que ya conoces. Comparte tu carga con alguien de confianza. Haz lo bueno que sí puedes hacer hoy.
+
+Y cuando no tengas fuerzas para una oración larga, di simplemente:
+
+«Señor, no entiendo. Pero necesito que me sostengas».
+
+La espera duele. No tienes que negarlo.
+
+Pero el silencio de hoy no significa que Dios se haya despedido. Él sigue contigo, incluso cuando no lo sientes.
 
 ## Oración
 
-Señor, en este silencio sostén mi corazón. Cuando no entienda tus tiempos, ayúdame a descansar en tu
-amor y a recordar que sigues presente. Amén.
+Señor, estoy cansado de esperar. No entiendo tu silencio, pero quiero seguir acercándome a ti. Sostén mi corazón y dame luz para vivir este día. Amén.
 
 ## Preguntas frecuentes
 
 ### ¿El silencio significa que Dios me ha abandonado?
 
-No necesariamente. La Biblia muestra largos tiempos de espera en los que Dios seguía presente.
+No. La Biblia muestra tiempos largos de espera en los que Dios seguía presente.
 
-### ¿Qué puedo leer?
+### ¿Está mal preguntarle a Dios por qué?
 
-Salmos de lamento como el Salmo 13 ayudan a orar con sinceridad y esperanza.
+No. Los salmos están llenos de preguntas sinceras. Puedes hablar con Dios sin esconder tu dolor.
 
-### ¿Qué frase resume el sermón?
+### ¿Qué puedo hacer mientras espero?
 
-No conviertas un tiempo de silencio en la conclusión de que Dios se ha ido.
+Ora con sencillez, recuerda lo que ya sabes de Dios y permite que otras personas te acompañen.

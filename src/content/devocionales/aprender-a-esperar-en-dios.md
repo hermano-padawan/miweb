@@ -11,38 +11,38 @@ featured: true
 readingTime: 7
 ---
 
-Un devocional para los tiempos en los que todavía no llega aquello que esperas.
+> «Los que esperan en el Señor renovarán sus fuerzas» (Isaías 40:31).
 
-Esperar cuesta porque el corazón quiere señales. Queremos saber que la puerta se abrirá, que la oración
-tendrá la respuesta que imaginamos, que el esfuerzo dará fruto. Pero muchas veces la espera forma parte
-del camino con Dios.
+Esperar cuesta.
 
-Esperar en Dios no es quedarse congelado. Es seguir viviendo con fidelidad mientras el resultado todavía
-no está en nuestras manos. Abraham esperó promesas; David esperó tiempos; tantos creyentes han
-aprendido que la demora no significa ausencia.
+Quieres una respuesta. Quieres saber si la puerta se abrirá. Miras el teléfono, vuelves a pensar en la conversación y te preguntas cuánto tiempo más tendrás que esperar.
 
-Tal vez hoy puedas hacer lo que sí está delante de ti: cuidar, trabajar, amar, descansar, orar. No necesitas
-fabricar el mañana. Puedes habitar este día sabiendo que Dios también está aquí.
+Isaías no dice que esperar sea fácil. Dice que Dios puede darte fuerzas mientras esperas.
 
-La espera puede sentirse vacía, pero no tiene por qué ser inútil. Dios puede fortalecer en ella una fe
-menos dependiente de resultados inmediatos. Y un día quizá mires atrás y descubras que, mientras
-esperabas una respuesta, Dios también estaba construyendo tu corazón.
+Esperar en Él no significa quedarse inmóvil. Hoy todavía puedes cuidar a quienes amas, hacer tu trabajo, pedir consejo, descansar y orar.
+
+No puedes vivir mañana antes de que llegue.
+
+Pero sí puedes vivir este día con Dios.
+
+Tal vez la respuesta tarde. Tal vez sea diferente de la que imaginas. La espera no demuestra que Dios se haya olvidado de ti.
+
+Haz lo que hoy está delante de ti. Después deja el resultado en sus manos.
+
+**Para recordar hoy:**
+
+Mientras espero una respuesta, Dios puede darme fuerzas para este día.
 
 ## Oración
 
-Señor, enséñame a esperar sin perder la esperanza. Ayúdame a vivir este día contigo mientras dejo mis
-tiempos en tus manos.
+Señor, me cuesta esperar. Dame paciencia para no adelantarme y fuerzas para hacer lo que hoy me corresponde. Ayúdame a confiar mis tiempos a ti. Amén.
 
 ## Preguntas frecuentes
 
-### ¿Esperar es no hacer nada?
+### ¿Esperar en Dios significa no hacer nada?
 
-No. La espera cristiana puede ser activa, fiel y llena de pequeños actos de amor.
+No. Puedes seguir viviendo con fidelidad y hacer lo que está en tu mano mientras dejas el resultado a Dios.
 
-### ¿Qué recordar?
+### ¿Una demora significa que Dios se olvidó de mí?
 
-Una demora no demuestra que Dios se haya olvidado.
-
-### ¿Qué texto acompaña este tema?
-
-Isaías 40:31 es una buena palabra de esperanza para los tiempos de espera.
+No. La Biblia muestra muchas esperas en las que Dios seguía presente.

@@ -15,32 +15,40 @@ draft: false
 readingTime: 6
 ---
 
-Pedir protección no significa vivir obsesionados con cada peligro posible. Reconoce nuestra fragilidad y busca sabiduría.
+Señor,
 
-Líbranos del miedo que paraliza y de la imprudencia que ignora límites. Haznos también instrumentos de seguridad para otros.
+cuida de mí y de las personas que amo.
 
-No necesitas decir estas palabras de una manera perfecta. Puedes hacer pausas, añadir nombres, llorar o quedarte en silencio. Dios no escucha una actuación: escucha el corazón que se acerca.
+Guarda nuestra salida y nuestro regreso. Acompáñanos en el camino, en el trabajo, en la escuela y dentro de nuestro hogar.
 
-No tienes que demostrar fortaleza delante de Dios. Puedes llegar con preguntas, cansancio o lágrimas. La fe comienza muchas veces en esa honestidad y descubre que los brazos del Padre ya estaban abiertos.
+Líbranos del peligro que podemos ver y del que todavía no conocemos.
 
-La oración no obliga a negar la realidad. Nos permite ponerla en manos de Dios, pedir cuidado y reconocer que no todo descansa sobre nuestras fuerzas.
+Danos también prudencia. Ayúdanos a reconocer los riesgos, escuchar las advertencias y no actuar sin pensar.
 
-Que esta oración sea compañía y no carga; un lugar donde respirar, recibir esperanza y recordar que el amor de Dios ya estaba cerca antes de pronunciar la primera palabra.
+Cuando el miedo imagine todo lo que podría salir mal, calma nuestro corazón.
 
-## Oración
+No permitas que vivamos encerrados por temor. Recuérdanos que podemos ser cuidadosos sin dejar de vivir y confiar.
 
-Jesús, quédate cerca. Cuando mi corazón se inquiete, recuérdame que no camino solo. Haz de tu presencia mi refugio y de tu amor mi esperanza. Amén.
+Pon a nuestro lado personas buenas. Muéstranos también cómo proteger y ayudar a quien se encuentre en peligro.
+
+No sé qué traerá este día.
+
+Pero sé que puedo caminar contigo.
+
+Sé nuestro refugio, Señor.
+
+Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Puedo rezarla antes de salir de casa?
 
-Una oración equilibrada para pedir cuidado, prudencia y paz frente al miedo.
+Sí. Puedes rezarla al comenzar el día, antes de un viaje o cuando sientas temor.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Orar por protección sustituye la prudencia?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. La oración también pide sabiduría para reconocer riesgos y actuar con cuidado.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Puedo incluir a otras personas?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sí. Puedes nombrar a tu familia, amigos o cualquier persona que necesite cuidado.

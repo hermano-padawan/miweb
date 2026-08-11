@@ -14,45 +14,74 @@ featured: true
 readingTime: 6
 ---
 
-Un sermón para recordar que el miedo puede hablar fuerte, pero no tiene por qué tener la última
-palabra.
+El miedo sabe hacer ruido.
 
-El miedo sabe hacer ruido. A veces llega de golpe y otras veces se instala lentamente, llenando la mente
-de preguntas: ¿y si sale mal?, ¿y si pierdo lo que amo?, ¿y si no soy capaz? La Biblia nunca trata el miedo
-como una vergüenza. Una y otra vez encontramos personas que temieron y, precisamente allí,
-escucharon de Dios las palabras que necesitaban: «No temas».
+A veces llega de golpe. Otras veces aparece por la noche, cuando todo está en silencio y la mente se llena de preguntas.
 
-Cuando David dice: «En el día que temo, yo en ti confío», no está diciendo que la fe le impide sentir. Está
-diciendo que, cuando el miedo aparece, sabe dónde llevarlo. Esa es una diferencia enorme. El temor deja
-de ser una habitación cerrada y se convierte en una oración.
+«¿Y si sale mal?»
 
-Quizá hoy no puedas hacer desaparecer aquello que te asusta. Pero sí puedes recordar quién permanece
-contigo. Dios no ha abandonado tu historia porque haya una tormenta. Su presencia no depende de que
-tú te sientas fuerte. Incluso con las manos temblando puedes acercarte a Él.
+«¿Y si pierdo lo que amo?»
 
-La fe no siempre grita. A veces la fe es una voz pequeña que dice: «Señor, tengo miedo, pero sigo aquí».
-A veces es levantarte una mañana más. A veces es no rendirte. A veces es confiar en que la noche no
-será eterna.
+«¿Y si no soy capaz?»
 
-Que el miedo no te convenza de que estás solo. El Dios que sostuvo a tantos antes que tú sigue siendo
-refugio, consuelo y compañía. Respira. Ora. Camina. No porque todo esté resuelto, sino porque Dios
-continúa contigo.
+Sentir miedo no te convierte en una persona sin fe. En la Biblia encontramos a hombres y mujeres que tuvieron miedo. Y fue precisamente allí donde Dios les dijo: «No temas».
+
+## Puedes llevar tu miedo a Dios
+
+David escribió:
+
+> «En el día que temo, yo en ti confío» (Salmo 56:3).
+
+David no dijo que nunca tenía miedo. Dijo qué hacía cuando el miedo llegaba: confiaba en Dios.
+
+Tú también puedes hacerlo.
+
+No tienes que esconder lo que sientes. Puedes decir: «Señor, esto me asusta. No sé qué va a pasar. Necesito que me sostengas».
+
+La fe no siempre hace desaparecer el miedo en un instante. Muchas veces, la fe es dar un paso mientras las manos todavía tiemblan.
+
+## Jesús está en la barca
+
+Los discípulos de Jesús vivieron una tormenta en el mar. El viento era fuerte y el agua entraba en la barca. Ellos pensaron que iban a morir.
+
+Jesús estaba allí.
+
+Cuando lo despertaron, Él calmó la tormenta. Antes de que el mar estuviera tranquilo, su presencia ya estaba con ellos.
+
+Quizá tu problema no desaparezca hoy. Pero Jesús no te ha dejado solo en medio de él.
+
+La noticia puede seguir preocupándote. La decisión puede seguir pendiente. El futuro puede seguir sin estar claro.
+
+Y aun así, Dios sigue contigo.
+
+## Da el paso de hoy
+
+No intentes resolver ahora todos los problemas de mañana.
+
+Pide a Dios fuerzas para este día. Busca ayuda si la necesitas. Habla con alguien de confianza. Haz lo que está en tu mano y deja en manos de Dios lo que no puedes controlar.
+
+La fe puede ser una oración pequeña.
+
+Puede ser levantarte una mañana más.
+
+Puede ser recordar que esta noche no durará para siempre.
+
+El miedo puede hablar fuerte, pero no tiene la última palabra. La última palabra pertenece a Dios.
 
 ## Oración
 
-Padre, tú conoces mis temores. Abrázame con tu paz y enséñame a confiar en tu presencia más que en
-las voces que me asustan. Amén.
+Padre, tú sabes lo que me asusta. Cuando mi mente imagine lo peor, recuérdame que estás conmigo. Dame paz para respirar, sabiduría para actuar y fe para dar el paso de hoy. Amén.
 
 ## Preguntas frecuentes
 
 ### ¿Tener miedo significa tener poca fe?
 
-No. La Biblia muestra creyentes que sintieron miedo y aun así confiaron en Dios.
+No. La fe no consiste en no sentir miedo, sino en llevar ese miedo a Dios y seguir confiando en Él.
 
-### ¿Qué texto resume el mensaje?
+### ¿Qué puedo hacer cuando el miedo no me deja descansar?
 
-Salmo 56:3: cuando llega el temor, podemos llevarlo a Dios y confiar en Él.
+Habla con Dios, respira despacio y comparte lo que sientes con alguien de confianza. Si el miedo te impide vivir con normalidad, buscar ayuda también es una decisión sabia.
 
-### ¿Qué recordar en un momento difícil?
+### ¿Qué verdad puedo recordar hoy?
 
-Que la presencia de Dios no desaparece porque aparezca el miedo.
+Que Jesús está contigo antes, durante y después de la tormenta.

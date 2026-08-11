@@ -15,32 +15,46 @@ draft: false
 readingTime: 6
 ---
 
-Perdonar puede ser un proceso. No significa justificar, olvidar ni reconciliarse sin verdad y cambio.
+Señor,
 
-Ayúdame a entregar esta deuda una vez más, buscar apoyo y caminar hacia la libertad sin fingir que nada ocurrió.
+tú sabes lo que me hicieron.
 
-No necesitas decir estas palabras de una manera perfecta. Puedes hacer pausas, añadir nombres, llorar o quedarte en silencio. Dios no escucha una actuación: escucha el corazón que se acerca.
+Conoces las palabras que todavía recuerdo y el daño que aún me duele.
 
-Quizá hoy no necesites una explicación perfecta, sino una verdad en la que descansar. Dios conoce la parte de tu historia que nadie más ve y no se acerca a ella con prisa ni dureza. Su presencia puede sostenerte mientras el camino todavía se aclara.
+No quiero fingir que no pasó nada.
 
-La oración no obliga a negar la realidad. Nos permite ponerla en manos de Dios, pedir cuidado y reconocer que no todo descansa sobre nuestras fuerzas.
+Tampoco quiero vivir siempre lleno de rencor.
 
-Que esta oración sea compañía y no carga; un lugar donde respirar, recibir esperanza y recordar que el amor de Dios ya estaba cerca antes de pronunciar la primera palabra.
+Por eso vengo a ti.
 
-## Oración
+Ayúdame a perdonar. No sé hacerlo solo. Hay días en los que creo que he avanzado y otros en los que la herida vuelve a abrirse.
 
-Señor, acércate a mi vida con tu paz. Sostén lo que hoy me cuesta llevar y ayúdame a descansar en tu fidelidad. Que tu amor tenga la palabra más profunda sobre mi historia. Amén.
+Cuando vuelva el recuerdo, ayúdame a ponerlo otra vez en tus manos.
+
+Líbrame del deseo de venganza. Dame sabiduría para mantener la distancia que necesite y valor para pedir ayuda.
+
+No permitas que el daño que recibí decida la persona que voy a ser.
+
+Tú me has perdonado muchas veces. Enséñame a caminar hacia el perdón, poco a poco y sin negar la verdad.
+
+Hoy quizá no puedo decir que ya he perdonado.
+
+Pero sí puedo decir que quiero aprender.
+
+Camina conmigo, Jesús.
+
+Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Puedo hacer esta oración si todavía estoy enfadado?
 
-Una oración para entregar el resentimiento sin negar el daño ni abandonar límites sanos.
+Sí. Puedes hablar con Dios tal como estás, sin esconder el enfado ni el dolor.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Perdonar significa volver a confiar?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No necesariamente. La confianza necesita verdad, arrepentimiento y cambios reales.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Puedo repetir esta oración?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Sí. Algunas heridas necesitan ser entregadas a Dios muchas veces.

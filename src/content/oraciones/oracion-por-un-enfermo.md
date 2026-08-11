@@ -15,32 +15,42 @@ draft: false
 readingTime: 6
 ---
 
-La enfermedad puede traer miedo, cansancio y preguntas. Orar no obliga a negar la gravedad ni sustituye la atención médica.
+Señor,
 
-Ayúdanos a estar presentes sin respuestas fáciles, a ofrecer ayuda concreta y a recibir cada día con esperanza.
+hoy pongo delante de ti a esta persona enferma.
 
-No necesitas decir estas palabras de una manera perfecta. Puedes hacer pausas, añadir nombres, llorar o quedarte en silencio. Dios no escucha una actuación: escucha el corazón que se acerca.
+Tú conoces su nombre, su cuerpo y todo lo que está sintiendo.
 
-Tal vez alguien cercano necesite escuchar hoy este mensaje. No como una respuesta rápida a su dolor, sino como compañía: Dios permanece, su amor no se agota y ninguna noche tiene autoridad para cancelar la esperanza.
+Sabes dónde le duele. Sabes qué le preocupa. Sabes también lo cansada que puede estar su familia.
 
-La oración no obliga a negar la realidad. Nos permite ponerla en manos de Dios, pedir cuidado y reconocer que no todo descansa sobre nuestras fuerzas.
+Te pido que la sostengas.
 
-Que esta oración sea compañía y no carga; un lugar donde respirar, recibir esperanza y recordar que el amor de Dios ya estaba cerca antes de pronunciar la primera palabra.
+Da sabiduría a los médicos y a quienes la cuidan. Permite que reciba la atención y el tratamiento que necesita.
 
-## Oración
+Alivia su dolor. Dale descanso cuando la noche sea larga y fuerzas para afrontar este día.
 
-Señor, recibe mi vida tal como está. Sana lo herido, fortalece lo débil y ayúdame a reconocer tu bondad aun en los pasos pequeños. Amén.
+Si tiene miedo, hazle sentir que no está sola. Si no encuentra palabras para orar, recibe también su silencio.
+
+Ayúdame a estar cerca de una manera útil. Muéstrame si necesita compañía, una comida, un recado o simplemente alguien que escuche.
+
+No conozco el resultado ni quiero hacer promesas que no puedo cumplir.
+
+Pero confío esta vida a tu amor.
+
+Quédate cerca, Jesús.
+
+Amén.
 
 ## Preguntas frecuentes
 
-### ¿Qué verdad central resume este artículo?
+### ¿Puedo decir el nombre de la persona?
 
-Una oración para pedir fortaleza, atención adecuada y compañía durante la enfermedad.
+Sí. Nombrarla hace que la oración sea más personal.
 
-### ¿Hay lugar para las preguntas y las emociones?
+### ¿Esta oración sustituye la atención médica?
 
-Sí. La fe bíblica no exige ocultar lo que sentimos; nos invita a llevarlo con sinceridad delante de Dios.
+No. La oración acompaña la atención médica; no la reemplaza.
 
-### ¿Qué puedo guardar en el corazón?
+### ¿Qué puedo pedir además de sanidad?
 
-Que la presencia de Dios no depende de que todo esté resuelto. Su gracia puede acompañarnos también durante el proceso.
+Puedes pedir alivio, descanso, buenos cuidados, compañía y fuerzas para la persona y su familia.
