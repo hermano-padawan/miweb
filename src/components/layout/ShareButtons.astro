@@ -1,0 +1,41 @@
+---
+import { withBase } from "../../utils/paths";
+
+interface Props {
+  title: string;
+  url: URL;
+}
+
+const { title, url } = Astro.props;
+const pageUrl = url.toString();
+const encodedUrl = encodeURIComponent(pageUrl);
+const encodedText = encodeURIComponent(title);
+---
+
+<aside class="share-buttons" aria-label="Comparte esta página">
+  <span class="share-label">Compartir</span>
+  <a class="share-whatsapp" href={`https://wa.me/?text=${encodedText}%20${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Compartir por WhatsApp" title="WhatsApp"><img src={withBase("/icons/whatsapp.svg")} alt="" width="19" height="19" /></a>
+  <a class="share-x" href={`https://twitter.com/intent/tweet?text=${encodedText}&url=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Compartir en X" title="X"><img src={withBase("/icons/x.svg")} alt="" width="17" height="17" /></a>
+  <a class="share-facebook" href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noopener noreferrer" aria-label="Compartir en Facebook" title="Facebook"><img src={withBase("/icons/facebook.svg")} alt="" width="19" height="19" /></a>
+  <button type="button" data-copy-link aria-label="Copiar enlace" title="Copiar enlace"><span class="copy-link-icon" aria-hidden="true"></span></button>
+  <span class="share-status" data-copy-status aria-live="polite"></span>
+</aside>
+
+<script>
+  document.querySelectorAll<HTMLButtonElement>("[data-copy-link]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const status = button.parentElement?.querySelector<HTMLElement>("[data-copy-status]");
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        if (status) status.textContent = "Enlace copiado";
+        button.classList.add("is-copied");
+        window.setTimeout(() => {
+          if (status) status.textContent = "";
+          button.classList.remove("is-copied");
+        }, 1800);
+      } catch {
+        window.prompt("Copia el enlace:", window.location.href);
+      }
+    });
+  });
+</script>

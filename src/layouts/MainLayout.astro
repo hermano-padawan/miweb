@@ -3,8 +3,10 @@ import Header from "../components/layout/Header.astro";
 import Main from "../components/layout/Main.astro";
 import Footer from "../components/layout/Footer.astro";
 import SeoHead from "../components/seo/SeoHead.astro";
+import ShareButtons from "../components/layout/ShareButtons.astro";
 import "../styles/global.css";
 import { withBase } from "../utils/paths";
+import { site } from "../config/site";
 
 interface Props {
   seo: {
@@ -17,6 +19,7 @@ interface Props {
 }
 
 const { seo } = Astro.props;
+const canonicalUrl = new URL(Astro.url.pathname, site.url);
 ---
 
 <!doctype html>
@@ -49,6 +52,8 @@ const { seo } = Astro.props;
     </Main>
 
     <Footer />
+
+    <ShareButtons title={seo.title} url={canonicalUrl} />
 
 </body>
 
