@@ -16,7 +16,7 @@ readingTime: 6
 
 Padre,
 
-gracias por este nuevo día.
+Gracias por este nuevo día.
 
 Gracias por la vida, por el aire que respiro y por la oportunidad de comenzar otra vez.
 
