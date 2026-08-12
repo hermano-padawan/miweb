@@ -14,9 +14,9 @@ featured: false
 readingTime: 6
 ---
 
-Señor,
+Señor:
 
-el día termina y vengo a ti tal como estoy.
+El día termina y vengo a ti tal como estoy.
 
 Gracias por lo bueno que recibí. Gracias también por esos pequeños regalos que casi no vi mientras tenía prisa.
 

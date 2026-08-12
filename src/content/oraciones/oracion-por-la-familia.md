@@ -11,9 +11,9 @@ featured: true
 readingTime: 6
 ---
 
-Padre,
+Padre:
 
-hoy pongo delante de ti a mi familia.
+Hoy pongo delante de ti a mi familia.
 
 Tú conoces nuestros nombres, nuestras alegrías, nuestras heridas y las cosas que no sabemos decirnos.
 

@@ -15,9 +15,9 @@ draft: false
 readingTime: 6
 ---
 
-Señor,
+Señor:
 
-cuida de mí y de las personas que amo.
+Cuida de mí y de las personas que amo.
 
 Guarda nuestra salida y nuestro regreso. Acompáñanos en el camino, en el trabajo, en la escuela y dentro de nuestro hogar.
 

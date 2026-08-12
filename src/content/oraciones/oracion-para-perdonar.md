@@ -15,9 +15,9 @@ draft: false
 readingTime: 6
 ---
 
-Señor,
+Señor:
 
-tú sabes lo que me hicieron.
+Tú sabes lo que me hicieron.
 
 Conoces las palabras que todavía recuerdo y el daño que aún me duele.
 

@@ -11,9 +11,9 @@ featured: true
 readingTime: 6
 ---
 
-Señor,
+Señor:
 
-tengo que tomar una decisión y no sé qué hacer.
+Tengo que tomar una decisión y no sé qué hacer.
 
 Tú conoces mis deseos y mis miedos. También ves lo que yo todavía no puedo ver.
 

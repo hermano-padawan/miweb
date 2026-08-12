@@ -14,7 +14,7 @@ featured: false
 readingTime: 6
 ---
 
-Padre,
+Padre:
 
 Gracias por este nuevo día.
 

@@ -14,9 +14,9 @@ featured: true
 readingTime: 5
 ---
 
-Padre,
+Padre:
 
-tú conoces mi mente.
+Tú conoces mi mente.
 
 Sabes cuánto me cuesta estar tranquilo ahora. Conoces cada preocupación, incluso las que no sé explicar.
 

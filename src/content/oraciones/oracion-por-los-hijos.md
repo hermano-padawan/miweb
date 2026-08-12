@@ -15,9 +15,9 @@ draft: false
 readingTime: 6
 ---
 
-Padre,
+Padre:
 
-hoy pongo a mis hijos en tus manos.
+Hoy pongo a mis hijos en tus manos.
 
 Tú los conoces mejor que yo. Sabes lo que sienten, lo que temen y las preguntas que no siempre comparten conmigo.
 

@@ -15,9 +15,9 @@ draft: false
 readingTime: 6
 ---
 
-Señor,
+Señor:
 
-hoy pongo delante de ti a esta persona enferma.
+Hoy pongo delante de ti a esta persona enferma.
 
 Tú conoces su nombre, su cuerpo y todo lo que está sintiendo.
 

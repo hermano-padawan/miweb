@@ -15,9 +15,9 @@ draft: false
 readingTime: 6
 ---
 
-Padre,
+Padre:
 
-tú conoces mi necesidad.
+Tú conoces mi necesidad.
 
 Sabes si estoy buscando trabajo, si temo perderlo o si el dinero no alcanza para cubrir lo necesario.
 
