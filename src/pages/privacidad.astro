@@ -1,6 +1,7 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro";
 import Section from "../components/ui/Section.astro";
+import ProtectedEmail from "../components/ui/ProtectedEmail.astro";
 ---
 
 <MainLayout
@@ -25,7 +26,7 @@ import Section from "../components/ui/Section.astro";
       <p>
         El responsable del tratamiento es <strong>[Aquí tu nombre y apellidos]</strong>,
         titular de Nexo Bíblico. Puedes contactar con él en
-        <a href="mailto:nexobiblico@atomicmail.io">nexobiblico@atomicmail.io</a>.
+        <ProtectedEmail />.
       </p>
 
       <h2>2. Datos que tratamos</h2>
@@ -85,7 +86,7 @@ import Section from "../components/ui/Section.astro";
       <p>
         Puedes solicitar el acceso, rectificación, supresión, oposición, limitación o
         portabilidad de tus datos, así como retirar el consentimiento, escribiendo a
-        <a href="mailto:nexobiblico@atomicmail.io">nexobiblico@atomicmail.io</a>. Es posible
+        <ProtectedEmail />. Es posible
         que solicitemos información razonable para verificar tu identidad.
       </p>
       <p>
